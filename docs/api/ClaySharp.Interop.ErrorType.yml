@@ -21,12 +21,8 @@ items:
   fullName: ClaySharp.Interop.ErrorType
   type: Enum
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: ErrorType
-    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayEnums.cs
     startLine: 207
   assemblies:
   - BlackHook.ClaySharp
@@ -48,12 +44,8 @@ items:
   fullName: ClaySharp.Interop.ErrorType.TextMeasurementFunctionNotProvided
   type: Field
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: TextMeasurementFunctionNotProvided
-    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayEnums.cs
     startLine: 210
   assemblies:
   - BlackHook.ClaySharp
@@ -76,12 +68,8 @@ items:
   fullName: ClaySharp.Interop.ErrorType.ArenaCapacityExceeded
   type: Field
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: ArenaCapacityExceeded
-    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayEnums.cs
     startLine: 212
   assemblies:
   - BlackHook.ClaySharp
@@ -104,12 +92,8 @@ items:
   fullName: ClaySharp.Interop.ErrorType.ElementsCapacityExceeded
   type: Field
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: ElementsCapacityExceeded
-    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayEnums.cs
     startLine: 214
   assemblies:
   - BlackHook.ClaySharp
@@ -132,12 +116,8 @@ items:
   fullName: ClaySharp.Interop.ErrorType.TextMeasurementCapacityExceeded
   type: Field
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: TextMeasurementCapacityExceeded
-    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayEnums.cs
     startLine: 216
   assemblies:
   - BlackHook.ClaySharp
@@ -160,12 +140,8 @@ items:
   fullName: ClaySharp.Interop.ErrorType.DuplicateId
   type: Field
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: DuplicateId
-    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayEnums.cs
     startLine: 218
   assemblies:
   - BlackHook.ClaySharp
@@ -188,12 +164,8 @@ items:
   fullName: ClaySharp.Interop.ErrorType.FloatingContainerParentNotFound
   type: Field
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: FloatingContainerParentNotFound
-    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayEnums.cs
     startLine: 220
   assemblies:
   - BlackHook.ClaySharp
@@ -216,12 +188,8 @@ items:
   fullName: ClaySharp.Interop.ErrorType.PercentageOver1
   type: Field
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: PercentageOver1
-    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayEnums.cs
     startLine: 222
   assemblies:
   - BlackHook.ClaySharp
@@ -244,12 +212,8 @@ items:
   fullName: ClaySharp.Interop.ErrorType.InternalError
   type: Field
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: InternalError
-    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayEnums.cs
     startLine: 224
   assemblies:
   - BlackHook.ClaySharp

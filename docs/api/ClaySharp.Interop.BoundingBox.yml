@@ -17,12 +17,8 @@ items:
   fullName: ClaySharp.Interop.BoundingBox
   type: Struct
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: BoundingBox
-    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayTypes.cs
     startLine: 158
   assemblies:
   - BlackHook.ClaySharp
@@ -51,12 +47,8 @@ items:
   fullName: ClaySharp.Interop.BoundingBox.X
   type: Field
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: X
-    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayTypes.cs
     startLine: 162
   assemblies:
   - BlackHook.ClaySharp
@@ -80,12 +72,8 @@ items:
   fullName: ClaySharp.Interop.BoundingBox.Y
   type: Field
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: Y
-    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayTypes.cs
     startLine: 164
   assemblies:
   - BlackHook.ClaySharp
@@ -109,12 +97,8 @@ items:
   fullName: ClaySharp.Interop.BoundingBox.Width
   type: Field
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: Width
-    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayTypes.cs
     startLine: 166
   assemblies:
   - BlackHook.ClaySharp
@@ -138,12 +122,8 @@ items:
   fullName: ClaySharp.Interop.BoundingBox.Height
   type: Field
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: Height
-    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayTypes.cs
     startLine: 168
   assemblies:
   - BlackHook.ClaySharp

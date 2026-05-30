@@ -19,12 +19,8 @@ items:
   fullName: ClaySharp.Interop.RenderCommand
   type: Struct
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: RenderCommand
-    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayTypes.cs
     startLine: 637
   assemblies:
   - BlackHook.ClaySharp
@@ -53,12 +49,8 @@ items:
   fullName: ClaySharp.Interop.RenderCommand.BoundingBox
   type: Field
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: BoundingBox
-    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayTypes.cs
     startLine: 641
   assemblies:
   - BlackHook.ClaySharp
@@ -82,12 +74,8 @@ items:
   fullName: ClaySharp.Interop.RenderCommand.RenderData
   type: Field
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: RenderData
-    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayTypes.cs
     startLine: 644
   assemblies:
   - BlackHook.ClaySharp
@@ -111,12 +99,8 @@ items:
   fullName: ClaySharp.Interop.RenderCommand.UserData
   type: Field
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: UserData
-    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayTypes.cs
     startLine: 647
   assemblies:
   - BlackHook.ClaySharp
@@ -140,12 +124,8 @@ items:
   fullName: ClaySharp.Interop.RenderCommand.Id
   type: Field
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: Id
-    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayTypes.cs
     startLine: 650
   assemblies:
   - BlackHook.ClaySharp
@@ -169,12 +149,8 @@ items:
   fullName: ClaySharp.Interop.RenderCommand.ZIndex
   type: Field
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: ZIndex
-    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayTypes.cs
     startLine: 653
   assemblies:
   - BlackHook.ClaySharp
@@ -198,12 +174,8 @@ items:
   fullName: ClaySharp.Interop.RenderCommand.CommandType
   type: Field
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: CommandType
-    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayTypes.cs
     startLine: 656
   assemblies:
   - BlackHook.ClaySharp

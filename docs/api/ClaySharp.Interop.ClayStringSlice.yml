@@ -16,12 +16,8 @@ items:
   fullName: ClaySharp.Interop.ClayStringSlice
   type: Struct
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: ClayStringSlice
-    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayTypes.cs
     startLine: 57
   assemblies:
   - BlackHook.ClaySharp
@@ -50,12 +46,8 @@ items:
   fullName: ClaySharp.Interop.ClayStringSlice.Length
   type: Field
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: Length
-    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayTypes.cs
     startLine: 63
   assemblies:
   - BlackHook.ClaySharp
@@ -79,12 +71,8 @@ items:
   fullName: ClaySharp.Interop.ClayStringSlice.Chars
   type: Field
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: Chars
-    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayTypes.cs
     startLine: 68
   assemblies:
   - BlackHook.ClaySharp
@@ -108,12 +96,8 @@ items:
   fullName: ClaySharp.Interop.ClayStringSlice.BaseChars
   type: Field
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: BaseChars
-    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayTypes.cs
     startLine: 73
   assemblies:
   - BlackHook.ClaySharp

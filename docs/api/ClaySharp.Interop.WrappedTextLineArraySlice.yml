@@ -15,12 +15,8 @@ items:
   fullName: ClaySharp.Interop.WrappedTextLineArraySlice
   type: Struct
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: WrappedTextLineArraySlice
-    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayTypes.cs
     startLine: 916
   assemblies:
   - BlackHook.ClaySharp
@@ -49,12 +45,8 @@ items:
   fullName: ClaySharp.Interop.WrappedTextLineArraySlice.Length
   type: Field
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: Length
-    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayTypes.cs
     startLine: 920
   assemblies:
   - BlackHook.ClaySharp
@@ -78,12 +70,8 @@ items:
   fullName: ClaySharp.Interop.WrappedTextLineArraySlice.InternalArray
   type: Field
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: InternalArray
-    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayTypes.cs
     startLine: 923
   assemblies:
   - BlackHook.ClaySharp

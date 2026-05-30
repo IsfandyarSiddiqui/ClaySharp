@@ -16,12 +16,8 @@ items:
   fullName: ClaySharp.Interop.LayoutAlignmentY
   type: Enum
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: LayoutAlignmentY
-    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayEnums.cs
     startLine: 55
   assemblies:
   - BlackHook.ClaySharp
@@ -43,12 +39,8 @@ items:
   fullName: ClaySharp.Interop.LayoutAlignmentY.Top
   type: Field
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: Top
-    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayEnums.cs
     startLine: 58
   assemblies:
   - BlackHook.ClaySharp
@@ -71,12 +63,8 @@ items:
   fullName: ClaySharp.Interop.LayoutAlignmentY.Bottom
   type: Field
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: Bottom
-    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayEnums.cs
     startLine: 60
   assemblies:
   - BlackHook.ClaySharp
@@ -99,12 +87,8 @@ items:
   fullName: ClaySharp.Interop.LayoutAlignmentY.Center
   type: Field
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: Center
-    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayEnums.cs
     startLine: 62
   assemblies:
   - BlackHook.ClaySharp

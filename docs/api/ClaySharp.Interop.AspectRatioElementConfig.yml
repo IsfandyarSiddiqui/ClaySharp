@@ -14,12 +14,8 @@ items:
   fullName: ClaySharp.Interop.AspectRatioElementConfig
   type: Struct
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: AspectRatioElementConfig
-    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayTypes.cs
     startLine: 328
   assemblies:
   - BlackHook.ClaySharp
@@ -48,12 +44,8 @@ items:
   fullName: ClaySharp.Interop.AspectRatioElementConfig.AspectRatio
   type: Field
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: AspectRatio
-    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayTypes.cs
     startLine: 334
   assemblies:
   - BlackHook.ClaySharp

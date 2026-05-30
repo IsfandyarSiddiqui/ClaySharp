@@ -15,12 +15,8 @@ items:
   fullName: ClaySharp.Layout.ClaySizing
   type: Class
   source:
-    remote:
-      path: BlackHook.ClaySharp/Layout/ClaySizing.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: ClaySizing
-    path: ../BlackHook.ClaySharp/Layout/ClaySizing.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Layout\ClaySizing.cs
     startLine: 4
   assemblies:
   - BlackHook.ClaySharp
@@ -50,12 +46,8 @@ items:
   fullName: ClaySharp.Layout.ClaySizing.Axis(ClaySharp.Interop.SizingType, float, float, float)
   type: Method
   source:
-    remote:
-      path: BlackHook.ClaySharp/Layout/ClaySizing.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: Axis
-    path: ../BlackHook.ClaySharp/Layout/ClaySizing.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Layout\ClaySizing.cs
     startLine: 6
   assemblies:
   - BlackHook.ClaySharp
@@ -90,12 +82,8 @@ items:
   fullName: ClaySharp.Layout.ClaySizing.Axes(ClaySharp.Interop.SizingType, float, float, float, ClaySharp.Interop.SizingType, float, float, float)
   type: Method
   source:
-    remote:
-      path: BlackHook.ClaySharp/Layout/ClaySizing.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: Axes
-    path: ../BlackHook.ClaySharp/Layout/ClaySizing.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Layout\ClaySizing.cs
     startLine: 19
   assemblies:
   - BlackHook.ClaySharp

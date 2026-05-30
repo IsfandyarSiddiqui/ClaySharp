@@ -15,12 +15,8 @@ items:
   fullName: ClaySharp.Interop.ElementConfigArraySlice
   type: Struct
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: ElementConfigArraySlice
-    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayTypes.cs
     startLine: 903
   assemblies:
   - BlackHook.ClaySharp
@@ -49,12 +45,8 @@ items:
   fullName: ClaySharp.Interop.ElementConfigArraySlice.Length
   type: Field
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: Length
-    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayTypes.cs
     startLine: 907
   assemblies:
   - BlackHook.ClaySharp
@@ -78,12 +70,8 @@ items:
   fullName: ClaySharp.Interop.ElementConfigArraySlice.InternalArray
   type: Field
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: InternalArray
-    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayTypes.cs
     startLine: 910
   assemblies:
   - BlackHook.ClaySharp

@@ -22,12 +22,8 @@ items:
   fullName: ClaySharp.Interop.ElementConfigType
   type: Enum
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: ElementConfigType
-    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayEnums.cs
     startLine: 6
   assemblies:
   - BlackHook.ClaySharp
@@ -52,12 +48,8 @@ items:
   fullName: ClaySharp.Interop.ElementConfigType.None
   type: Field
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: None
-    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayEnums.cs
     startLine: 9
   assemblies:
   - BlackHook.ClaySharp
@@ -80,12 +72,8 @@ items:
   fullName: ClaySharp.Interop.ElementConfigType.Border
   type: Field
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: Border
-    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayEnums.cs
     startLine: 11
   assemblies:
   - BlackHook.ClaySharp
@@ -108,12 +96,8 @@ items:
   fullName: ClaySharp.Interop.ElementConfigType.Floating
   type: Field
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: Floating
-    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayEnums.cs
     startLine: 13
   assemblies:
   - BlackHook.ClaySharp
@@ -136,12 +120,8 @@ items:
   fullName: ClaySharp.Interop.ElementConfigType.Clip
   type: Field
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: Clip
-    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayEnums.cs
     startLine: 15
   assemblies:
   - BlackHook.ClaySharp
@@ -164,12 +144,8 @@ items:
   fullName: ClaySharp.Interop.ElementConfigType.Aspect
   type: Field
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: Aspect
-    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayEnums.cs
     startLine: 17
   assemblies:
   - BlackHook.ClaySharp
@@ -192,12 +168,8 @@ items:
   fullName: ClaySharp.Interop.ElementConfigType.Image
   type: Field
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: Image
-    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayEnums.cs
     startLine: 19
   assemblies:
   - BlackHook.ClaySharp
@@ -220,12 +192,8 @@ items:
   fullName: ClaySharp.Interop.ElementConfigType.Text
   type: Field
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: Text
-    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayEnums.cs
     startLine: 21
   assemblies:
   - BlackHook.ClaySharp
@@ -248,12 +216,8 @@ items:
   fullName: ClaySharp.Interop.ElementConfigType.Custom
   type: Field
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: Custom
-    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayEnums.cs
     startLine: 23
   assemblies:
   - BlackHook.ClaySharp
@@ -276,12 +240,8 @@ items:
   fullName: ClaySharp.Interop.ElementConfigType.Shared
   type: Field
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: Shared
-    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayEnums.cs
     startLine: 25
   assemblies:
   - BlackHook.ClaySharp

@@ -21,12 +21,8 @@ items:
   fullName: ClaySharp.Interop.FloatingElementConfig
   type: Struct
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: FloatingElementConfig
-    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayTypes.cs
     startLine: 365
   assemblies:
   - BlackHook.ClaySharp
@@ -55,12 +51,8 @@ items:
   fullName: ClaySharp.Interop.FloatingElementConfig.Offset
   type: Field
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: Offset
-    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayTypes.cs
     startLine: 369
   assemblies:
   - BlackHook.ClaySharp
@@ -84,12 +76,8 @@ items:
   fullName: ClaySharp.Interop.FloatingElementConfig.Expand
   type: Field
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: Expand
-    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayTypes.cs
     startLine: 372
   assemblies:
   - BlackHook.ClaySharp
@@ -113,12 +101,8 @@ items:
   fullName: ClaySharp.Interop.FloatingElementConfig.ParentId
   type: Field
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: ParentId
-    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayTypes.cs
     startLine: 375
   assemblies:
   - BlackHook.ClaySharp
@@ -142,12 +126,8 @@ items:
   fullName: ClaySharp.Interop.FloatingElementConfig.ZIndex
   type: Field
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: ZIndex
-    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayTypes.cs
     startLine: 378
   assemblies:
   - BlackHook.ClaySharp
@@ -171,12 +151,8 @@ items:
   fullName: ClaySharp.Interop.FloatingElementConfig.AttachPoints
   type: Field
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: AttachPoints
-    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayTypes.cs
     startLine: 381
   assemblies:
   - BlackHook.ClaySharp
@@ -200,12 +176,8 @@ items:
   fullName: ClaySharp.Interop.FloatingElementConfig.PointerCaptureMode
   type: Field
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: PointerCaptureMode
-    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayTypes.cs
     startLine: 384
   assemblies:
   - BlackHook.ClaySharp
@@ -229,12 +201,8 @@ items:
   fullName: ClaySharp.Interop.FloatingElementConfig.AttachTo
   type: Field
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: AttachTo
-    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayTypes.cs
     startLine: 387
   assemblies:
   - BlackHook.ClaySharp
@@ -258,12 +226,8 @@ items:
   fullName: ClaySharp.Interop.FloatingElementConfig.ClipTo
   type: Field
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: ClipTo
-    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayTypes.cs
     startLine: 390
   assemblies:
   - BlackHook.ClaySharp

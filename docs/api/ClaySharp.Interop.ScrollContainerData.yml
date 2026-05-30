@@ -18,12 +18,8 @@ items:
   fullName: ClaySharp.Interop.ScrollContainerData
   type: Struct
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: ScrollContainerData
-    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayTypes.cs
     startLine: 1190
   assemblies:
   - BlackHook.ClaySharp
@@ -52,12 +48,8 @@ items:
   fullName: ClaySharp.Interop.ScrollContainerData.ScrollPosition
   type: Field
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: ScrollPosition
-    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayTypes.cs
     startLine: 1194
   assemblies:
   - BlackHook.ClaySharp
@@ -81,12 +73,8 @@ items:
   fullName: ClaySharp.Interop.ScrollContainerData.ScrollContainerDimensions
   type: Field
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: ScrollContainerDimensions
-    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayTypes.cs
     startLine: 1197
   assemblies:
   - BlackHook.ClaySharp
@@ -110,12 +98,8 @@ items:
   fullName: ClaySharp.Interop.ScrollContainerData.ContentDimensions
   type: Field
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: ContentDimensions
-    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayTypes.cs
     startLine: 1200
   assemblies:
   - BlackHook.ClaySharp
@@ -139,12 +123,8 @@ items:
   fullName: ClaySharp.Interop.ScrollContainerData.Config
   type: Field
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: Config
-    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayTypes.cs
     startLine: 1203
   assemblies:
   - BlackHook.ClaySharp
@@ -168,12 +148,8 @@ items:
   fullName: ClaySharp.Interop.ScrollContainerData.Found
   type: Field
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: Found
-    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayTypes.cs
     startLine: 1206
   assemblies:
   - BlackHook.ClaySharp

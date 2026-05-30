@@ -15,12 +15,8 @@ items:
   fullName: ClaySharp.Layout.ClayElementScope
   type: Struct
   source:
-    remote:
-      path: BlackHook.ClaySharp/Layout/ClayElementScope.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: ClayElementScope
-    path: ../BlackHook.ClaySharp/Layout/ClayElementScope.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Layout\ClayElementScope.cs
     startLine: 4
   assemblies:
   - BlackHook.ClaySharp
@@ -47,12 +43,8 @@ items:
   fullName: ClaySharp.Layout.ClayElementScope.ClayElementScope(in ClaySharp.Interop.ElementDeclaration)
   type: Constructor
   source:
-    remote:
-      path: BlackHook.ClaySharp/Layout/ClayElementScope.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: .ctor
-    path: ../BlackHook.ClaySharp/Layout/ClayElementScope.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Layout\ClayElementScope.cs
     startLine: 6
   assemblies:
   - BlackHook.ClaySharp
@@ -79,12 +71,8 @@ items:
   fullName: ClaySharp.Layout.ClayElementScope.Dispose()
   type: Method
   source:
-    remote:
-      path: BlackHook.ClaySharp/Layout/ClayElementScope.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: Dispose
-    path: ../BlackHook.ClaySharp/Layout/ClayElementScope.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Layout\ClayElementScope.cs
     startLine: 12
   assemblies:
   - BlackHook.ClaySharp

@@ -17,12 +17,8 @@ items:
   fullName: ClaySharp.Interop.SizingType
   type: Enum
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: SizingType
-    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayEnums.cs
     startLine: 68
   assemblies:
   - BlackHook.ClaySharp
@@ -44,12 +40,8 @@ items:
   fullName: ClaySharp.Interop.SizingType.Fit
   type: Field
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: Fit
-    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayEnums.cs
     startLine: 71
   assemblies:
   - BlackHook.ClaySharp
@@ -72,12 +64,8 @@ items:
   fullName: ClaySharp.Interop.SizingType.Grow
   type: Field
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: Grow
-    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayEnums.cs
     startLine: 73
   assemblies:
   - BlackHook.ClaySharp
@@ -100,12 +88,8 @@ items:
   fullName: ClaySharp.Interop.SizingType.Percent
   type: Field
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: Percent
-    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayEnums.cs
     startLine: 75
   assemblies:
   - BlackHook.ClaySharp
@@ -128,12 +112,8 @@ items:
   fullName: ClaySharp.Interop.SizingType.Fixed
   type: Field
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: Fixed
-    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayEnums.cs
     startLine: 77
   assemblies:
   - BlackHook.ClaySharp

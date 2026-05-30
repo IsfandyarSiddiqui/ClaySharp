@@ -1,0 +1,18 @@
+# Decoupled ClaySharp Gitignore
+[Ob]obj/
+[Bb]in/
+.vs/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# NuGet Packages
+*.nupkg
+packages/
+
+# DocFX Generated Site
+docs/_site/
+docs/api/
+docs/obj/

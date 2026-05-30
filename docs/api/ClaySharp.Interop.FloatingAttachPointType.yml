@@ -22,12 +22,8 @@ items:
   fullName: ClaySharp.Interop.FloatingAttachPointType
   type: Enum
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: FloatingAttachPointType
-    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayEnums.cs
     startLine: 124
   assemblies:
   - BlackHook.ClaySharp
@@ -49,12 +45,8 @@ items:
   fullName: ClaySharp.Interop.FloatingAttachPointType.LeftTop
   type: Field
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: LeftTop
-    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayEnums.cs
     startLine: 127
   assemblies:
   - BlackHook.ClaySharp
@@ -77,12 +69,8 @@ items:
   fullName: ClaySharp.Interop.FloatingAttachPointType.LeftCenter
   type: Field
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: LeftCenter
-    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayEnums.cs
     startLine: 129
   assemblies:
   - BlackHook.ClaySharp
@@ -105,12 +93,8 @@ items:
   fullName: ClaySharp.Interop.FloatingAttachPointType.LeftBottom
   type: Field
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: LeftBottom
-    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayEnums.cs
     startLine: 131
   assemblies:
   - BlackHook.ClaySharp
@@ -133,12 +117,8 @@ items:
   fullName: ClaySharp.Interop.FloatingAttachPointType.CenterTop
   type: Field
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: CenterTop
-    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayEnums.cs
     startLine: 133
   assemblies:
   - BlackHook.ClaySharp
@@ -161,12 +141,8 @@ items:
   fullName: ClaySharp.Interop.FloatingAttachPointType.CenterCenter
   type: Field
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: CenterCenter
-    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayEnums.cs
     startLine: 135
   assemblies:
   - BlackHook.ClaySharp
@@ -189,12 +165,8 @@ items:
   fullName: ClaySharp.Interop.FloatingAttachPointType.CenterBottom
   type: Field
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: CenterBottom
-    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayEnums.cs
     startLine: 137
   assemblies:
   - BlackHook.ClaySharp
@@ -217,12 +189,8 @@ items:
   fullName: ClaySharp.Interop.FloatingAttachPointType.RightTop
   type: Field
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: RightTop
-    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayEnums.cs
     startLine: 139
   assemblies:
   - BlackHook.ClaySharp
@@ -245,12 +213,8 @@ items:
   fullName: ClaySharp.Interop.FloatingAttachPointType.RightCenter
   type: Field
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: RightCenter
-    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayEnums.cs
     startLine: 141
   assemblies:
   - BlackHook.ClaySharp
@@ -273,12 +237,8 @@ items:
   fullName: ClaySharp.Interop.FloatingAttachPointType.RightBottom
   type: Field
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: RightBottom
-    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayEnums.cs
     startLine: 143
   assemblies:
   - BlackHook.ClaySharp

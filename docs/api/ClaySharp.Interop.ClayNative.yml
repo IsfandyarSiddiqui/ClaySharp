@@ -52,7 +52,7 @@ items:
   type: Class
   source:
     id: ClayNative
-    path: C:\Users\user\source\repos\BlackHook\BlackHook.ClaySharp\obj\Release\net10.0\Microsoft.Interop.LibraryImportGenerator\Microsoft.Interop.LibraryImportGenerator\LibraryImports.g.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\obj\Release\net10.0\Microsoft.Interop.LibraryImportGenerator\Microsoft.Interop.LibraryImportGenerator\LibraryImports.g.cs
     startLine: 412
   assemblies:
   - BlackHook.ClaySharp
@@ -304,12 +304,8 @@ items:
   fullName: ClaySharp.Interop.ClayNative.SetPointerState(ClaySharp.Interop.Vector2, bool)
   type: Method
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayNative.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: SetPointerState
-    path: ../BlackHook.ClaySharp/Interop/ClayNative.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayNative.cs
     startLine: 90
   assemblies:
   - BlackHook.ClaySharp
@@ -342,12 +338,8 @@ items:
   fullName: ClaySharp.Interop.ClayNative.UpdateScrollContainers(bool, ClaySharp.Interop.Vector2, float)
   type: Method
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayNative.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: UpdateScrollContainers
-    path: ../BlackHook.ClaySharp/Interop/ClayNative.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayNative.cs
     startLine: 100
   assemblies:
   - BlackHook.ClaySharp
@@ -383,12 +375,8 @@ items:
   fullName: ClaySharp.Interop.ClayNative.Hovered()
   type: Method
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayNative.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: Hovered
-    path: ../BlackHook.ClaySharp/Interop/ClayNative.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayNative.cs
     startLine: 107
   assemblies:
   - BlackHook.ClaySharp
@@ -444,12 +432,8 @@ items:
   fullName: ClaySharp.Interop.ClayNative.PointerOver(ClaySharp.Interop.ElementId)
   type: Method
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayNative.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: PointerOver
-    path: ../BlackHook.ClaySharp/Interop/ClayNative.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayNative.cs
     startLine: 133
   assemblies:
   - BlackHook.ClaySharp
@@ -662,12 +646,8 @@ items:
   fullName: ClaySharp.Interop.ClayNative.SetDebugModeEnabled(bool)
   type: Method
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayNative.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: SetDebugModeEnabled
-    path: ../BlackHook.ClaySharp/Interop/ClayNative.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayNative.cs
     startLine: 205
   assemblies:
   - BlackHook.ClaySharp
@@ -697,12 +677,8 @@ items:
   fullName: ClaySharp.Interop.ClayNative.IsDebugModeEnabled()
   type: Method
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayNative.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: IsDebugModeEnabled
-    path: ../BlackHook.ClaySharp/Interop/ClayNative.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayNative.cs
     startLine: 212
   assemblies:
   - BlackHook.ClaySharp
@@ -728,12 +704,8 @@ items:
   fullName: ClaySharp.Interop.ClayNative.SetCullingEnabled(bool)
   type: Method
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayNative.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: SetCullingEnabled
-    path: ../BlackHook.ClaySharp/Interop/ClayNative.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayNative.cs
     startLine: 221
   assemblies:
   - BlackHook.ClaySharp
@@ -913,12 +885,8 @@ items:
   fullName: ClaySharp.Interop.ClayNative.ConfigureOpenElementPtr(in ClaySharp.Interop.ElementDeclaration)
   type: Method
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayNative.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: ConfigureOpenElementPtr
-    path: ../BlackHook.ClaySharp/Interop/ClayNative.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayNative.cs
     startLine: 273
   assemblies:
   - BlackHook.ClaySharp

@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>SharpClay</PackageId>
+    <Version>1.0.0</Version>
+    <Title>SharpClay</Title>
+    <Authors>Isfandyar Siddiqui</Authors>
+    <Description>High-performance, zero-allocation C# bindings for the Clay 2D layout engine.</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/IsfandyarSiddiqui/SharpClay</RepositoryUrl>
+    <Tags>clay;layout;ui;gui;interop;native;skia;silk</Tags>
+	<PackageOutputPath>C:\Users\user\source\repos\LocalNuGet</PackageOutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="Native\clay.dll" Pack="true" PackagePath="runtimes/win-x64/native/">
+      <Link>clay.dll</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
+

@@ -16,12 +16,8 @@ items:
   fullName: ClaySharp.Interop.LayoutElementTreeNode
   type: Struct
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: LayoutElementTreeNode
-    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayTypes.cs
     startLine: 1152
   assemblies:
   - BlackHook.ClaySharp
@@ -50,12 +46,8 @@ items:
   fullName: ClaySharp.Interop.LayoutElementTreeNode.LayoutElement
   type: Field
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: LayoutElement
-    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayTypes.cs
     startLine: 1156
   assemblies:
   - BlackHook.ClaySharp
@@ -79,12 +71,8 @@ items:
   fullName: ClaySharp.Interop.LayoutElementTreeNode.Position
   type: Field
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: Position
-    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayTypes.cs
     startLine: 1159
   assemblies:
   - BlackHook.ClaySharp
@@ -108,12 +96,8 @@ items:
   fullName: ClaySharp.Interop.LayoutElementTreeNode.NextChildOffset
   type: Field
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: NextChildOffset
-    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayTypes.cs
     startLine: 1162
   assemblies:
   - BlackHook.ClaySharp

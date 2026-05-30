@@ -15,12 +15,8 @@ items:
   fullName: ClaySharp.Layout.ClayUI
   type: Class
   source:
-    remote:
-      path: BlackHook.ClaySharp/Layout/ClayUI.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: ClayUI
-    path: ../BlackHook.ClaySharp/Layout/ClayUI.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Layout\ClayUI.cs
     startLine: 4
   assemblies:
   - BlackHook.ClaySharp
@@ -50,12 +46,8 @@ items:
   fullName: ClaySharp.Layout.ClayUI.Container(in ClaySharp.Interop.ElementDeclaration)
   type: Method
   source:
-    remote:
-      path: BlackHook.ClaySharp/Layout/ClayUI.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: Container
-    path: ../BlackHook.ClaySharp/Layout/ClayUI.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Layout\ClayUI.cs
     startLine: 6
   assemblies:
   - BlackHook.ClaySharp
@@ -84,12 +76,8 @@ items:
   fullName: ClaySharp.Layout.ClayUI.Panel(in ClaySharp.Interop.ElementDeclaration)
   type: Method
   source:
-    remote:
-      path: BlackHook.ClaySharp/Layout/ClayUI.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: Panel
-    path: ../BlackHook.ClaySharp/Layout/ClayUI.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Layout\ClayUI.cs
     startLine: 9
   assemblies:
   - BlackHook.ClaySharp

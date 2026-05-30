@@ -21,12 +21,8 @@ items:
   fullName: ClaySharp.Interop.ElementConfigUnion
   type: Struct
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: ElementConfigUnion
-    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayTypes.cs
     startLine: 1266
   assemblies:
   - BlackHook.ClaySharp
@@ -58,12 +54,8 @@ items:
   fullName: ClaySharp.Interop.ElementConfigUnion.TextElementConfig
   type: Field
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: TextElementConfig
-    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayTypes.cs
     startLine: 1270
   assemblies:
   - BlackHook.ClaySharp
@@ -87,12 +79,8 @@ items:
   fullName: ClaySharp.Interop.ElementConfigUnion.AspectRatioElementConfig
   type: Field
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: AspectRatioElementConfig
-    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayTypes.cs
     startLine: 1273
   assemblies:
   - BlackHook.ClaySharp
@@ -116,12 +104,8 @@ items:
   fullName: ClaySharp.Interop.ElementConfigUnion.ImageElementConfig
   type: Field
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: ImageElementConfig
-    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayTypes.cs
     startLine: 1276
   assemblies:
   - BlackHook.ClaySharp
@@ -145,12 +129,8 @@ items:
   fullName: ClaySharp.Interop.ElementConfigUnion.FloatingElementConfig
   type: Field
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: FloatingElementConfig
-    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayTypes.cs
     startLine: 1279
   assemblies:
   - BlackHook.ClaySharp
@@ -174,12 +154,8 @@ items:
   fullName: ClaySharp.Interop.ElementConfigUnion.CustomElementConfig
   type: Field
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: CustomElementConfig
-    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayTypes.cs
     startLine: 1282
   assemblies:
   - BlackHook.ClaySharp
@@ -203,12 +179,8 @@ items:
   fullName: ClaySharp.Interop.ElementConfigUnion.ClipElementConfig
   type: Field
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: ClipElementConfig
-    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayTypes.cs
     startLine: 1285
   assemblies:
   - BlackHook.ClaySharp
@@ -232,12 +204,8 @@ items:
   fullName: ClaySharp.Interop.ElementConfigUnion.BorderElementConfig
   type: Field
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: BorderElementConfig
-    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayTypes.cs
     startLine: 1288
   assemblies:
   - BlackHook.ClaySharp
@@ -261,12 +229,8 @@ items:
   fullName: ClaySharp.Interop.ElementConfigUnion.SharedElementConfig
   type: Field
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: SharedElementConfig
-    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayTypes.cs
     startLine: 1291
   assemblies:
   - BlackHook.ClaySharp

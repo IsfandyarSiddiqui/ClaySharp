@@ -20,12 +20,8 @@ items:
   fullName: ClaySharp.Interop.MeasureTextCacheItem
   type: Struct
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: MeasureTextCacheItem
-    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayTypes.cs
     startLine: 1124
   assemblies:
   - BlackHook.ClaySharp
@@ -54,12 +50,8 @@ items:
   fullName: ClaySharp.Interop.MeasureTextCacheItem.UnwrappedDimensions
   type: Field
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: UnwrappedDimensions
-    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayTypes.cs
     startLine: 1128
   assemblies:
   - BlackHook.ClaySharp
@@ -83,12 +75,8 @@ items:
   fullName: ClaySharp.Interop.MeasureTextCacheItem.MeasuredWordsStartIndex
   type: Field
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: MeasuredWordsStartIndex
-    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayTypes.cs
     startLine: 1131
   assemblies:
   - BlackHook.ClaySharp
@@ -112,12 +100,8 @@ items:
   fullName: ClaySharp.Interop.MeasureTextCacheItem.MinWidth
   type: Field
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: MinWidth
-    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayTypes.cs
     startLine: 1134
   assemblies:
   - BlackHook.ClaySharp
@@ -141,12 +125,8 @@ items:
   fullName: ClaySharp.Interop.MeasureTextCacheItem.ContainsNewlines
   type: Field
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: ContainsNewlines
-    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayTypes.cs
     startLine: 1137
   assemblies:
   - BlackHook.ClaySharp
@@ -170,12 +150,8 @@ items:
   fullName: ClaySharp.Interop.MeasureTextCacheItem.Id
   type: Field
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: Id
-    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayTypes.cs
     startLine: 1140
   assemblies:
   - BlackHook.ClaySharp
@@ -199,12 +175,8 @@ items:
   fullName: ClaySharp.Interop.MeasureTextCacheItem.NextIndex
   type: Field
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: NextIndex
-    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayTypes.cs
     startLine: 1143
   assemblies:
   - BlackHook.ClaySharp
@@ -228,12 +200,8 @@ items:
   fullName: ClaySharp.Interop.MeasureTextCacheItem.Generation
   type: Field
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: Generation
-    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayTypes.cs
     startLine: 1146
   assemblies:
   - BlackHook.ClaySharp

@@ -13,12 +13,8 @@ items:
   fullName: ClaySharp.Interop.ClayNative.OnHoverCallback
   type: Delegate
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayNative.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: OnHoverCallback
-    path: ../BlackHook.ClaySharp/Interop/ClayNative.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayNative.cs
     startLine: 118
   assemblies:
   - BlackHook.ClaySharp

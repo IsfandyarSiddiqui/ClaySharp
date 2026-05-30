@@ -17,12 +17,8 @@ items:
   fullName: ClaySharp.Interop.PointerDataInteractionState
   type: Enum
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: PointerDataInteractionState
-    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayEnums.cs
     startLine: 83
   assemblies:
   - BlackHook.ClaySharp
@@ -44,12 +40,8 @@ items:
   fullName: ClaySharp.Interop.PointerDataInteractionState.PressedThisFrame
   type: Field
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: PressedThisFrame
-    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayEnums.cs
     startLine: 86
   assemblies:
   - BlackHook.ClaySharp
@@ -72,12 +64,8 @@ items:
   fullName: ClaySharp.Interop.PointerDataInteractionState.Pressed
   type: Field
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: Pressed
-    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayEnums.cs
     startLine: 88
   assemblies:
   - BlackHook.ClaySharp
@@ -100,12 +88,8 @@ items:
   fullName: ClaySharp.Interop.PointerDataInteractionState.ReleasedThisFrame
   type: Field
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: ReleasedThisFrame
-    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayEnums.cs
     startLine: 90
   assemblies:
   - BlackHook.ClaySharp
@@ -128,12 +112,8 @@ items:
   fullName: ClaySharp.Interop.PointerDataInteractionState.Released
   type: Field
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: Released
-    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayEnums.cs
     startLine: 92
   assemblies:
   - BlackHook.ClaySharp

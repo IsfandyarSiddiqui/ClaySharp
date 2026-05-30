@@ -22,12 +22,8 @@ items:
   fullName: ClaySharp.Interop.LayoutElementHashMapItem
   type: Struct
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: LayoutElementHashMapItem
-    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayTypes.cs
     startLine: 1071
   assemblies:
   - BlackHook.ClaySharp
@@ -56,12 +52,8 @@ items:
   fullName: ClaySharp.Interop.LayoutElementHashMapItem.BoundingBox
   type: Field
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: BoundingBox
-    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayTypes.cs
     startLine: 1075
   assemblies:
   - BlackHook.ClaySharp
@@ -85,12 +77,8 @@ items:
   fullName: ClaySharp.Interop.LayoutElementHashMapItem.ElementId
   type: Field
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: ElementId
-    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayTypes.cs
     startLine: 1078
   assemblies:
   - BlackHook.ClaySharp
@@ -114,12 +102,8 @@ items:
   fullName: ClaySharp.Interop.LayoutElementHashMapItem.LayoutElement
   type: Field
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: LayoutElement
-    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayTypes.cs
     startLine: 1081
   assemblies:
   - BlackHook.ClaySharp
@@ -143,12 +127,8 @@ items:
   fullName: ClaySharp.Interop.LayoutElementHashMapItem.OnHoverFunction
   type: Field
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: OnHoverFunction
-    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayTypes.cs
     startLine: 1084
   assemblies:
   - BlackHook.ClaySharp
@@ -172,12 +152,8 @@ items:
   fullName: ClaySharp.Interop.LayoutElementHashMapItem.HoverFunctionUserData
   type: Field
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: HoverFunctionUserData
-    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayTypes.cs
     startLine: 1087
   assemblies:
   - BlackHook.ClaySharp
@@ -201,12 +177,8 @@ items:
   fullName: ClaySharp.Interop.LayoutElementHashMapItem.NextIndex
   type: Field
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: NextIndex
-    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayTypes.cs
     startLine: 1090
   assemblies:
   - BlackHook.ClaySharp
@@ -230,12 +202,8 @@ items:
   fullName: ClaySharp.Interop.LayoutElementHashMapItem.Generation
   type: Field
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: Generation
-    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayTypes.cs
     startLine: 1093
   assemblies:
   - BlackHook.ClaySharp
@@ -259,12 +227,8 @@ items:
   fullName: ClaySharp.Interop.LayoutElementHashMapItem.IdAlias
   type: Field
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: IdAlias
-    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayTypes.cs
     startLine: 1096
   assemblies:
   - BlackHook.ClaySharp
@@ -288,12 +252,8 @@ items:
   fullName: ClaySharp.Interop.LayoutElementHashMapItem.DebugData
   type: Field
   source:
-    remote:
-      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
-      branch: master
-      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
     id: DebugData
-    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    path: C:\Users\user\source\repos\ClaySharp\BlackHook.ClaySharp\Interop\ClayTypes.cs
     startLine: 1099
   assemblies:
   - BlackHook.ClaySharp

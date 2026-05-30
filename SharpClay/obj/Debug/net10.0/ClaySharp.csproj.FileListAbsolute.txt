@@ -1,0 +1,12 @@
+C:\Users\user\source\repos\ClaySharp\ClaySharp\bin\Debug\net10.0\clay.dll
+C:\Users\user\source\repos\ClaySharp\ClaySharp\bin\Debug\net10.0\ClaySharp.deps.json
+C:\Users\user\source\repos\ClaySharp\ClaySharp\bin\Debug\net10.0\ClaySharp.dll
+C:\Users\user\source\repos\ClaySharp\ClaySharp\bin\Debug\net10.0\ClaySharp.pdb
+C:\Users\user\source\repos\ClaySharp\ClaySharp\obj\Debug\net10.0\ClaySharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\ClaySharp\ClaySharp\obj\Debug\net10.0\ClaySharp.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\ClaySharp\ClaySharp\obj\Debug\net10.0\ClaySharp.AssemblyInfo.cs
+C:\Users\user\source\repos\ClaySharp\ClaySharp\obj\Debug\net10.0\ClaySharp.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\ClaySharp\ClaySharp\obj\Debug\net10.0\ClaySharp.dll
+C:\Users\user\source\repos\ClaySharp\ClaySharp\obj\Debug\net10.0\refint\ClaySharp.dll
+C:\Users\user\source\repos\ClaySharp\ClaySharp\obj\Debug\net10.0\ClaySharp.pdb
+C:\Users\user\source\repos\ClaySharp\ClaySharp\obj\Debug\net10.0\ref\ClaySharp.dll
