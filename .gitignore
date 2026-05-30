@@ -16,3 +16,4 @@ packages/
 docs/_site/
 docs/api/
 docs/obj/
+/SharpClay/obj/*

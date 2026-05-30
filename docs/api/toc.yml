@@ -1,290 +1,290 @@
 ### YamlMime:TableOfContent
 items:
-- uid: ClaySharp.Interop
-  name: ClaySharp.Interop
+- uid: SharpClay.Interop
+  name: SharpClay.Interop
   type: Namespace
   items:
-  - uid: ClaySharp.Interop.Arena
+  - uid: SharpClay.Interop.Arena
     name: Arena
     type: Struct
-  - uid: ClaySharp.Interop.AspectRatioElementConfig
+  - uid: SharpClay.Interop.AspectRatioElementConfig
     name: AspectRatioElementConfig
     type: Struct
-  - uid: ClaySharp.Interop.AspectRatioElementConfigArray
+  - uid: SharpClay.Interop.AspectRatioElementConfigArray
     name: AspectRatioElementConfigArray
     type: Struct
-  - uid: ClaySharp.Interop.BorderElementConfig
+  - uid: SharpClay.Interop.BorderElementConfig
     name: BorderElementConfig
     type: Struct
-  - uid: ClaySharp.Interop.BorderElementConfigArray
+  - uid: SharpClay.Interop.BorderElementConfigArray
     name: BorderElementConfigArray
     type: Struct
-  - uid: ClaySharp.Interop.BorderRenderData
+  - uid: SharpClay.Interop.BorderRenderData
     name: BorderRenderData
     type: Struct
-  - uid: ClaySharp.Interop.BorderWidth
+  - uid: SharpClay.Interop.BorderWidth
     name: BorderWidth
     type: Struct
-  - uid: ClaySharp.Interop.BoundingBox
+  - uid: SharpClay.Interop.BoundingBox
     name: BoundingBox
     type: Struct
-  - uid: ClaySharp.Interop.ChildAlignment
+  - uid: SharpClay.Interop.ChildAlignment
     name: ChildAlignment
     type: Struct
-  - uid: ClaySharp.Interop.ClayNative
+  - uid: SharpClay.Interop.ClayNative
     name: ClayNative
     type: Class
-  - uid: ClaySharp.Interop.ClayNative.Clay_MeasureTextCallback
+  - uid: SharpClay.Interop.ClayNative.Clay_MeasureTextCallback
     name: ClayNative.Clay_MeasureTextCallback
     type: Delegate
-  - uid: ClaySharp.Interop.ClayNative.OnHoverCallback
+  - uid: SharpClay.Interop.ClayNative.OnHoverCallback
     name: ClayNative.OnHoverCallback
     type: Delegate
-  - uid: ClaySharp.Interop.ClayString
+  - uid: SharpClay.Interop.ClayString
     name: ClayString
     type: Struct
-  - uid: ClaySharp.Interop.ClayStringSlice
+  - uid: SharpClay.Interop.ClayStringSlice
     name: ClayStringSlice
     type: Struct
-  - uid: ClaySharp.Interop.ClipElementConfig
+  - uid: SharpClay.Interop.ClipElementConfig
     name: ClipElementConfig
     type: Struct
-  - uid: ClaySharp.Interop.ClipElementConfigArray
+  - uid: SharpClay.Interop.ClipElementConfigArray
     name: ClipElementConfigArray
     type: Struct
-  - uid: ClaySharp.Interop.ClipRenderData
+  - uid: SharpClay.Interop.ClipRenderData
     name: ClipRenderData
     type: Struct
-  - uid: ClaySharp.Interop.Color
+  - uid: SharpClay.Interop.Color
     name: Color
     type: Struct
-  - uid: ClaySharp.Interop.Context
+  - uid: SharpClay.Interop.Context
     name: Context
     type: Struct
-  - uid: ClaySharp.Interop.CornerRadius
+  - uid: SharpClay.Interop.CornerRadius
     name: CornerRadius
     type: Struct
-  - uid: ClaySharp.Interop.CustomElementConfig
+  - uid: SharpClay.Interop.CustomElementConfig
     name: CustomElementConfig
     type: Struct
-  - uid: ClaySharp.Interop.CustomElementConfigArray
+  - uid: SharpClay.Interop.CustomElementConfigArray
     name: CustomElementConfigArray
     type: Struct
-  - uid: ClaySharp.Interop.CustomRenderData
+  - uid: SharpClay.Interop.CustomRenderData
     name: CustomRenderData
     type: Struct
-  - uid: ClaySharp.Interop.DebugElementData
+  - uid: SharpClay.Interop.DebugElementData
     name: DebugElementData
     type: Struct
-  - uid: ClaySharp.Interop.Dimensions
+  - uid: SharpClay.Interop.Dimensions
     name: Dimensions
     type: Struct
-  - uid: ClaySharp.Interop.ElementConfig
+  - uid: SharpClay.Interop.ElementConfig
     name: ElementConfig
     type: Struct
-  - uid: ClaySharp.Interop.ElementConfigArraySlice
+  - uid: SharpClay.Interop.ElementConfigArraySlice
     name: ElementConfigArraySlice
     type: Struct
-  - uid: ClaySharp.Interop.ElementConfigType
+  - uid: SharpClay.Interop.ElementConfigType
     name: ElementConfigType
     type: Enum
-  - uid: ClaySharp.Interop.ElementConfigUnion
+  - uid: SharpClay.Interop.ElementConfigUnion
     name: ElementConfigUnion
     type: Struct
-  - uid: ClaySharp.Interop.ElementData
+  - uid: SharpClay.Interop.ElementData
     name: ElementData
     type: Struct
-  - uid: ClaySharp.Interop.ElementDeclaration
+  - uid: SharpClay.Interop.ElementDeclaration
     name: ElementDeclaration
     type: Struct
-  - uid: ClaySharp.Interop.ElementId
+  - uid: SharpClay.Interop.ElementId
     name: ElementId
     type: Struct
-  - uid: ClaySharp.Interop.ElementIdArray
+  - uid: SharpClay.Interop.ElementIdArray
     name: ElementIdArray
     type: Struct
-  - uid: ClaySharp.Interop.ErrorData
+  - uid: SharpClay.Interop.ErrorData
     name: ErrorData
     type: Struct
-  - uid: ClaySharp.Interop.ErrorHandler
+  - uid: SharpClay.Interop.ErrorHandler
     name: ErrorHandler
     type: Struct
-  - uid: ClaySharp.Interop.ErrorType
+  - uid: SharpClay.Interop.ErrorType
     name: ErrorType
     type: Enum
-  - uid: ClaySharp.Interop.FloatingAttachPointType
+  - uid: SharpClay.Interop.FloatingAttachPointType
     name: FloatingAttachPointType
     type: Enum
-  - uid: ClaySharp.Interop.FloatingAttachPoints
+  - uid: SharpClay.Interop.FloatingAttachPoints
     name: FloatingAttachPoints
     type: Struct
-  - uid: ClaySharp.Interop.FloatingAttachToElement
+  - uid: SharpClay.Interop.FloatingAttachToElement
     name: FloatingAttachToElement
     type: Enum
-  - uid: ClaySharp.Interop.FloatingClipToElement
+  - uid: SharpClay.Interop.FloatingClipToElement
     name: FloatingClipToElement
     type: Enum
-  - uid: ClaySharp.Interop.FloatingElementConfig
+  - uid: SharpClay.Interop.FloatingElementConfig
     name: FloatingElementConfig
     type: Struct
-  - uid: ClaySharp.Interop.FloatingElementConfigArray
+  - uid: SharpClay.Interop.FloatingElementConfigArray
     name: FloatingElementConfigArray
     type: Struct
-  - uid: ClaySharp.Interop.ImageElementConfig
+  - uid: SharpClay.Interop.ImageElementConfig
     name: ImageElementConfig
     type: Struct
-  - uid: ClaySharp.Interop.ImageElementConfigArray
+  - uid: SharpClay.Interop.ImageElementConfigArray
     name: ImageElementConfigArray
     type: Struct
-  - uid: ClaySharp.Interop.ImageRenderData
+  - uid: SharpClay.Interop.ImageRenderData
     name: ImageRenderData
     type: Struct
-  - uid: ClaySharp.Interop.LayoutAlignmentX
+  - uid: SharpClay.Interop.LayoutAlignmentX
     name: LayoutAlignmentX
     type: Enum
-  - uid: ClaySharp.Interop.LayoutAlignmentY
+  - uid: SharpClay.Interop.LayoutAlignmentY
     name: LayoutAlignmentY
     type: Enum
-  - uid: ClaySharp.Interop.LayoutConfig
+  - uid: SharpClay.Interop.LayoutConfig
     name: LayoutConfig
     type: Struct
-  - uid: ClaySharp.Interop.LayoutConfigArray
+  - uid: SharpClay.Interop.LayoutConfigArray
     name: LayoutConfigArray
     type: Struct
-  - uid: ClaySharp.Interop.LayoutDirection
+  - uid: SharpClay.Interop.LayoutDirection
     name: LayoutDirection
     type: Enum
-  - uid: ClaySharp.Interop.LayoutElement
+  - uid: SharpClay.Interop.LayoutElement
     name: LayoutElement
     type: Struct
-  - uid: ClaySharp.Interop.LayoutElementChildren
+  - uid: SharpClay.Interop.LayoutElementChildren
     name: LayoutElementChildren
     type: Struct
-  - uid: ClaySharp.Interop.LayoutElementChildrenData
+  - uid: SharpClay.Interop.LayoutElementChildrenData
     name: LayoutElementChildrenData
     type: Struct
-  - uid: ClaySharp.Interop.LayoutElementHashMapItem
+  - uid: SharpClay.Interop.LayoutElementHashMapItem
     name: LayoutElementHashMapItem
     type: Struct
-  - uid: ClaySharp.Interop.LayoutElementTreeNode
+  - uid: SharpClay.Interop.LayoutElementTreeNode
     name: LayoutElementTreeNode
     type: Struct
-  - uid: ClaySharp.Interop.LayoutElementTreeRoot
+  - uid: SharpClay.Interop.LayoutElementTreeRoot
     name: LayoutElementTreeRoot
     type: Struct
-  - uid: ClaySharp.Interop.MeasureTextCacheItem
+  - uid: SharpClay.Interop.MeasureTextCacheItem
     name: MeasureTextCacheItem
     type: Struct
-  - uid: ClaySharp.Interop.MeasuredWord
+  - uid: SharpClay.Interop.MeasuredWord
     name: MeasuredWord
     type: Struct
-  - uid: ClaySharp.Interop.Padding
+  - uid: SharpClay.Interop.Padding
     name: Padding
     type: Struct
-  - uid: ClaySharp.Interop.PointerCaptureMode
+  - uid: SharpClay.Interop.PointerCaptureMode
     name: PointerCaptureMode
     type: Enum
-  - uid: ClaySharp.Interop.PointerData
+  - uid: SharpClay.Interop.PointerData
     name: PointerData
     type: Struct
-  - uid: ClaySharp.Interop.PointerDataInteractionState
+  - uid: SharpClay.Interop.PointerDataInteractionState
     name: PointerDataInteractionState
     type: Enum
-  - uid: ClaySharp.Interop.RectangleRenderData
+  - uid: SharpClay.Interop.RectangleRenderData
     name: RectangleRenderData
     type: Struct
-  - uid: ClaySharp.Interop.RenderCommand
+  - uid: SharpClay.Interop.RenderCommand
     name: RenderCommand
     type: Struct
-  - uid: ClaySharp.Interop.RenderCommandArray
+  - uid: SharpClay.Interop.RenderCommandArray
     name: RenderCommandArray
     type: Struct
-  - uid: ClaySharp.Interop.RenderCommandType
+  - uid: SharpClay.Interop.RenderCommandType
     name: RenderCommandType
     type: Enum
-  - uid: ClaySharp.Interop.RenderData
+  - uid: SharpClay.Interop.RenderData
     name: RenderData
     type: Struct
-  - uid: ClaySharp.Interop.ScrollContainerData
+  - uid: SharpClay.Interop.ScrollContainerData
     name: ScrollContainerData
     type: Struct
-  - uid: ClaySharp.Interop.ScrollContainerDataInternal
+  - uid: SharpClay.Interop.ScrollContainerDataInternal
     name: ScrollContainerDataInternal
     type: Struct
-  - uid: ClaySharp.Interop.SharedElementConfig
+  - uid: SharpClay.Interop.SharedElementConfig
     name: SharedElementConfig
     type: Struct
-  - uid: ClaySharp.Interop.SharedElementConfigArray
+  - uid: SharpClay.Interop.SharedElementConfigArray
     name: SharedElementConfigArray
     type: Struct
-  - uid: ClaySharp.Interop.Sizing
+  - uid: SharpClay.Interop.Sizing
     name: Sizing
     type: Struct
-  - uid: ClaySharp.Interop.SizingAxis
+  - uid: SharpClay.Interop.SizingAxis
     name: SizingAxis
     type: Struct
-  - uid: ClaySharp.Interop.SizingAxisValue
+  - uid: SharpClay.Interop.SizingAxisValue
     name: SizingAxisValue
     type: Struct
-  - uid: ClaySharp.Interop.SizingMinMax
+  - uid: SharpClay.Interop.SizingMinMax
     name: SizingMinMax
     type: Struct
-  - uid: ClaySharp.Interop.SizingType
+  - uid: SharpClay.Interop.SizingType
     name: SizingType
     type: Enum
-  - uid: ClaySharp.Interop.StringArray
+  - uid: SharpClay.Interop.StringArray
     name: StringArray
     type: Struct
-  - uid: ClaySharp.Interop.TextAlignment
+  - uid: SharpClay.Interop.TextAlignment
     name: TextAlignment
     type: Enum
-  - uid: ClaySharp.Interop.TextElementConfig
+  - uid: SharpClay.Interop.TextElementConfig
     name: TextElementConfig
     type: Struct
-  - uid: ClaySharp.Interop.TextElementConfigArray
+  - uid: SharpClay.Interop.TextElementConfigArray
     name: TextElementConfigArray
     type: Struct
-  - uid: ClaySharp.Interop.TextElementConfigWrapMode
+  - uid: SharpClay.Interop.TextElementConfigWrapMode
     name: TextElementConfigWrapMode
     type: Enum
-  - uid: ClaySharp.Interop.TextElementData
+  - uid: SharpClay.Interop.TextElementData
     name: TextElementData
     type: Struct
-  - uid: ClaySharp.Interop.TextRenderData
+  - uid: SharpClay.Interop.TextRenderData
     name: TextRenderData
     type: Struct
-  - uid: ClaySharp.Interop.Vector2
+  - uid: SharpClay.Interop.Vector2
     name: Vector2
     type: Struct
-  - uid: ClaySharp.Interop.Warning
+  - uid: SharpClay.Interop.Warning
     name: Warning
     type: Struct
-  - uid: ClaySharp.Interop.WrappedTextLine
+  - uid: SharpClay.Interop.WrappedTextLine
     name: WrappedTextLine
     type: Struct
-  - uid: ClaySharp.Interop.WrappedTextLineArraySlice
+  - uid: SharpClay.Interop.WrappedTextLineArraySlice
     name: WrappedTextLineArraySlice
     type: Struct
-  - uid: ClaySharp.Interop.boolArray
+  - uid: SharpClay.Interop.boolArray
     name: boolArray
     type: Struct
-  - uid: ClaySharp.Interop.charArray
+  - uid: SharpClay.Interop.charArray
     name: charArray
     type: Struct
-  - uid: ClaySharp.Interop.int32_tArray
+  - uid: SharpClay.Interop.int32_tArray
     name: int32_tArray
     type: Struct
-- uid: ClaySharp.Layout
-  name: ClaySharp.Layout
+- uid: SharpClay.Layout
+  name: SharpClay.Layout
   type: Namespace
   items:
-  - uid: ClaySharp.Layout.ClayElementScope
+  - uid: SharpClay.Layout.ClayElementScope
     name: ClayElementScope
     type: Struct
-  - uid: ClaySharp.Layout.ClaySizing
+  - uid: SharpClay.Layout.ClaySizing
     name: ClaySizing
     type: Class
-  - uid: ClaySharp.Layout.ClayUI
+  - uid: SharpClay.Layout.ClayUI
     name: ClayUI
     type: Class
 memberLayout: SamePage

@@ -1,6 +1,6 @@
-# Getting Started with ClaySharp
+# Getting Started with SharpClay
 
-This guide walks you through the step-by-step process of integrating **ClaySharp** into your C# rendering pipeline. 
+This guide walks you through the step-by-step process of integrating **SharpClay** into your C# rendering pipeline. 
 
 ---
 
@@ -11,7 +11,7 @@ Clay runs within a single block of unmanaged memory (a linear arena). You must q
 
 ```csharp
 using System.Runtime.InteropServices;
-using ClaySharp.Interop;
+using SharpClay.Interop;
 
 // 1. Query minimum size required by the layout engine
 uint minMemoryBytes = ClayNative.MinMemorySize();

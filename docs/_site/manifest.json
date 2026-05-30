@@ -1341,6 +1341,1336 @@
       "Summary": null
     },
     {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpClay.Interop.Arena.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpClay.Interop.Arena.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpClay.Interop.Arena",
+      "Summary": "<p sourcefile=\"api/SharpClay.Interop.Arena.yml\" sourcestartlinenumber=\"1\">Defines a contiguous block of pre-allocated unmanaged memory that Clay uses for all structural and dynamic layout allocations.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpClay.Interop.AspectRatioElementConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpClay.Interop.AspectRatioElementConfig.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpClay.Interop.AspectRatioElementConfig",
+      "Summary": "<p sourcefile=\"api/SharpClay.Interop.AspectRatioElementConfig.yml\" sourcestartlinenumber=\"1\">Imposes aspect ratio constraints on a UI element.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpClay.Interop.AspectRatioElementConfigArray.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpClay.Interop.AspectRatioElementConfigArray.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpClay.Interop.AspectRatioElementConfigArray",
+      "Summary": "<p sourcefile=\"api/SharpClay.Interop.AspectRatioElementConfigArray.yml\" sourcestartlinenumber=\"1\">Unmanaged array wrapper for <xref href=\"SharpClay.Interop.AspectRatioElementConfig\" data-throw-if-not-resolved=\"false\"></xref> elements.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpClay.Interop.BorderElementConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpClay.Interop.BorderElementConfig.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpClay.Interop.BorderElementConfig",
+      "Summary": "<p sourcefile=\"api/SharpClay.Interop.BorderElementConfig.yml\" sourcestartlinenumber=\"1\">Configures styling properties for drawing borders around layout nodes.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpClay.Interop.BorderElementConfigArray.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpClay.Interop.BorderElementConfigArray.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpClay.Interop.BorderElementConfigArray",
+      "Summary": "<p sourcefile=\"api/SharpClay.Interop.BorderElementConfigArray.yml\" sourcestartlinenumber=\"1\">Unmanaged array wrapper for <xref href=\"SharpClay.Interop.BorderElementConfig\" data-throw-if-not-resolved=\"false\"></xref> elements.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpClay.Interop.BorderRenderData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpClay.Interop.BorderRenderData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpClay.Interop.BorderRenderData",
+      "Summary": "<p sourcefile=\"api/SharpClay.Interop.BorderRenderData.yml\" sourcestartlinenumber=\"1\">Describes calculated border coordinates and stroke styling emitted inside border render commands.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpClay.Interop.BorderWidth.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpClay.Interop.BorderWidth.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpClay.Interop.BorderWidth",
+      "Summary": "<p sourcefile=\"api/SharpClay.Interop.BorderWidth.yml\" sourcestartlinenumber=\"1\">Specifies border stroke widths for each edge of a container.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpClay.Interop.BoundingBox.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpClay.Interop.BoundingBox.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpClay.Interop.BoundingBox",
+      "Summary": "<p sourcefile=\"api/SharpClay.Interop.BoundingBox.yml\" sourcestartlinenumber=\"1\">Defines a 2D bounding rectangle representing computed UI element placements.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpClay.Interop.ChildAlignment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpClay.Interop.ChildAlignment.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpClay.Interop.ChildAlignment",
+      "Summary": "<p sourcefile=\"api/SharpClay.Interop.ChildAlignment.yml\" sourcestartlinenumber=\"1\">Specifies how child elements are aligned within their parent container along both axes.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpClay.Interop.ClayNative.Clay_MeasureTextCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpClay.Interop.ClayNative.Clay_MeasureTextCallback.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpClay.Interop.ClayNative.Clay_MeasureTextCallback",
+      "Summary": "<p sourcefile=\"api/SharpClay.Interop.ClayNative.Clay_MeasureTextCallback.yml\" sourcestartlinenumber=\"1\">Defines the signature of the text measurement callback used by Clay to compute text dimensions.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpClay.Interop.ClayNative.OnHoverCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpClay.Interop.ClayNative.OnHoverCallback.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpClay.Interop.ClayNative.OnHoverCallback",
+      "Summary": "<p sourcefile=\"api/SharpClay.Interop.ClayNative.OnHoverCallback.yml\" sourcestartlinenumber=\"1\">Defines the signature of the callback invoked when a pointer hovers over an element configured with an hover handler.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpClay.Interop.ClayNative.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpClay.Interop.ClayNative.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpClay.Interop.ClayNative",
+      "Summary": "<p sourcefile=\"api/SharpClay.Interop.ClayNative.yml\" sourcestartlinenumber=\"1\">Provides low-level, high-performance C# bindings to the native Clay layout library.\nUses source-generated marshalling via <xref href=\"System.Runtime.InteropServices.LibraryImportAttribute\" data-throw-if-not-resolved=\"false\"></xref> and compiles with runtime marshalling disabled\nfor zero-overhead, direct native transitions.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpClay.Interop.ClayString.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpClay.Interop.ClayString.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpClay.Interop.ClayString",
+      "Summary": "<p sourcefile=\"api/SharpClay.Interop.ClayString.yml\" sourcestartlinenumber=\"1\">A native string wrapper used by Clay to represent text safely across the ABI.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpClay.Interop.ClayStringSlice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpClay.Interop.ClayStringSlice.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpClay.Interop.ClayStringSlice",
+      "Summary": "<p sourcefile=\"api/SharpClay.Interop.ClayStringSlice.yml\" sourcestartlinenumber=\"1\">Represents a slice or segment of a string. Used by Clay's text layout engine during wrapping and text rendering.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpClay.Interop.ClipElementConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpClay.Interop.ClipElementConfig.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpClay.Interop.ClipElementConfig",
+      "Summary": "<p sourcefile=\"api/SharpClay.Interop.ClipElementConfig.yml\" sourcestartlinenumber=\"1\">Configures boundary clipping properties for layout nodes.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpClay.Interop.ClipElementConfigArray.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpClay.Interop.ClipElementConfigArray.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpClay.Interop.ClipElementConfigArray",
+      "Summary": "<p sourcefile=\"api/SharpClay.Interop.ClipElementConfigArray.yml\" sourcestartlinenumber=\"1\">Unmanaged array wrapper for <xref href=\"SharpClay.Interop.ClipElementConfig\" data-throw-if-not-resolved=\"false\"></xref> elements.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpClay.Interop.ClipRenderData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpClay.Interop.ClipRenderData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpClay.Interop.ClipRenderData",
+      "Summary": "<p sourcefile=\"api/SharpClay.Interop.ClipRenderData.yml\" sourcestartlinenumber=\"1\">Describes clipping parameters emitted inside scissor/clip render commands.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpClay.Interop.Color.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpClay.Interop.Color.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpClay.Interop.Color",
+      "Summary": "<p sourcefile=\"api/SharpClay.Interop.Color.yml\" sourcestartlinenumber=\"1\">Represents a color using four floating-point components (Red, Green, Blue, Alpha).</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpClay.Interop.Context.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpClay.Interop.Context.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpClay.Interop.Context",
+      "Summary": "<p sourcefile=\"api/SharpClay.Interop.Context.yml\" sourcestartlinenumber=\"1\">Opaque wrapper representing Clay's internal layout engine context context.\nThis state should only be accessed via pointers returned by <xref href=\"SharpClay.Interop.ClayNative.Clay_Initialize(SharpClay.Interop.Arena%2cSharpClay.Interop.Dimensions%2cSharpClay.Interop.ErrorHandler)\" data-throw-if-not-resolved=\"false\"></xref> or <xref href=\"SharpClay.Interop.ClayNative.GetCurrentContext\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpClay.Interop.CornerRadius.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpClay.Interop.CornerRadius.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpClay.Interop.CornerRadius",
+      "Summary": "<p sourcefile=\"api/SharpClay.Interop.CornerRadius.yml\" sourcestartlinenumber=\"1\">Specifies corner rounding radii for rectangles, borders, and images.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpClay.Interop.CustomElementConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpClay.Interop.CustomElementConfig.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpClay.Interop.CustomElementConfig",
+      "Summary": "<p sourcefile=\"api/SharpClay.Interop.CustomElementConfig.yml\" sourcestartlinenumber=\"1\">Custom element layout configuration block.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpClay.Interop.CustomElementConfigArray.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpClay.Interop.CustomElementConfigArray.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpClay.Interop.CustomElementConfigArray",
+      "Summary": "<p sourcefile=\"api/SharpClay.Interop.CustomElementConfigArray.yml\" sourcestartlinenumber=\"1\">Unmanaged array wrapper for <xref href=\"SharpClay.Interop.CustomElementConfig\" data-throw-if-not-resolved=\"false\"></xref> elements.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpClay.Interop.CustomRenderData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpClay.Interop.CustomRenderData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpClay.Interop.CustomRenderData",
+      "Summary": "<p sourcefile=\"api/SharpClay.Interop.CustomRenderData.yml\" sourcestartlinenumber=\"1\">Describes a custom element payload emitted inside custom render commands.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpClay.Interop.DebugElementData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpClay.Interop.DebugElementData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpClay.Interop.DebugElementData",
+      "Summary": "<p sourcefile=\"api/SharpClay.Interop.DebugElementData.yml\" sourcestartlinenumber=\"1\">Structural debugging attributes associated with layout elements.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpClay.Interop.Dimensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpClay.Interop.Dimensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpClay.Interop.Dimensions",
+      "Summary": "<p sourcefile=\"api/SharpClay.Interop.Dimensions.yml\" sourcestartlinenumber=\"1\">Represents standard 2D floating-point dimensions.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpClay.Interop.ElementConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpClay.Interop.ElementConfig.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpClay.Interop.ElementConfig",
+      "Summary": "<p sourcefile=\"api/SharpClay.Interop.ElementConfig.yml\" sourcestartlinenumber=\"1\">Associates a layout configuration style with its category type identifier.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpClay.Interop.ElementConfigArraySlice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpClay.Interop.ElementConfigArraySlice.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpClay.Interop.ElementConfigArraySlice",
+      "Summary": "<p sourcefile=\"api/SharpClay.Interop.ElementConfigArraySlice.yml\" sourcestartlinenumber=\"1\">Represents a slice segment pointing into a native unmanaged array of <xref href=\"SharpClay.Interop.ElementConfig\" data-throw-if-not-resolved=\"false\"></xref> entries.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpClay.Interop.ElementConfigType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpClay.Interop.ElementConfigType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpClay.Interop.ElementConfigType",
+      "Summary": "<p sourcefile=\"api/SharpClay.Interop.ElementConfigType.yml\" sourcestartlinenumber=\"1\">Specifies the type of layout configuration applied to a UI element.\nThis configuration determines which rendering, sizing, or layout rules Clay applies to the element.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpClay.Interop.ElementConfigUnion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpClay.Interop.ElementConfigUnion.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpClay.Interop.ElementConfigUnion",
+      "Summary": "<p sourcefile=\"api/SharpClay.Interop.ElementConfigUnion.yml\" sourcestartlinenumber=\"1\">Emulates an anonymous configuration C union inside <xref href=\"SharpClay.Interop.ElementConfig\" data-throw-if-not-resolved=\"false\"></xref>, holding style detail pointers.\nOnly one field should be accessed corresponding to the <xref href=\"SharpClay.Interop.ElementConfig.Type\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpClay.Interop.ElementData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpClay.Interop.ElementData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpClay.Interop.ElementData",
+      "Summary": "<p sourcefile=\"api/SharpClay.Interop.ElementData.yml\" sourcestartlinenumber=\"1\">Public structure containing calculated layout coordinates.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpClay.Interop.ElementDeclaration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpClay.Interop.ElementDeclaration.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpClay.Interop.ElementDeclaration",
+      "Summary": "<p sourcefile=\"api/SharpClay.Interop.ElementDeclaration.yml\" sourcestartlinenumber=\"1\">Composite declaration structure encapsulating all layout, style, and rendering configs for a single UI element.\nPass this to <xref href=\"SharpClay.Interop.ClayNative.ConfigureOpenElement(SharpClay.Interop.ElementDeclaration)\" data-throw-if-not-resolved=\"false\"></xref> to apply styling.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpClay.Interop.ElementId.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpClay.Interop.ElementId.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpClay.Interop.ElementId",
+      "Summary": "<p sourcefile=\"api/SharpClay.Interop.ElementId.yml\" sourcestartlinenumber=\"1\">Holds unique identifiers generated by Clay to track element lifecycle, focus, and layout state.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpClay.Interop.ElementIdArray.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpClay.Interop.ElementIdArray.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpClay.Interop.ElementIdArray",
+      "Summary": "<p sourcefile=\"api/SharpClay.Interop.ElementIdArray.yml\" sourcestartlinenumber=\"1\">Unmanaged array wrapper for <xref href=\"SharpClay.Interop.ElementId\" data-throw-if-not-resolved=\"false\"></xref> elements.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpClay.Interop.ErrorData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpClay.Interop.ErrorData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpClay.Interop.ErrorData",
+      "Summary": "<p sourcefile=\"api/SharpClay.Interop.ErrorData.yml\" sourcestartlinenumber=\"1\">Structure containing detailed diagnostic information returned when layout errors occur.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpClay.Interop.ErrorHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpClay.Interop.ErrorHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpClay.Interop.ErrorHandler",
+      "Summary": "<p sourcefile=\"api/SharpClay.Interop.ErrorHandler.yml\" sourcestartlinenumber=\"1\">Holds callback function pointer registrations for native error handling.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpClay.Interop.ErrorType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpClay.Interop.ErrorType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpClay.Interop.ErrorType",
+      "Summary": "<p sourcefile=\"api/SharpClay.Interop.ErrorType.yml\" sourcestartlinenumber=\"1\">Defines the specific errors that can occur during layout calculation or configuration in Clay.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpClay.Interop.FloatingAttachPointType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpClay.Interop.FloatingAttachPointType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpClay.Interop.FloatingAttachPointType",
+      "Summary": "<p sourcefile=\"api/SharpClay.Interop.FloatingAttachPointType.yml\" sourcestartlinenumber=\"1\">Defines the attachment points on an element and its target when using floating (absolute) positioning.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpClay.Interop.FloatingAttachPoints.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpClay.Interop.FloatingAttachPoints.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpClay.Interop.FloatingAttachPoints",
+      "Summary": "<p sourcefile=\"api/SharpClay.Interop.FloatingAttachPoints.yml\" sourcestartlinenumber=\"1\">Defines target attachment points for floating elements.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpClay.Interop.FloatingAttachToElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpClay.Interop.FloatingAttachToElement.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpClay.Interop.FloatingAttachToElement",
+      "Summary": "<p sourcefile=\"api/SharpClay.Interop.FloatingAttachToElement.yml\" sourcestartlinenumber=\"1\">Identifies which element a floating container attaches to.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpClay.Interop.FloatingClipToElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpClay.Interop.FloatingClipToElement.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpClay.Interop.FloatingClipToElement",
+      "Summary": "<p sourcefile=\"api/SharpClay.Interop.FloatingClipToElement.yml\" sourcestartlinenumber=\"1\">Controls whether a floating element should be clipped by another element's bounds.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpClay.Interop.FloatingElementConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpClay.Interop.FloatingElementConfig.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpClay.Interop.FloatingElementConfig",
+      "Summary": "<p sourcefile=\"api/SharpClay.Interop.FloatingElementConfig.yml\" sourcestartlinenumber=\"1\">Controls positioning, depth, and attachment behavior of floating (absolute positioned) UI elements.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpClay.Interop.FloatingElementConfigArray.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpClay.Interop.FloatingElementConfigArray.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpClay.Interop.FloatingElementConfigArray",
+      "Summary": "<p sourcefile=\"api/SharpClay.Interop.FloatingElementConfigArray.yml\" sourcestartlinenumber=\"1\">Unmanaged array wrapper for <xref href=\"SharpClay.Interop.FloatingElementConfig\" data-throw-if-not-resolved=\"false\"></xref> elements.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpClay.Interop.ImageElementConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpClay.Interop.ImageElementConfig.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpClay.Interop.ImageElementConfig",
+      "Summary": "<p sourcefile=\"api/SharpClay.Interop.ImageElementConfig.yml\" sourcestartlinenumber=\"1\">Holds image element render configurations.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpClay.Interop.ImageElementConfigArray.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpClay.Interop.ImageElementConfigArray.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpClay.Interop.ImageElementConfigArray",
+      "Summary": "<p sourcefile=\"api/SharpClay.Interop.ImageElementConfigArray.yml\" sourcestartlinenumber=\"1\">Unmanaged array wrapper for <xref href=\"SharpClay.Interop.ImageElementConfig\" data-throw-if-not-resolved=\"false\"></xref> elements.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpClay.Interop.ImageRenderData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpClay.Interop.ImageRenderData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpClay.Interop.ImageRenderData",
+      "Summary": "<p sourcefile=\"api/SharpClay.Interop.ImageRenderData.yml\" sourcestartlinenumber=\"1\">Describes image content emitted inside image render commands.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpClay.Interop.LayoutAlignmentX.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpClay.Interop.LayoutAlignmentX.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpClay.Interop.LayoutAlignmentX",
+      "Summary": "<p sourcefile=\"api/SharpClay.Interop.LayoutAlignmentX.yml\" sourcestartlinenumber=\"1\">Controls horizontal alignment of children within a layout container.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpClay.Interop.LayoutAlignmentY.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpClay.Interop.LayoutAlignmentY.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpClay.Interop.LayoutAlignmentY",
+      "Summary": "<p sourcefile=\"api/SharpClay.Interop.LayoutAlignmentY.yml\" sourcestartlinenumber=\"1\">Controls vertical alignment of children within a layout container.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpClay.Interop.LayoutConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpClay.Interop.LayoutConfig.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpClay.Interop.LayoutConfig",
+      "Summary": "<p sourcefile=\"api/SharpClay.Interop.LayoutConfig.yml\" sourcestartlinenumber=\"1\">Defines general layout configurations for element arrangement, spacing, and sizing.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpClay.Interop.LayoutConfigArray.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpClay.Interop.LayoutConfigArray.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpClay.Interop.LayoutConfigArray",
+      "Summary": "<p sourcefile=\"api/SharpClay.Interop.LayoutConfigArray.yml\" sourcestartlinenumber=\"1\">Unmanaged array wrapper for <xref href=\"SharpClay.Interop.LayoutConfig\" data-throw-if-not-resolved=\"false\"></xref> elements.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpClay.Interop.LayoutDirection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpClay.Interop.LayoutDirection.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpClay.Interop.LayoutDirection",
+      "Summary": "<p sourcefile=\"api/SharpClay.Interop.LayoutDirection.yml\" sourcestartlinenumber=\"1\">Defines the layout direction along which children are arranged.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpClay.Interop.LayoutElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpClay.Interop.LayoutElement.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpClay.Interop.LayoutElement",
+      "Summary": "<p sourcefile=\"api/SharpClay.Interop.LayoutElement.yml\" sourcestartlinenumber=\"1\">Represents a core layout node within Clay's internal structural layout tree.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpClay.Interop.LayoutElementChildren.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpClay.Interop.LayoutElementChildren.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpClay.Interop.LayoutElementChildren",
+      "Summary": "<p sourcefile=\"api/SharpClay.Interop.LayoutElementChildren.yml\" sourcestartlinenumber=\"1\">Emulates an anonymous C-style union containing either list of child element indices or text element details.\nField offsets overlap so only one field should be accessed corresponding to layout node type.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpClay.Interop.LayoutElementChildrenData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpClay.Interop.LayoutElementChildrenData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpClay.Interop.LayoutElementChildrenData",
+      "Summary": "<p sourcefile=\"api/SharpClay.Interop.LayoutElementChildrenData.yml\" sourcestartlinenumber=\"1\">Holds list of child elements inside a container.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpClay.Interop.LayoutElementHashMapItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpClay.Interop.LayoutElementHashMapItem.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpClay.Interop.LayoutElementHashMapItem",
+      "Summary": "<p sourcefile=\"api/SharpClay.Interop.LayoutElementHashMapItem.yml\" sourcestartlinenumber=\"1\">Represents an entry in Clay's internal layout spatial hash map, used for fast lookup, hover, and layout calculation.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpClay.Interop.LayoutElementTreeNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpClay.Interop.LayoutElementTreeNode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpClay.Interop.LayoutElementTreeNode",
+      "Summary": "<p sourcefile=\"api/SharpClay.Interop.LayoutElementTreeNode.yml\" sourcestartlinenumber=\"1\">A layout tree node structure tracking hierarchical rendering positioning.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpClay.Interop.LayoutElementTreeRoot.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpClay.Interop.LayoutElementTreeRoot.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpClay.Interop.LayoutElementTreeRoot",
+      "Summary": "<p sourcefile=\"api/SharpClay.Interop.LayoutElementTreeRoot.yml\" sourcestartlinenumber=\"1\">Defines the entry root configurations for a layout tree rendering hierarchy.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpClay.Interop.MeasureTextCacheItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpClay.Interop.MeasureTextCacheItem.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpClay.Interop.MeasureTextCacheItem",
+      "Summary": "<p sourcefile=\"api/SharpClay.Interop.MeasureTextCacheItem.yml\" sourcestartlinenumber=\"1\">Represents an item stored inside Clay's internal text measurement cache.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpClay.Interop.MeasuredWord.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpClay.Interop.MeasuredWord.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpClay.Interop.MeasuredWord",
+      "Summary": "<p sourcefile=\"api/SharpClay.Interop.MeasuredWord.yml\" sourcestartlinenumber=\"1\">Holds sizing metadata for a single word computed during text layout wrapping.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpClay.Interop.Padding.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpClay.Interop.Padding.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpClay.Interop.Padding",
+      "Summary": "<p sourcefile=\"api/SharpClay.Interop.Padding.yml\" sourcestartlinenumber=\"1\">Defines inner spacing padding values surrounding the children of a container.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpClay.Interop.PointerCaptureMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpClay.Interop.PointerCaptureMode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpClay.Interop.PointerCaptureMode",
+      "Summary": "<p sourcefile=\"api/SharpClay.Interop.PointerCaptureMode.yml\" sourcestartlinenumber=\"1\">Controls pointer capture behavior for floating elements.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpClay.Interop.PointerData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpClay.Interop.PointerData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpClay.Interop.PointerData",
+      "Summary": "<p sourcefile=\"api/SharpClay.Interop.PointerData.yml\" sourcestartlinenumber=\"1\">Contains pointer (e.g. mouse or touch) position and state information.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpClay.Interop.PointerDataInteractionState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpClay.Interop.PointerDataInteractionState.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpClay.Interop.PointerDataInteractionState",
+      "Summary": "<p sourcefile=\"api/SharpClay.Interop.PointerDataInteractionState.yml\" sourcestartlinenumber=\"1\">Represents the interaction state of a pointer (e.g. mouse or touch) on a UI element.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpClay.Interop.RectangleRenderData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpClay.Interop.RectangleRenderData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpClay.Interop.RectangleRenderData",
+      "Summary": "<p sourcefile=\"api/SharpClay.Interop.RectangleRenderData.yml\" sourcestartlinenumber=\"1\">Describes a filled background rectangle emitted inside rectangle render commands.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpClay.Interop.RenderCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpClay.Interop.RenderCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpClay.Interop.RenderCommand",
+      "Summary": "<p sourcefile=\"api/SharpClay.Interop.RenderCommand.yml\" sourcestartlinenumber=\"1\">Encapsulates a single drawing instruction emitted by Clay's layout resolver.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpClay.Interop.RenderCommandArray.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpClay.Interop.RenderCommandArray.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpClay.Interop.RenderCommandArray",
+      "Summary": "<p sourcefile=\"api/SharpClay.Interop.RenderCommandArray.yml\" sourcestartlinenumber=\"1\">Contiguous unmanaged array containing the list of <xref href=\"SharpClay.Interop.RenderCommand\" data-throw-if-not-resolved=\"false\"></xref> elements computed for the current frame.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpClay.Interop.RenderCommandType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpClay.Interop.RenderCommandType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpClay.Interop.RenderCommandType",
+      "Summary": "<p sourcefile=\"api/SharpClay.Interop.RenderCommandType.yml\" sourcestartlinenumber=\"1\">Specifies the rendering operation command type emitted in the output render command array.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpClay.Interop.RenderData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpClay.Interop.RenderData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpClay.Interop.RenderData",
+      "Summary": "<p sourcefile=\"api/SharpClay.Interop.RenderData.yml\" sourcestartlinenumber=\"1\">Emulates an anonymous C union packing specific layout drawing payloads.\nOnly one field should be accessed corresponding to the <xref href=\"SharpClay.Interop.RenderCommand.CommandType\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpClay.Interop.ScrollContainerData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpClay.Interop.ScrollContainerData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpClay.Interop.ScrollContainerData",
+      "Summary": "<p sourcefile=\"api/SharpClay.Interop.ScrollContainerData.yml\" sourcestartlinenumber=\"1\">Public structure containing scroll coordinates and dimensions for scrollable elements.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpClay.Interop.ScrollContainerDataInternal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpClay.Interop.ScrollContainerDataInternal.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpClay.Interop.ScrollContainerDataInternal",
+      "Summary": "<p sourcefile=\"api/SharpClay.Interop.ScrollContainerDataInternal.yml\" sourcestartlinenumber=\"1\">Internal layout engine scroll tracker holding physics and position metadata for a scroll container.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpClay.Interop.SharedElementConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpClay.Interop.SharedElementConfig.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpClay.Interop.SharedElementConfig",
+      "Summary": "<p sourcefile=\"api/SharpClay.Interop.SharedElementConfig.yml\" sourcestartlinenumber=\"1\">Represents style settings that are shared across multiple layout nodes.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpClay.Interop.SharedElementConfigArray.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpClay.Interop.SharedElementConfigArray.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpClay.Interop.SharedElementConfigArray",
+      "Summary": "<p sourcefile=\"api/SharpClay.Interop.SharedElementConfigArray.yml\" sourcestartlinenumber=\"1\">Unmanaged array wrapper for <xref href=\"SharpClay.Interop.SharedElementConfig\" data-throw-if-not-resolved=\"false\"></xref> elements.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpClay.Interop.Sizing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpClay.Interop.Sizing.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpClay.Interop.Sizing",
+      "Summary": "<p sourcefile=\"api/SharpClay.Interop.Sizing.yml\" sourcestartlinenumber=\"1\">Defines layout sizing rules for both axes of a UI element.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpClay.Interop.SizingAxis.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpClay.Interop.SizingAxis.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpClay.Interop.SizingAxis",
+      "Summary": "<p sourcefile=\"api/SharpClay.Interop.SizingAxis.yml\" sourcestartlinenumber=\"1\">Specifies sizing rules and constraints for a single layout axis (either Width or Height).</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpClay.Interop.SizingAxisValue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpClay.Interop.SizingAxisValue.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpClay.Interop.SizingAxisValue",
+      "Summary": "<p sourcefile=\"api/SharpClay.Interop.SizingAxisValue.yml\" sourcestartlinenumber=\"1\">Emulates an anonymous C union representing a sizing constraint value.\nField offsets overlap so that it can store either percentage values or min/max bounds.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpClay.Interop.SizingMinMax.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpClay.Interop.SizingMinMax.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpClay.Interop.SizingMinMax",
+      "Summary": "<p sourcefile=\"api/SharpClay.Interop.SizingMinMax.yml\" sourcestartlinenumber=\"1\">Defines the minimum and maximum constraints for element dimensions.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpClay.Interop.SizingType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpClay.Interop.SizingType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpClay.Interop.SizingType",
+      "Summary": "<p sourcefile=\"api/SharpClay.Interop.SizingType.yml\" sourcestartlinenumber=\"1\">Determines how an element is sized along a layout axis.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpClay.Interop.StringArray.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpClay.Interop.StringArray.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpClay.Interop.StringArray",
+      "Summary": "<p sourcefile=\"api/SharpClay.Interop.StringArray.yml\" sourcestartlinenumber=\"1\">Unmanaged array wrapper for <xref href=\"SharpClay.Interop.ClayString\" data-throw-if-not-resolved=\"false\"></xref> elements.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpClay.Interop.TextAlignment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpClay.Interop.TextAlignment.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpClay.Interop.TextAlignment",
+      "Summary": "<p sourcefile=\"api/SharpClay.Interop.TextAlignment.yml\" sourcestartlinenumber=\"1\">Specifies the horizontal alignment of text within its bounding container.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpClay.Interop.TextElementConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpClay.Interop.TextElementConfig.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpClay.Interop.TextElementConfig",
+      "Summary": "<p sourcefile=\"api/SharpClay.Interop.TextElementConfig.yml\" sourcestartlinenumber=\"1\">Provides configuration settings for rendering text elements.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpClay.Interop.TextElementConfigArray.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpClay.Interop.TextElementConfigArray.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpClay.Interop.TextElementConfigArray",
+      "Summary": "<p sourcefile=\"api/SharpClay.Interop.TextElementConfigArray.yml\" sourcestartlinenumber=\"1\">Unmanaged array wrapper for <xref href=\"SharpClay.Interop.TextElementConfig\" data-throw-if-not-resolved=\"false\"></xref> elements.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpClay.Interop.TextElementConfigWrapMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpClay.Interop.TextElementConfigWrapMode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpClay.Interop.TextElementConfigWrapMode",
+      "Summary": "<p sourcefile=\"api/SharpClay.Interop.TextElementConfigWrapMode.yml\" sourcestartlinenumber=\"1\">Defines how text within a text element wraps.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpClay.Interop.TextElementData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpClay.Interop.TextElementData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpClay.Interop.TextElementData",
+      "Summary": "<p sourcefile=\"api/SharpClay.Interop.TextElementData.yml\" sourcestartlinenumber=\"1\">Holds layout and wrapping details computed specifically for text elements.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpClay.Interop.TextRenderData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpClay.Interop.TextRenderData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpClay.Interop.TextRenderData",
+      "Summary": "<p sourcefile=\"api/SharpClay.Interop.TextRenderData.yml\" sourcestartlinenumber=\"1\">Describes text content and style attributes emitted inside text render commands.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpClay.Interop.Vector2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpClay.Interop.Vector2.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpClay.Interop.Vector2",
+      "Summary": "<p sourcefile=\"api/SharpClay.Interop.Vector2.yml\" sourcestartlinenumber=\"1\">Represents a standard 2D vector.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpClay.Interop.Warning.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpClay.Interop.Warning.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpClay.Interop.Warning",
+      "Summary": "<p sourcefile=\"api/SharpClay.Interop.Warning.yml\" sourcestartlinenumber=\"1\">Structure packing diagnostic warning messaging.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpClay.Interop.WrappedTextLine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpClay.Interop.WrappedTextLine.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpClay.Interop.WrappedTextLine",
+      "Summary": "<p sourcefile=\"api/SharpClay.Interop.WrappedTextLine.yml\" sourcestartlinenumber=\"1\">Describes a single computed line of text resulting from word wrapping operations.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpClay.Interop.WrappedTextLineArraySlice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpClay.Interop.WrappedTextLineArraySlice.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpClay.Interop.WrappedTextLineArraySlice",
+      "Summary": "<p sourcefile=\"api/SharpClay.Interop.WrappedTextLineArraySlice.yml\" sourcestartlinenumber=\"1\">Represents a slice segment pointing into an unmanaged array of wrapped text lines.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpClay.Interop.boolArray.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpClay.Interop.boolArray.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpClay.Interop.boolArray",
+      "Summary": "<p sourcefile=\"api/SharpClay.Interop.boolArray.yml\" sourcestartlinenumber=\"1\">Unmanaged array wrapper for boolean elements.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpClay.Interop.charArray.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpClay.Interop.charArray.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpClay.Interop.charArray",
+      "Summary": "<p sourcefile=\"api/SharpClay.Interop.charArray.yml\" sourcestartlinenumber=\"1\">Unmanaged array wrapper for raw character bytes.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpClay.Interop.int32_tArray.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpClay.Interop.int32_tArray.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpClay.Interop.int32_tArray",
+      "Summary": "<p sourcefile=\"api/SharpClay.Interop.int32_tArray.yml\" sourcestartlinenumber=\"1\">Unmanaged array wrapper for 32-bit signed integers.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpClay.Interop.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpClay.Interop.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpClay.Interop",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpClay.Layout.ClayElementScope.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpClay.Layout.ClayElementScope.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpClay.Layout.ClayElementScope",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpClay.Layout.ClaySizing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpClay.Layout.ClaySizing.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpClay.Layout.ClaySizing",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpClay.Layout.ClayUI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpClay.Layout.ClayUI.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpClay.Layout.ClayUI",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpClay.Layout.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpClay.Layout.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharpClay.Layout",
+      "Summary": null
+    },
+    {
       "type": "Toc",
       "source_relative_path": "api/toc.yml",
       "output": {

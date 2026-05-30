@@ -1,6 +1,6 @@
-# Introduction to ClaySharp
+# Introduction to SharpClay
 
-**ClaySharp** is a modern C# binding for **Clay**, a high-performance 2D layout engine written as a single-header C library. Designed for game engines, desktop shells (such as **BlackHook**), and graphics-intensive applications, ClaySharp allows C# developers to define complex, responsive user interfaces with absolute minimum overhead.
+**SharpClay** is a modern C# binding for **Clay**, a high-performance 2D layout engine written as a single-header C library. Designed for game engines, desktop shells, and graphics-intensive applications, SharpClay allows C# developers to define complex, responsive user interfaces with absolute minimum overhead.
 
 ---
 
@@ -17,7 +17,7 @@
 
 ## 🏛 Architecture & Performance Design
 
-Unlike traditional UI frameworks that utilize deep inheritance trees, reflection, or heavy managed wrappers, ClaySharp focuses on raw ABI compatibility and ultra-fast transitions:
+Unlike traditional UI frameworks that utilize deep inheritance trees, reflection, or heavy managed wrappers, SharpClay focuses on raw ABI compatibility and ultra-fast transitions:
 
 ```
 ┌─────────────────┐       [LibraryImport]       ┌──────────────┐

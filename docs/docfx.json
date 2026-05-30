@@ -4,7 +4,7 @@
     {
       "src": [
         {
-          "src": "../BlackHook.ClaySharp",
+          "src": "../SharpClay",
           "files": [
             "**/*.csproj"
           ]
@@ -37,8 +37,8 @@
       "modern"
     ],
     "globalMetadata": {
-      "_appName": "ClaySharp",
-      "_appTitle": "ClaySharp",
+      "_appName": "SharpClay",
+      "_appTitle": "SharpClay",
       "_enableSearch": true,
       "pdf": true
     }
