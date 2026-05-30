@@ -1,0 +1,508 @@
+### YamlMime:ManagedReference
+items:
+- uid: ClaySharp.Interop.RenderData
+  commentId: T:ClaySharp.Interop.RenderData
+  id: RenderData
+  parent: ClaySharp.Interop
+  children:
+  - ClaySharp.Interop.RenderData.Border
+  - ClaySharp.Interop.RenderData.Clip
+  - ClaySharp.Interop.RenderData.Custom
+  - ClaySharp.Interop.RenderData.Image
+  - ClaySharp.Interop.RenderData.Rectangle
+  - ClaySharp.Interop.RenderData.Text
+  langs:
+  - csharp
+  - vb
+  name: RenderData
+  nameWithType: RenderData
+  fullName: ClaySharp.Interop.RenderData
+  type: Struct
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: RenderData
+    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    startLine: 612
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: >-
+    Emulates an anonymous C union packing specific layout drawing payloads.
+
+    Only one field should be accessed corresponding to the <xref href="ClaySharp.Interop.RenderCommand.CommandType" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public struct RenderData
+    content.vb: Public Structure RenderData
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: ClaySharp.Interop.RenderData.Rectangle
+  commentId: F:ClaySharp.Interop.RenderData.Rectangle
+  id: Rectangle
+  parent: ClaySharp.Interop.RenderData
+  langs:
+  - csharp
+  - vb
+  name: Rectangle
+  nameWithType: RenderData.Rectangle
+  fullName: ClaySharp.Interop.RenderData.Rectangle
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: Rectangle
+    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    startLine: 616
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: Payload for rectangle draws. Valid if command type is Rectangle.
+  example: []
+  syntax:
+    content: public RectangleRenderData Rectangle
+    return:
+      type: ClaySharp.Interop.RectangleRenderData
+    content.vb: Public Rectangle As RectangleRenderData
+- uid: ClaySharp.Interop.RenderData.Text
+  commentId: F:ClaySharp.Interop.RenderData.Text
+  id: Text
+  parent: ClaySharp.Interop.RenderData
+  langs:
+  - csharp
+  - vb
+  name: Text
+  nameWithType: RenderData.Text
+  fullName: ClaySharp.Interop.RenderData.Text
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: Text
+    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    startLine: 619
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: Payload for text draws. Valid if command type is Text.
+  example: []
+  syntax:
+    content: public TextRenderData Text
+    return:
+      type: ClaySharp.Interop.TextRenderData
+    content.vb: Public Text As TextRenderData
+- uid: ClaySharp.Interop.RenderData.Image
+  commentId: F:ClaySharp.Interop.RenderData.Image
+  id: Image
+  parent: ClaySharp.Interop.RenderData
+  langs:
+  - csharp
+  - vb
+  name: Image
+  nameWithType: RenderData.Image
+  fullName: ClaySharp.Interop.RenderData.Image
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: Image
+    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    startLine: 622
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: Payload for image draws. Valid if command type is Image.
+  example: []
+  syntax:
+    content: public ImageRenderData Image
+    return:
+      type: ClaySharp.Interop.ImageRenderData
+    content.vb: Public Image As ImageRenderData
+- uid: ClaySharp.Interop.RenderData.Custom
+  commentId: F:ClaySharp.Interop.RenderData.Custom
+  id: Custom
+  parent: ClaySharp.Interop.RenderData
+  langs:
+  - csharp
+  - vb
+  name: Custom
+  nameWithType: RenderData.Custom
+  fullName: ClaySharp.Interop.RenderData.Custom
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: Custom
+    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    startLine: 625
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: Payload for custom draws. Valid if command type is Custom.
+  example: []
+  syntax:
+    content: public CustomRenderData Custom
+    return:
+      type: ClaySharp.Interop.CustomRenderData
+    content.vb: Public Custom As CustomRenderData
+- uid: ClaySharp.Interop.RenderData.Border
+  commentId: F:ClaySharp.Interop.RenderData.Border
+  id: Border
+  parent: ClaySharp.Interop.RenderData
+  langs:
+  - csharp
+  - vb
+  name: Border
+  nameWithType: RenderData.Border
+  fullName: ClaySharp.Interop.RenderData.Border
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: Border
+    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    startLine: 628
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: Payload for border draws. Valid if command type is Border.
+  example: []
+  syntax:
+    content: public BorderRenderData Border
+    return:
+      type: ClaySharp.Interop.BorderRenderData
+    content.vb: Public Border As BorderRenderData
+- uid: ClaySharp.Interop.RenderData.Clip
+  commentId: F:ClaySharp.Interop.RenderData.Clip
+  id: Clip
+  parent: ClaySharp.Interop.RenderData
+  langs:
+  - csharp
+  - vb
+  name: Clip
+  nameWithType: RenderData.Clip
+  fullName: ClaySharp.Interop.RenderData.Clip
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: Clip
+    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    startLine: 631
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: Payload for clip boundaries. Valid if command type is ScissorStart.
+  example: []
+  syntax:
+    content: public ClipRenderData Clip
+    return:
+      type: ClaySharp.Interop.ClipRenderData
+    content.vb: Public Clip As ClipRenderData
+references:
+- uid: ClaySharp.Interop.RenderCommand.CommandType
+  commentId: F:ClaySharp.Interop.RenderCommand.CommandType
+  href: ClaySharp.Interop.RenderCommand.html#ClaySharp_Interop_RenderCommand_CommandType
+  name: CommandType
+  nameWithType: RenderCommand.CommandType
+  fullName: ClaySharp.Interop.RenderCommand.CommandType
+- uid: ClaySharp.Interop
+  commentId: N:ClaySharp.Interop
+  href: ClaySharp.html
+  name: ClaySharp.Interop
+  nameWithType: ClaySharp.Interop
+  fullName: ClaySharp.Interop
+  spec.csharp:
+  - uid: ClaySharp
+    name: ClaySharp
+    href: ClaySharp.html
+  - name: .
+  - uid: ClaySharp.Interop
+    name: Interop
+    href: ClaySharp.Interop.html
+  spec.vb:
+  - uid: ClaySharp
+    name: ClaySharp
+    href: ClaySharp.html
+  - name: .
+  - uid: ClaySharp.Interop
+    name: Interop
+    href: ClaySharp.Interop.html
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ClaySharp.Interop.RectangleRenderData
+  commentId: T:ClaySharp.Interop.RectangleRenderData
+  parent: ClaySharp.Interop
+  href: ClaySharp.Interop.RectangleRenderData.html
+  name: RectangleRenderData
+  nameWithType: RectangleRenderData
+  fullName: ClaySharp.Interop.RectangleRenderData
+- uid: ClaySharp.Interop.TextRenderData
+  commentId: T:ClaySharp.Interop.TextRenderData
+  parent: ClaySharp.Interop
+  href: ClaySharp.Interop.TextRenderData.html
+  name: TextRenderData
+  nameWithType: TextRenderData
+  fullName: ClaySharp.Interop.TextRenderData
+- uid: ClaySharp.Interop.ImageRenderData
+  commentId: T:ClaySharp.Interop.ImageRenderData
+  parent: ClaySharp.Interop
+  href: ClaySharp.Interop.ImageRenderData.html
+  name: ImageRenderData
+  nameWithType: ImageRenderData
+  fullName: ClaySharp.Interop.ImageRenderData
+- uid: ClaySharp.Interop.CustomRenderData
+  commentId: T:ClaySharp.Interop.CustomRenderData
+  parent: ClaySharp.Interop
+  href: ClaySharp.Interop.CustomRenderData.html
+  name: CustomRenderData
+  nameWithType: CustomRenderData
+  fullName: ClaySharp.Interop.CustomRenderData
+- uid: ClaySharp.Interop.BorderRenderData
+  commentId: T:ClaySharp.Interop.BorderRenderData
+  parent: ClaySharp.Interop
+  href: ClaySharp.Interop.BorderRenderData.html
+  name: BorderRenderData
+  nameWithType: BorderRenderData
+  fullName: ClaySharp.Interop.BorderRenderData
+- uid: ClaySharp.Interop.ClipRenderData
+  commentId: T:ClaySharp.Interop.ClipRenderData
+  parent: ClaySharp.Interop
+  href: ClaySharp.Interop.ClipRenderData.html
+  name: ClipRenderData
+  nameWithType: ClipRenderData
+  fullName: ClaySharp.Interop.ClipRenderData

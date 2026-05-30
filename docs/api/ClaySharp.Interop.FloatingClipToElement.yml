@@ -1,0 +1,118 @@
+### YamlMime:ManagedReference
+items:
+- uid: ClaySharp.Interop.FloatingClipToElement
+  commentId: T:ClaySharp.Interop.FloatingClipToElement
+  id: FloatingClipToElement
+  parent: ClaySharp.Interop
+  children:
+  - ClaySharp.Interop.FloatingClipToElement.AttachedParent
+  - ClaySharp.Interop.FloatingClipToElement.None
+  langs:
+  - csharp
+  - vb
+  name: FloatingClipToElement
+  nameWithType: FloatingClipToElement
+  fullName: ClaySharp.Interop.FloatingClipToElement
+  type: Enum
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: FloatingClipToElement
+    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    startLine: 173
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: Controls whether a floating element should be clipped by another element's bounds.
+  example: []
+  syntax:
+    content: 'public enum FloatingClipToElement : byte'
+    content.vb: Public Enum FloatingClipToElement As Byte
+- uid: ClaySharp.Interop.FloatingClipToElement.None
+  commentId: F:ClaySharp.Interop.FloatingClipToElement.None
+  id: None
+  parent: ClaySharp.Interop.FloatingClipToElement
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: FloatingClipToElement.None
+  fullName: ClaySharp.Interop.FloatingClipToElement.None
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: None
+    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    startLine: 176
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: No clipping is applied; the floating element is allowed to draw outside bounds.
+  example: []
+  syntax:
+    content: None = 0
+    return:
+      type: ClaySharp.Interop.FloatingClipToElement
+- uid: ClaySharp.Interop.FloatingClipToElement.AttachedParent
+  commentId: F:ClaySharp.Interop.FloatingClipToElement.AttachedParent
+  id: AttachedParent
+  parent: ClaySharp.Interop.FloatingClipToElement
+  langs:
+  - csharp
+  - vb
+  name: AttachedParent
+  nameWithType: FloatingClipToElement.AttachedParent
+  fullName: ClaySharp.Interop.FloatingClipToElement.AttachedParent
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: AttachedParent
+    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    startLine: 178
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: Clips the floating element to the bounding box of its attached parent.
+  example: []
+  syntax:
+    content: AttachedParent = 1
+    return:
+      type: ClaySharp.Interop.FloatingClipToElement
+references:
+- uid: ClaySharp.Interop
+  commentId: N:ClaySharp.Interop
+  href: ClaySharp.html
+  name: ClaySharp.Interop
+  nameWithType: ClaySharp.Interop
+  fullName: ClaySharp.Interop
+  spec.csharp:
+  - uid: ClaySharp
+    name: ClaySharp
+    href: ClaySharp.html
+  - name: .
+  - uid: ClaySharp.Interop
+    name: Interop
+    href: ClaySharp.Interop.html
+  spec.vb:
+  - uid: ClaySharp
+    name: ClaySharp
+    href: ClaySharp.html
+  - name: .
+  - uid: ClaySharp.Interop
+    name: Interop
+    href: ClaySharp.Interop.html
+- uid: ClaySharp.Interop.FloatingClipToElement
+  commentId: T:ClaySharp.Interop.FloatingClipToElement
+  parent: ClaySharp.Interop
+  href: ClaySharp.Interop.FloatingClipToElement.html
+  name: FloatingClipToElement
+  nameWithType: FloatingClipToElement
+  fullName: ClaySharp.Interop.FloatingClipToElement

@@ -1,0 +1,290 @@
+### YamlMime:TableOfContent
+items:
+- uid: ClaySharp.Interop
+  name: ClaySharp.Interop
+  type: Namespace
+  items:
+  - uid: ClaySharp.Interop.Arena
+    name: Arena
+    type: Struct
+  - uid: ClaySharp.Interop.AspectRatioElementConfig
+    name: AspectRatioElementConfig
+    type: Struct
+  - uid: ClaySharp.Interop.AspectRatioElementConfigArray
+    name: AspectRatioElementConfigArray
+    type: Struct
+  - uid: ClaySharp.Interop.BorderElementConfig
+    name: BorderElementConfig
+    type: Struct
+  - uid: ClaySharp.Interop.BorderElementConfigArray
+    name: BorderElementConfigArray
+    type: Struct
+  - uid: ClaySharp.Interop.BorderRenderData
+    name: BorderRenderData
+    type: Struct
+  - uid: ClaySharp.Interop.BorderWidth
+    name: BorderWidth
+    type: Struct
+  - uid: ClaySharp.Interop.BoundingBox
+    name: BoundingBox
+    type: Struct
+  - uid: ClaySharp.Interop.ChildAlignment
+    name: ChildAlignment
+    type: Struct
+  - uid: ClaySharp.Interop.ClayNative
+    name: ClayNative
+    type: Class
+  - uid: ClaySharp.Interop.ClayNative.Clay_MeasureTextCallback
+    name: ClayNative.Clay_MeasureTextCallback
+    type: Delegate
+  - uid: ClaySharp.Interop.ClayNative.OnHoverCallback
+    name: ClayNative.OnHoverCallback
+    type: Delegate
+  - uid: ClaySharp.Interop.ClayString
+    name: ClayString
+    type: Struct
+  - uid: ClaySharp.Interop.ClayStringSlice
+    name: ClayStringSlice
+    type: Struct
+  - uid: ClaySharp.Interop.ClipElementConfig
+    name: ClipElementConfig
+    type: Struct
+  - uid: ClaySharp.Interop.ClipElementConfigArray
+    name: ClipElementConfigArray
+    type: Struct
+  - uid: ClaySharp.Interop.ClipRenderData
+    name: ClipRenderData
+    type: Struct
+  - uid: ClaySharp.Interop.Color
+    name: Color
+    type: Struct
+  - uid: ClaySharp.Interop.Context
+    name: Context
+    type: Struct
+  - uid: ClaySharp.Interop.CornerRadius
+    name: CornerRadius
+    type: Struct
+  - uid: ClaySharp.Interop.CustomElementConfig
+    name: CustomElementConfig
+    type: Struct
+  - uid: ClaySharp.Interop.CustomElementConfigArray
+    name: CustomElementConfigArray
+    type: Struct
+  - uid: ClaySharp.Interop.CustomRenderData
+    name: CustomRenderData
+    type: Struct
+  - uid: ClaySharp.Interop.DebugElementData
+    name: DebugElementData
+    type: Struct
+  - uid: ClaySharp.Interop.Dimensions
+    name: Dimensions
+    type: Struct
+  - uid: ClaySharp.Interop.ElementConfig
+    name: ElementConfig
+    type: Struct
+  - uid: ClaySharp.Interop.ElementConfigArraySlice
+    name: ElementConfigArraySlice
+    type: Struct
+  - uid: ClaySharp.Interop.ElementConfigType
+    name: ElementConfigType
+    type: Enum
+  - uid: ClaySharp.Interop.ElementConfigUnion
+    name: ElementConfigUnion
+    type: Struct
+  - uid: ClaySharp.Interop.ElementData
+    name: ElementData
+    type: Struct
+  - uid: ClaySharp.Interop.ElementDeclaration
+    name: ElementDeclaration
+    type: Struct
+  - uid: ClaySharp.Interop.ElementId
+    name: ElementId
+    type: Struct
+  - uid: ClaySharp.Interop.ElementIdArray
+    name: ElementIdArray
+    type: Struct
+  - uid: ClaySharp.Interop.ErrorData
+    name: ErrorData
+    type: Struct
+  - uid: ClaySharp.Interop.ErrorHandler
+    name: ErrorHandler
+    type: Struct
+  - uid: ClaySharp.Interop.ErrorType
+    name: ErrorType
+    type: Enum
+  - uid: ClaySharp.Interop.FloatingAttachPointType
+    name: FloatingAttachPointType
+    type: Enum
+  - uid: ClaySharp.Interop.FloatingAttachPoints
+    name: FloatingAttachPoints
+    type: Struct
+  - uid: ClaySharp.Interop.FloatingAttachToElement
+    name: FloatingAttachToElement
+    type: Enum
+  - uid: ClaySharp.Interop.FloatingClipToElement
+    name: FloatingClipToElement
+    type: Enum
+  - uid: ClaySharp.Interop.FloatingElementConfig
+    name: FloatingElementConfig
+    type: Struct
+  - uid: ClaySharp.Interop.FloatingElementConfigArray
+    name: FloatingElementConfigArray
+    type: Struct
+  - uid: ClaySharp.Interop.ImageElementConfig
+    name: ImageElementConfig
+    type: Struct
+  - uid: ClaySharp.Interop.ImageElementConfigArray
+    name: ImageElementConfigArray
+    type: Struct
+  - uid: ClaySharp.Interop.ImageRenderData
+    name: ImageRenderData
+    type: Struct
+  - uid: ClaySharp.Interop.LayoutAlignmentX
+    name: LayoutAlignmentX
+    type: Enum
+  - uid: ClaySharp.Interop.LayoutAlignmentY
+    name: LayoutAlignmentY
+    type: Enum
+  - uid: ClaySharp.Interop.LayoutConfig
+    name: LayoutConfig
+    type: Struct
+  - uid: ClaySharp.Interop.LayoutConfigArray
+    name: LayoutConfigArray
+    type: Struct
+  - uid: ClaySharp.Interop.LayoutDirection
+    name: LayoutDirection
+    type: Enum
+  - uid: ClaySharp.Interop.LayoutElement
+    name: LayoutElement
+    type: Struct
+  - uid: ClaySharp.Interop.LayoutElementChildren
+    name: LayoutElementChildren
+    type: Struct
+  - uid: ClaySharp.Interop.LayoutElementChildrenData
+    name: LayoutElementChildrenData
+    type: Struct
+  - uid: ClaySharp.Interop.LayoutElementHashMapItem
+    name: LayoutElementHashMapItem
+    type: Struct
+  - uid: ClaySharp.Interop.LayoutElementTreeNode
+    name: LayoutElementTreeNode
+    type: Struct
+  - uid: ClaySharp.Interop.LayoutElementTreeRoot
+    name: LayoutElementTreeRoot
+    type: Struct
+  - uid: ClaySharp.Interop.MeasureTextCacheItem
+    name: MeasureTextCacheItem
+    type: Struct
+  - uid: ClaySharp.Interop.MeasuredWord
+    name: MeasuredWord
+    type: Struct
+  - uid: ClaySharp.Interop.Padding
+    name: Padding
+    type: Struct
+  - uid: ClaySharp.Interop.PointerCaptureMode
+    name: PointerCaptureMode
+    type: Enum
+  - uid: ClaySharp.Interop.PointerData
+    name: PointerData
+    type: Struct
+  - uid: ClaySharp.Interop.PointerDataInteractionState
+    name: PointerDataInteractionState
+    type: Enum
+  - uid: ClaySharp.Interop.RectangleRenderData
+    name: RectangleRenderData
+    type: Struct
+  - uid: ClaySharp.Interop.RenderCommand
+    name: RenderCommand
+    type: Struct
+  - uid: ClaySharp.Interop.RenderCommandArray
+    name: RenderCommandArray
+    type: Struct
+  - uid: ClaySharp.Interop.RenderCommandType
+    name: RenderCommandType
+    type: Enum
+  - uid: ClaySharp.Interop.RenderData
+    name: RenderData
+    type: Struct
+  - uid: ClaySharp.Interop.ScrollContainerData
+    name: ScrollContainerData
+    type: Struct
+  - uid: ClaySharp.Interop.ScrollContainerDataInternal
+    name: ScrollContainerDataInternal
+    type: Struct
+  - uid: ClaySharp.Interop.SharedElementConfig
+    name: SharedElementConfig
+    type: Struct
+  - uid: ClaySharp.Interop.SharedElementConfigArray
+    name: SharedElementConfigArray
+    type: Struct
+  - uid: ClaySharp.Interop.Sizing
+    name: Sizing
+    type: Struct
+  - uid: ClaySharp.Interop.SizingAxis
+    name: SizingAxis
+    type: Struct
+  - uid: ClaySharp.Interop.SizingAxisValue
+    name: SizingAxisValue
+    type: Struct
+  - uid: ClaySharp.Interop.SizingMinMax
+    name: SizingMinMax
+    type: Struct
+  - uid: ClaySharp.Interop.SizingType
+    name: SizingType
+    type: Enum
+  - uid: ClaySharp.Interop.StringArray
+    name: StringArray
+    type: Struct
+  - uid: ClaySharp.Interop.TextAlignment
+    name: TextAlignment
+    type: Enum
+  - uid: ClaySharp.Interop.TextElementConfig
+    name: TextElementConfig
+    type: Struct
+  - uid: ClaySharp.Interop.TextElementConfigArray
+    name: TextElementConfigArray
+    type: Struct
+  - uid: ClaySharp.Interop.TextElementConfigWrapMode
+    name: TextElementConfigWrapMode
+    type: Enum
+  - uid: ClaySharp.Interop.TextElementData
+    name: TextElementData
+    type: Struct
+  - uid: ClaySharp.Interop.TextRenderData
+    name: TextRenderData
+    type: Struct
+  - uid: ClaySharp.Interop.Vector2
+    name: Vector2
+    type: Struct
+  - uid: ClaySharp.Interop.Warning
+    name: Warning
+    type: Struct
+  - uid: ClaySharp.Interop.WrappedTextLine
+    name: WrappedTextLine
+    type: Struct
+  - uid: ClaySharp.Interop.WrappedTextLineArraySlice
+    name: WrappedTextLineArraySlice
+    type: Struct
+  - uid: ClaySharp.Interop.boolArray
+    name: boolArray
+    type: Struct
+  - uid: ClaySharp.Interop.charArray
+    name: charArray
+    type: Struct
+  - uid: ClaySharp.Interop.int32_tArray
+    name: int32_tArray
+    type: Struct
+- uid: ClaySharp.Layout
+  name: ClaySharp.Layout
+  type: Namespace
+  items:
+  - uid: ClaySharp.Layout.ClayElementScope
+    name: ClayElementScope
+    type: Struct
+  - uid: ClaySharp.Layout.ClaySizing
+    name: ClaySizing
+    type: Class
+  - uid: ClaySharp.Layout.ClayUI
+    name: ClayUI
+    type: Class
+memberLayout: SamePage

@@ -1,0 +1,292 @@
+### YamlMime:ManagedReference
+items:
+- uid: ClaySharp.Interop.RenderCommandType
+  commentId: T:ClaySharp.Interop.RenderCommandType
+  id: RenderCommandType
+  parent: ClaySharp.Interop
+  children:
+  - ClaySharp.Interop.RenderCommandType.Border
+  - ClaySharp.Interop.RenderCommandType.Custom
+  - ClaySharp.Interop.RenderCommandType.Image
+  - ClaySharp.Interop.RenderCommandType.None
+  - ClaySharp.Interop.RenderCommandType.Rectangle
+  - ClaySharp.Interop.RenderCommandType.ScissorEnd
+  - ClaySharp.Interop.RenderCommandType.ScissorStart
+  - ClaySharp.Interop.RenderCommandType.Text
+  langs:
+  - csharp
+  - vb
+  name: RenderCommandType
+  nameWithType: RenderCommandType
+  fullName: ClaySharp.Interop.RenderCommandType
+  type: Enum
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: RenderCommandType
+    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    startLine: 184
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: Specifies the rendering operation command type emitted in the output render command array.
+  example: []
+  syntax:
+    content: 'public enum RenderCommandType : byte'
+    content.vb: Public Enum RenderCommandType As Byte
+- uid: ClaySharp.Interop.RenderCommandType.None
+  commentId: F:ClaySharp.Interop.RenderCommandType.None
+  id: None
+  parent: ClaySharp.Interop.RenderCommandType
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: RenderCommandType.None
+  fullName: ClaySharp.Interop.RenderCommandType.None
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: None
+    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    startLine: 187
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: A null command, does not render anything.
+  example: []
+  syntax:
+    content: None = 0
+    return:
+      type: ClaySharp.Interop.RenderCommandType
+- uid: ClaySharp.Interop.RenderCommandType.Rectangle
+  commentId: F:ClaySharp.Interop.RenderCommandType.Rectangle
+  id: Rectangle
+  parent: ClaySharp.Interop.RenderCommandType
+  langs:
+  - csharp
+  - vb
+  name: Rectangle
+  nameWithType: RenderCommandType.Rectangle
+  fullName: ClaySharp.Interop.RenderCommandType.Rectangle
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: Rectangle
+    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    startLine: 189
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: Draws a filled rectangle with optional corner rounding.
+  example: []
+  syntax:
+    content: Rectangle = 1
+    return:
+      type: ClaySharp.Interop.RenderCommandType
+- uid: ClaySharp.Interop.RenderCommandType.Border
+  commentId: F:ClaySharp.Interop.RenderCommandType.Border
+  id: Border
+  parent: ClaySharp.Interop.RenderCommandType
+  langs:
+  - csharp
+  - vb
+  name: Border
+  nameWithType: RenderCommandType.Border
+  fullName: ClaySharp.Interop.RenderCommandType.Border
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: Border
+    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    startLine: 191
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: Draws a border outline around an area.
+  example: []
+  syntax:
+    content: Border = 2
+    return:
+      type: ClaySharp.Interop.RenderCommandType
+- uid: ClaySharp.Interop.RenderCommandType.Text
+  commentId: F:ClaySharp.Interop.RenderCommandType.Text
+  id: Text
+  parent: ClaySharp.Interop.RenderCommandType
+  langs:
+  - csharp
+  - vb
+  name: Text
+  nameWithType: RenderCommandType.Text
+  fullName: ClaySharp.Interop.RenderCommandType.Text
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: Text
+    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    startLine: 193
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: Renders a run of text.
+  example: []
+  syntax:
+    content: Text = 3
+    return:
+      type: ClaySharp.Interop.RenderCommandType
+- uid: ClaySharp.Interop.RenderCommandType.Image
+  commentId: F:ClaySharp.Interop.RenderCommandType.Image
+  id: Image
+  parent: ClaySharp.Interop.RenderCommandType
+  langs:
+  - csharp
+  - vb
+  name: Image
+  nameWithType: RenderCommandType.Image
+  fullName: ClaySharp.Interop.RenderCommandType.Image
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: Image
+    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    startLine: 195
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: Draws a source image.
+  example: []
+  syntax:
+    content: Image = 4
+    return:
+      type: ClaySharp.Interop.RenderCommandType
+- uid: ClaySharp.Interop.RenderCommandType.ScissorStart
+  commentId: F:ClaySharp.Interop.RenderCommandType.ScissorStart
+  id: ScissorStart
+  parent: ClaySharp.Interop.RenderCommandType
+  langs:
+  - csharp
+  - vb
+  name: ScissorStart
+  nameWithType: RenderCommandType.ScissorStart
+  fullName: ClaySharp.Interop.RenderCommandType.ScissorStart
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: ScissorStart
+    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    startLine: 197
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: Enables clipping/scissor test using the command's bounding box.
+  example: []
+  syntax:
+    content: ScissorStart = 5
+    return:
+      type: ClaySharp.Interop.RenderCommandType
+- uid: ClaySharp.Interop.RenderCommandType.ScissorEnd
+  commentId: F:ClaySharp.Interop.RenderCommandType.ScissorEnd
+  id: ScissorEnd
+  parent: ClaySharp.Interop.RenderCommandType
+  langs:
+  - csharp
+  - vb
+  name: ScissorEnd
+  nameWithType: RenderCommandType.ScissorEnd
+  fullName: ClaySharp.Interop.RenderCommandType.ScissorEnd
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: ScissorEnd
+    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    startLine: 199
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: Disables clipping/scissor test, restoring the previous drawing area.
+  example: []
+  syntax:
+    content: ScissorEnd = 6
+    return:
+      type: ClaySharp.Interop.RenderCommandType
+- uid: ClaySharp.Interop.RenderCommandType.Custom
+  commentId: F:ClaySharp.Interop.RenderCommandType.Custom
+  id: Custom
+  parent: ClaySharp.Interop.RenderCommandType
+  langs:
+  - csharp
+  - vb
+  name: Custom
+  nameWithType: RenderCommandType.Custom
+  fullName: ClaySharp.Interop.RenderCommandType.Custom
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: Custom
+    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    startLine: 201
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: Executes a custom user-defined drawing operation.
+  example: []
+  syntax:
+    content: Custom = 7
+    return:
+      type: ClaySharp.Interop.RenderCommandType
+references:
+- uid: ClaySharp.Interop
+  commentId: N:ClaySharp.Interop
+  href: ClaySharp.html
+  name: ClaySharp.Interop
+  nameWithType: ClaySharp.Interop
+  fullName: ClaySharp.Interop
+  spec.csharp:
+  - uid: ClaySharp
+    name: ClaySharp
+    href: ClaySharp.html
+  - name: .
+  - uid: ClaySharp.Interop
+    name: Interop
+    href: ClaySharp.Interop.html
+  spec.vb:
+  - uid: ClaySharp
+    name: ClaySharp
+    href: ClaySharp.html
+  - name: .
+  - uid: ClaySharp.Interop
+    name: Interop
+    href: ClaySharp.Interop.html
+- uid: ClaySharp.Interop.RenderCommandType
+  commentId: T:ClaySharp.Interop.RenderCommandType
+  parent: ClaySharp.Interop
+  href: ClaySharp.Interop.RenderCommandType.html
+  name: RenderCommandType
+  nameWithType: RenderCommandType
+  fullName: ClaySharp.Interop.RenderCommandType

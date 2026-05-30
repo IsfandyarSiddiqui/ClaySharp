@@ -1,0 +1,147 @@
+### YamlMime:ManagedReference
+items:
+- uid: ClaySharp.Interop.LayoutAlignmentY
+  commentId: T:ClaySharp.Interop.LayoutAlignmentY
+  id: LayoutAlignmentY
+  parent: ClaySharp.Interop
+  children:
+  - ClaySharp.Interop.LayoutAlignmentY.Bottom
+  - ClaySharp.Interop.LayoutAlignmentY.Center
+  - ClaySharp.Interop.LayoutAlignmentY.Top
+  langs:
+  - csharp
+  - vb
+  name: LayoutAlignmentY
+  nameWithType: LayoutAlignmentY
+  fullName: ClaySharp.Interop.LayoutAlignmentY
+  type: Enum
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: LayoutAlignmentY
+    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    startLine: 55
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: Controls vertical alignment of children within a layout container.
+  example: []
+  syntax:
+    content: 'public enum LayoutAlignmentY : byte'
+    content.vb: Public Enum LayoutAlignmentY As Byte
+- uid: ClaySharp.Interop.LayoutAlignmentY.Top
+  commentId: F:ClaySharp.Interop.LayoutAlignmentY.Top
+  id: Top
+  parent: ClaySharp.Interop.LayoutAlignmentY
+  langs:
+  - csharp
+  - vb
+  name: Top
+  nameWithType: LayoutAlignmentY.Top
+  fullName: ClaySharp.Interop.LayoutAlignmentY.Top
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: Top
+    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    startLine: 58
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: Aligns children to the top edge of the container.
+  example: []
+  syntax:
+    content: Top = 0
+    return:
+      type: ClaySharp.Interop.LayoutAlignmentY
+- uid: ClaySharp.Interop.LayoutAlignmentY.Bottom
+  commentId: F:ClaySharp.Interop.LayoutAlignmentY.Bottom
+  id: Bottom
+  parent: ClaySharp.Interop.LayoutAlignmentY
+  langs:
+  - csharp
+  - vb
+  name: Bottom
+  nameWithType: LayoutAlignmentY.Bottom
+  fullName: ClaySharp.Interop.LayoutAlignmentY.Bottom
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: Bottom
+    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    startLine: 60
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: Aligns children to the bottom edge of the container.
+  example: []
+  syntax:
+    content: Bottom = 1
+    return:
+      type: ClaySharp.Interop.LayoutAlignmentY
+- uid: ClaySharp.Interop.LayoutAlignmentY.Center
+  commentId: F:ClaySharp.Interop.LayoutAlignmentY.Center
+  id: Center
+  parent: ClaySharp.Interop.LayoutAlignmentY
+  langs:
+  - csharp
+  - vb
+  name: Center
+  nameWithType: LayoutAlignmentY.Center
+  fullName: ClaySharp.Interop.LayoutAlignmentY.Center
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: Center
+    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    startLine: 62
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: Centers children vertically within the container.
+  example: []
+  syntax:
+    content: Center = 2
+    return:
+      type: ClaySharp.Interop.LayoutAlignmentY
+references:
+- uid: ClaySharp.Interop
+  commentId: N:ClaySharp.Interop
+  href: ClaySharp.html
+  name: ClaySharp.Interop
+  nameWithType: ClaySharp.Interop
+  fullName: ClaySharp.Interop
+  spec.csharp:
+  - uid: ClaySharp
+    name: ClaySharp
+    href: ClaySharp.html
+  - name: .
+  - uid: ClaySharp.Interop
+    name: Interop
+    href: ClaySharp.Interop.html
+  spec.vb:
+  - uid: ClaySharp
+    name: ClaySharp
+    href: ClaySharp.html
+  - name: .
+  - uid: ClaySharp.Interop
+    name: Interop
+    href: ClaySharp.Interop.html
+- uid: ClaySharp.Interop.LayoutAlignmentY
+  commentId: T:ClaySharp.Interop.LayoutAlignmentY
+  parent: ClaySharp.Interop
+  href: ClaySharp.Interop.LayoutAlignmentY.html
+  name: LayoutAlignmentY
+  nameWithType: LayoutAlignmentY
+  fullName: ClaySharp.Interop.LayoutAlignmentY

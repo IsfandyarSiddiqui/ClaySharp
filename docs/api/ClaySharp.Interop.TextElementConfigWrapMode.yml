@@ -1,0 +1,147 @@
+### YamlMime:ManagedReference
+items:
+- uid: ClaySharp.Interop.TextElementConfigWrapMode
+  commentId: T:ClaySharp.Interop.TextElementConfigWrapMode
+  id: TextElementConfigWrapMode
+  parent: ClaySharp.Interop
+  children:
+  - ClaySharp.Interop.TextElementConfigWrapMode.Newlines
+  - ClaySharp.Interop.TextElementConfigWrapMode.None
+  - ClaySharp.Interop.TextElementConfigWrapMode.Words
+  langs:
+  - csharp
+  - vb
+  name: TextElementConfigWrapMode
+  nameWithType: TextElementConfigWrapMode
+  fullName: ClaySharp.Interop.TextElementConfigWrapMode
+  type: Enum
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: TextElementConfigWrapMode
+    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    startLine: 98
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: Defines how text within a text element wraps.
+  example: []
+  syntax:
+    content: 'public enum TextElementConfigWrapMode : byte'
+    content.vb: Public Enum TextElementConfigWrapMode As Byte
+- uid: ClaySharp.Interop.TextElementConfigWrapMode.Words
+  commentId: F:ClaySharp.Interop.TextElementConfigWrapMode.Words
+  id: Words
+  parent: ClaySharp.Interop.TextElementConfigWrapMode
+  langs:
+  - csharp
+  - vb
+  name: Words
+  nameWithType: TextElementConfigWrapMode.Words
+  fullName: ClaySharp.Interop.TextElementConfigWrapMode.Words
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: Words
+    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    startLine: 101
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: Wraps text onto new lines at word boundaries.
+  example: []
+  syntax:
+    content: Words = 0
+    return:
+      type: ClaySharp.Interop.TextElementConfigWrapMode
+- uid: ClaySharp.Interop.TextElementConfigWrapMode.Newlines
+  commentId: F:ClaySharp.Interop.TextElementConfigWrapMode.Newlines
+  id: Newlines
+  parent: ClaySharp.Interop.TextElementConfigWrapMode
+  langs:
+  - csharp
+  - vb
+  name: Newlines
+  nameWithType: TextElementConfigWrapMode.Newlines
+  fullName: ClaySharp.Interop.TextElementConfigWrapMode.Newlines
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: Newlines
+    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    startLine: 103
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: Only wraps text when explicit newline characters (\n) are encountered.
+  example: []
+  syntax:
+    content: Newlines = 1
+    return:
+      type: ClaySharp.Interop.TextElementConfigWrapMode
+- uid: ClaySharp.Interop.TextElementConfigWrapMode.None
+  commentId: F:ClaySharp.Interop.TextElementConfigWrapMode.None
+  id: None
+  parent: ClaySharp.Interop.TextElementConfigWrapMode
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: TextElementConfigWrapMode.None
+  fullName: ClaySharp.Interop.TextElementConfigWrapMode.None
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: None
+    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    startLine: 105
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: Disables text wrapping entirely; text will overflow.
+  example: []
+  syntax:
+    content: None = 2
+    return:
+      type: ClaySharp.Interop.TextElementConfigWrapMode
+references:
+- uid: ClaySharp.Interop
+  commentId: N:ClaySharp.Interop
+  href: ClaySharp.html
+  name: ClaySharp.Interop
+  nameWithType: ClaySharp.Interop
+  fullName: ClaySharp.Interop
+  spec.csharp:
+  - uid: ClaySharp
+    name: ClaySharp
+    href: ClaySharp.html
+  - name: .
+  - uid: ClaySharp.Interop
+    name: Interop
+    href: ClaySharp.Interop.html
+  spec.vb:
+  - uid: ClaySharp
+    name: ClaySharp
+    href: ClaySharp.html
+  - name: .
+  - uid: ClaySharp.Interop
+    name: Interop
+    href: ClaySharp.Interop.html
+- uid: ClaySharp.Interop.TextElementConfigWrapMode
+  commentId: T:ClaySharp.Interop.TextElementConfigWrapMode
+  parent: ClaySharp.Interop
+  href: ClaySharp.Interop.TextElementConfigWrapMode.html
+  name: TextElementConfigWrapMode
+  nameWithType: TextElementConfigWrapMode
+  fullName: ClaySharp.Interop.TextElementConfigWrapMode

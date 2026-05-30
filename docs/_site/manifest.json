@@ -1,0 +1,1405 @@
+{
+  "source_base_path": "C:/Users/user/source/repos/BlackHook/docs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClaySharp.Interop.Arena.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClaySharp.Interop.Arena.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClaySharp.Interop.Arena",
+      "Summary": "<p sourcefile=\"api/ClaySharp.Interop.Arena.yml\" sourcestartlinenumber=\"1\">Defines a contiguous block of pre-allocated unmanaged memory that Clay uses for all structural and dynamic layout allocations.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClaySharp.Interop.AspectRatioElementConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClaySharp.Interop.AspectRatioElementConfig.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClaySharp.Interop.AspectRatioElementConfig",
+      "Summary": "<p sourcefile=\"api/ClaySharp.Interop.AspectRatioElementConfig.yml\" sourcestartlinenumber=\"1\">Imposes aspect ratio constraints on a UI element.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClaySharp.Interop.AspectRatioElementConfigArray.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClaySharp.Interop.AspectRatioElementConfigArray.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClaySharp.Interop.AspectRatioElementConfigArray",
+      "Summary": "<p sourcefile=\"api/ClaySharp.Interop.AspectRatioElementConfigArray.yml\" sourcestartlinenumber=\"1\">Unmanaged array wrapper for <xref href=\"ClaySharp.Interop.AspectRatioElementConfig\" data-throw-if-not-resolved=\"false\"></xref> elements.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClaySharp.Interop.BorderElementConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClaySharp.Interop.BorderElementConfig.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClaySharp.Interop.BorderElementConfig",
+      "Summary": "<p sourcefile=\"api/ClaySharp.Interop.BorderElementConfig.yml\" sourcestartlinenumber=\"1\">Configures styling properties for drawing borders around layout nodes.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClaySharp.Interop.BorderElementConfigArray.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClaySharp.Interop.BorderElementConfigArray.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClaySharp.Interop.BorderElementConfigArray",
+      "Summary": "<p sourcefile=\"api/ClaySharp.Interop.BorderElementConfigArray.yml\" sourcestartlinenumber=\"1\">Unmanaged array wrapper for <xref href=\"ClaySharp.Interop.BorderElementConfig\" data-throw-if-not-resolved=\"false\"></xref> elements.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClaySharp.Interop.BorderRenderData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClaySharp.Interop.BorderRenderData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClaySharp.Interop.BorderRenderData",
+      "Summary": "<p sourcefile=\"api/ClaySharp.Interop.BorderRenderData.yml\" sourcestartlinenumber=\"1\">Describes calculated border coordinates and stroke styling emitted inside border render commands.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClaySharp.Interop.BorderWidth.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClaySharp.Interop.BorderWidth.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClaySharp.Interop.BorderWidth",
+      "Summary": "<p sourcefile=\"api/ClaySharp.Interop.BorderWidth.yml\" sourcestartlinenumber=\"1\">Specifies border stroke widths for each edge of a container.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClaySharp.Interop.BoundingBox.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClaySharp.Interop.BoundingBox.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClaySharp.Interop.BoundingBox",
+      "Summary": "<p sourcefile=\"api/ClaySharp.Interop.BoundingBox.yml\" sourcestartlinenumber=\"1\">Defines a 2D bounding rectangle representing computed UI element placements.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClaySharp.Interop.ChildAlignment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClaySharp.Interop.ChildAlignment.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClaySharp.Interop.ChildAlignment",
+      "Summary": "<p sourcefile=\"api/ClaySharp.Interop.ChildAlignment.yml\" sourcestartlinenumber=\"1\">Specifies how child elements are aligned within their parent container along both axes.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClaySharp.Interop.ClayNative.Clay_MeasureTextCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClaySharp.Interop.ClayNative.Clay_MeasureTextCallback.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClaySharp.Interop.ClayNative.Clay_MeasureTextCallback",
+      "Summary": "<p sourcefile=\"api/ClaySharp.Interop.ClayNative.Clay_MeasureTextCallback.yml\" sourcestartlinenumber=\"1\">Defines the signature of the text measurement callback used by Clay to compute text dimensions.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClaySharp.Interop.ClayNative.OnHoverCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClaySharp.Interop.ClayNative.OnHoverCallback.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClaySharp.Interop.ClayNative.OnHoverCallback",
+      "Summary": "<p sourcefile=\"api/ClaySharp.Interop.ClayNative.OnHoverCallback.yml\" sourcestartlinenumber=\"1\">Defines the signature of the callback invoked when a pointer hovers over an element configured with an hover handler.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClaySharp.Interop.ClayNative.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClaySharp.Interop.ClayNative.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClaySharp.Interop.ClayNative",
+      "Summary": "<p sourcefile=\"api/ClaySharp.Interop.ClayNative.yml\" sourcestartlinenumber=\"1\">Provides low-level, high-performance C# bindings to the native Clay layout library.\nUses source-generated marshalling via <xref href=\"System.Runtime.InteropServices.LibraryImportAttribute\" data-throw-if-not-resolved=\"false\"></xref> and compiles with runtime marshalling disabled\nfor zero-overhead, direct native transitions.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClaySharp.Interop.ClayString.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClaySharp.Interop.ClayString.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClaySharp.Interop.ClayString",
+      "Summary": "<p sourcefile=\"api/ClaySharp.Interop.ClayString.yml\" sourcestartlinenumber=\"1\">A native string wrapper used by Clay to represent text safely across the ABI.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClaySharp.Interop.ClayStringSlice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClaySharp.Interop.ClayStringSlice.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClaySharp.Interop.ClayStringSlice",
+      "Summary": "<p sourcefile=\"api/ClaySharp.Interop.ClayStringSlice.yml\" sourcestartlinenumber=\"1\">Represents a slice or segment of a string. Used by Clay's text layout engine during wrapping and text rendering.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClaySharp.Interop.ClipElementConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClaySharp.Interop.ClipElementConfig.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClaySharp.Interop.ClipElementConfig",
+      "Summary": "<p sourcefile=\"api/ClaySharp.Interop.ClipElementConfig.yml\" sourcestartlinenumber=\"1\">Configures boundary clipping properties for layout nodes.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClaySharp.Interop.ClipElementConfigArray.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClaySharp.Interop.ClipElementConfigArray.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClaySharp.Interop.ClipElementConfigArray",
+      "Summary": "<p sourcefile=\"api/ClaySharp.Interop.ClipElementConfigArray.yml\" sourcestartlinenumber=\"1\">Unmanaged array wrapper for <xref href=\"ClaySharp.Interop.ClipElementConfig\" data-throw-if-not-resolved=\"false\"></xref> elements.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClaySharp.Interop.ClipRenderData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClaySharp.Interop.ClipRenderData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClaySharp.Interop.ClipRenderData",
+      "Summary": "<p sourcefile=\"api/ClaySharp.Interop.ClipRenderData.yml\" sourcestartlinenumber=\"1\">Describes clipping parameters emitted inside scissor/clip render commands.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClaySharp.Interop.Color.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClaySharp.Interop.Color.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClaySharp.Interop.Color",
+      "Summary": "<p sourcefile=\"api/ClaySharp.Interop.Color.yml\" sourcestartlinenumber=\"1\">Represents a color using four floating-point components (Red, Green, Blue, Alpha).</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClaySharp.Interop.Context.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClaySharp.Interop.Context.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClaySharp.Interop.Context",
+      "Summary": "<p sourcefile=\"api/ClaySharp.Interop.Context.yml\" sourcestartlinenumber=\"1\">Opaque wrapper representing Clay's internal layout engine context context.\nThis state should only be accessed via pointers returned by <xref href=\"ClaySharp.Interop.ClayNative.Clay_Initialize(ClaySharp.Interop.Arena%2cClaySharp.Interop.Dimensions%2cClaySharp.Interop.ErrorHandler)\" data-throw-if-not-resolved=\"false\"></xref> or <xref href=\"ClaySharp.Interop.ClayNative.GetCurrentContext\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClaySharp.Interop.CornerRadius.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClaySharp.Interop.CornerRadius.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClaySharp.Interop.CornerRadius",
+      "Summary": "<p sourcefile=\"api/ClaySharp.Interop.CornerRadius.yml\" sourcestartlinenumber=\"1\">Specifies corner rounding radii for rectangles, borders, and images.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClaySharp.Interop.CustomElementConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClaySharp.Interop.CustomElementConfig.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClaySharp.Interop.CustomElementConfig",
+      "Summary": "<p sourcefile=\"api/ClaySharp.Interop.CustomElementConfig.yml\" sourcestartlinenumber=\"1\">Custom element layout configuration block.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClaySharp.Interop.CustomElementConfigArray.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClaySharp.Interop.CustomElementConfigArray.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClaySharp.Interop.CustomElementConfigArray",
+      "Summary": "<p sourcefile=\"api/ClaySharp.Interop.CustomElementConfigArray.yml\" sourcestartlinenumber=\"1\">Unmanaged array wrapper for <xref href=\"ClaySharp.Interop.CustomElementConfig\" data-throw-if-not-resolved=\"false\"></xref> elements.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClaySharp.Interop.CustomRenderData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClaySharp.Interop.CustomRenderData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClaySharp.Interop.CustomRenderData",
+      "Summary": "<p sourcefile=\"api/ClaySharp.Interop.CustomRenderData.yml\" sourcestartlinenumber=\"1\">Describes a custom element payload emitted inside custom render commands.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClaySharp.Interop.DebugElementData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClaySharp.Interop.DebugElementData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClaySharp.Interop.DebugElementData",
+      "Summary": "<p sourcefile=\"api/ClaySharp.Interop.DebugElementData.yml\" sourcestartlinenumber=\"1\">Structural debugging attributes associated with layout elements.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClaySharp.Interop.Dimensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClaySharp.Interop.Dimensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClaySharp.Interop.Dimensions",
+      "Summary": "<p sourcefile=\"api/ClaySharp.Interop.Dimensions.yml\" sourcestartlinenumber=\"1\">Represents standard 2D floating-point dimensions.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClaySharp.Interop.ElementConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClaySharp.Interop.ElementConfig.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClaySharp.Interop.ElementConfig",
+      "Summary": "<p sourcefile=\"api/ClaySharp.Interop.ElementConfig.yml\" sourcestartlinenumber=\"1\">Associates a layout configuration style with its category type identifier.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClaySharp.Interop.ElementConfigArraySlice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClaySharp.Interop.ElementConfigArraySlice.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClaySharp.Interop.ElementConfigArraySlice",
+      "Summary": "<p sourcefile=\"api/ClaySharp.Interop.ElementConfigArraySlice.yml\" sourcestartlinenumber=\"1\">Represents a slice segment pointing into a native unmanaged array of <xref href=\"ClaySharp.Interop.ElementConfig\" data-throw-if-not-resolved=\"false\"></xref> entries.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClaySharp.Interop.ElementConfigType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClaySharp.Interop.ElementConfigType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClaySharp.Interop.ElementConfigType",
+      "Summary": "<p sourcefile=\"api/ClaySharp.Interop.ElementConfigType.yml\" sourcestartlinenumber=\"1\">Specifies the type of layout configuration applied to a UI element.\nThis configuration determines which rendering, sizing, or layout rules Clay applies to the element.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClaySharp.Interop.ElementConfigUnion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClaySharp.Interop.ElementConfigUnion.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClaySharp.Interop.ElementConfigUnion",
+      "Summary": "<p sourcefile=\"api/ClaySharp.Interop.ElementConfigUnion.yml\" sourcestartlinenumber=\"1\">Emulates an anonymous configuration C union inside <xref href=\"ClaySharp.Interop.ElementConfig\" data-throw-if-not-resolved=\"false\"></xref>, holding style detail pointers.\nOnly one field should be accessed corresponding to the <xref href=\"ClaySharp.Interop.ElementConfig.Type\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClaySharp.Interop.ElementData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClaySharp.Interop.ElementData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClaySharp.Interop.ElementData",
+      "Summary": "<p sourcefile=\"api/ClaySharp.Interop.ElementData.yml\" sourcestartlinenumber=\"1\">Public structure containing calculated layout coordinates.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClaySharp.Interop.ElementDeclaration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClaySharp.Interop.ElementDeclaration.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClaySharp.Interop.ElementDeclaration",
+      "Summary": "<p sourcefile=\"api/ClaySharp.Interop.ElementDeclaration.yml\" sourcestartlinenumber=\"1\">Composite declaration structure encapsulating all layout, style, and rendering configs for a single UI element.\nPass this to <xref href=\"ClaySharp.Interop.ClayNative.ConfigureOpenElement(ClaySharp.Interop.ElementDeclaration)\" data-throw-if-not-resolved=\"false\"></xref> to apply styling.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClaySharp.Interop.ElementId.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClaySharp.Interop.ElementId.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClaySharp.Interop.ElementId",
+      "Summary": "<p sourcefile=\"api/ClaySharp.Interop.ElementId.yml\" sourcestartlinenumber=\"1\">Holds unique identifiers generated by Clay to track element lifecycle, focus, and layout state.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClaySharp.Interop.ElementIdArray.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClaySharp.Interop.ElementIdArray.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClaySharp.Interop.ElementIdArray",
+      "Summary": "<p sourcefile=\"api/ClaySharp.Interop.ElementIdArray.yml\" sourcestartlinenumber=\"1\">Unmanaged array wrapper for <xref href=\"ClaySharp.Interop.ElementId\" data-throw-if-not-resolved=\"false\"></xref> elements.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClaySharp.Interop.ErrorData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClaySharp.Interop.ErrorData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClaySharp.Interop.ErrorData",
+      "Summary": "<p sourcefile=\"api/ClaySharp.Interop.ErrorData.yml\" sourcestartlinenumber=\"1\">Structure containing detailed diagnostic information returned when layout errors occur.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClaySharp.Interop.ErrorHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClaySharp.Interop.ErrorHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClaySharp.Interop.ErrorHandler",
+      "Summary": "<p sourcefile=\"api/ClaySharp.Interop.ErrorHandler.yml\" sourcestartlinenumber=\"1\">Holds callback function pointer registrations for native error handling.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClaySharp.Interop.ErrorType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClaySharp.Interop.ErrorType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClaySharp.Interop.ErrorType",
+      "Summary": "<p sourcefile=\"api/ClaySharp.Interop.ErrorType.yml\" sourcestartlinenumber=\"1\">Defines the specific errors that can occur during layout calculation or configuration in Clay.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClaySharp.Interop.FloatingAttachPointType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClaySharp.Interop.FloatingAttachPointType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClaySharp.Interop.FloatingAttachPointType",
+      "Summary": "<p sourcefile=\"api/ClaySharp.Interop.FloatingAttachPointType.yml\" sourcestartlinenumber=\"1\">Defines the attachment points on an element and its target when using floating (absolute) positioning.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClaySharp.Interop.FloatingAttachPoints.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClaySharp.Interop.FloatingAttachPoints.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClaySharp.Interop.FloatingAttachPoints",
+      "Summary": "<p sourcefile=\"api/ClaySharp.Interop.FloatingAttachPoints.yml\" sourcestartlinenumber=\"1\">Defines target attachment points for floating elements.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClaySharp.Interop.FloatingAttachToElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClaySharp.Interop.FloatingAttachToElement.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClaySharp.Interop.FloatingAttachToElement",
+      "Summary": "<p sourcefile=\"api/ClaySharp.Interop.FloatingAttachToElement.yml\" sourcestartlinenumber=\"1\">Identifies which element a floating container attaches to.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClaySharp.Interop.FloatingClipToElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClaySharp.Interop.FloatingClipToElement.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClaySharp.Interop.FloatingClipToElement",
+      "Summary": "<p sourcefile=\"api/ClaySharp.Interop.FloatingClipToElement.yml\" sourcestartlinenumber=\"1\">Controls whether a floating element should be clipped by another element's bounds.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClaySharp.Interop.FloatingElementConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClaySharp.Interop.FloatingElementConfig.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClaySharp.Interop.FloatingElementConfig",
+      "Summary": "<p sourcefile=\"api/ClaySharp.Interop.FloatingElementConfig.yml\" sourcestartlinenumber=\"1\">Controls positioning, depth, and attachment behavior of floating (absolute positioned) UI elements.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClaySharp.Interop.FloatingElementConfigArray.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClaySharp.Interop.FloatingElementConfigArray.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClaySharp.Interop.FloatingElementConfigArray",
+      "Summary": "<p sourcefile=\"api/ClaySharp.Interop.FloatingElementConfigArray.yml\" sourcestartlinenumber=\"1\">Unmanaged array wrapper for <xref href=\"ClaySharp.Interop.FloatingElementConfig\" data-throw-if-not-resolved=\"false\"></xref> elements.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClaySharp.Interop.ImageElementConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClaySharp.Interop.ImageElementConfig.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClaySharp.Interop.ImageElementConfig",
+      "Summary": "<p sourcefile=\"api/ClaySharp.Interop.ImageElementConfig.yml\" sourcestartlinenumber=\"1\">Holds image element render configurations.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClaySharp.Interop.ImageElementConfigArray.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClaySharp.Interop.ImageElementConfigArray.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClaySharp.Interop.ImageElementConfigArray",
+      "Summary": "<p sourcefile=\"api/ClaySharp.Interop.ImageElementConfigArray.yml\" sourcestartlinenumber=\"1\">Unmanaged array wrapper for <xref href=\"ClaySharp.Interop.ImageElementConfig\" data-throw-if-not-resolved=\"false\"></xref> elements.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClaySharp.Interop.ImageRenderData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClaySharp.Interop.ImageRenderData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClaySharp.Interop.ImageRenderData",
+      "Summary": "<p sourcefile=\"api/ClaySharp.Interop.ImageRenderData.yml\" sourcestartlinenumber=\"1\">Describes image content emitted inside image render commands.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClaySharp.Interop.LayoutAlignmentX.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClaySharp.Interop.LayoutAlignmentX.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClaySharp.Interop.LayoutAlignmentX",
+      "Summary": "<p sourcefile=\"api/ClaySharp.Interop.LayoutAlignmentX.yml\" sourcestartlinenumber=\"1\">Controls horizontal alignment of children within a layout container.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClaySharp.Interop.LayoutAlignmentY.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClaySharp.Interop.LayoutAlignmentY.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClaySharp.Interop.LayoutAlignmentY",
+      "Summary": "<p sourcefile=\"api/ClaySharp.Interop.LayoutAlignmentY.yml\" sourcestartlinenumber=\"1\">Controls vertical alignment of children within a layout container.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClaySharp.Interop.LayoutConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClaySharp.Interop.LayoutConfig.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClaySharp.Interop.LayoutConfig",
+      "Summary": "<p sourcefile=\"api/ClaySharp.Interop.LayoutConfig.yml\" sourcestartlinenumber=\"1\">Defines general layout configurations for element arrangement, spacing, and sizing.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClaySharp.Interop.LayoutConfigArray.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClaySharp.Interop.LayoutConfigArray.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClaySharp.Interop.LayoutConfigArray",
+      "Summary": "<p sourcefile=\"api/ClaySharp.Interop.LayoutConfigArray.yml\" sourcestartlinenumber=\"1\">Unmanaged array wrapper for <xref href=\"ClaySharp.Interop.LayoutConfig\" data-throw-if-not-resolved=\"false\"></xref> elements.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClaySharp.Interop.LayoutDirection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClaySharp.Interop.LayoutDirection.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClaySharp.Interop.LayoutDirection",
+      "Summary": "<p sourcefile=\"api/ClaySharp.Interop.LayoutDirection.yml\" sourcestartlinenumber=\"1\">Defines the layout direction along which children are arranged.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClaySharp.Interop.LayoutElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClaySharp.Interop.LayoutElement.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClaySharp.Interop.LayoutElement",
+      "Summary": "<p sourcefile=\"api/ClaySharp.Interop.LayoutElement.yml\" sourcestartlinenumber=\"1\">Represents a core layout node within Clay's internal structural layout tree.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClaySharp.Interop.LayoutElementChildren.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClaySharp.Interop.LayoutElementChildren.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClaySharp.Interop.LayoutElementChildren",
+      "Summary": "<p sourcefile=\"api/ClaySharp.Interop.LayoutElementChildren.yml\" sourcestartlinenumber=\"1\">Emulates an anonymous C-style union containing either list of child element indices or text element details.\nField offsets overlap so only one field should be accessed corresponding to layout node type.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClaySharp.Interop.LayoutElementChildrenData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClaySharp.Interop.LayoutElementChildrenData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClaySharp.Interop.LayoutElementChildrenData",
+      "Summary": "<p sourcefile=\"api/ClaySharp.Interop.LayoutElementChildrenData.yml\" sourcestartlinenumber=\"1\">Holds list of child elements inside a container.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClaySharp.Interop.LayoutElementHashMapItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClaySharp.Interop.LayoutElementHashMapItem.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClaySharp.Interop.LayoutElementHashMapItem",
+      "Summary": "<p sourcefile=\"api/ClaySharp.Interop.LayoutElementHashMapItem.yml\" sourcestartlinenumber=\"1\">Represents an entry in Clay's internal layout spatial hash map, used for fast lookup, hover, and layout calculation.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClaySharp.Interop.LayoutElementTreeNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClaySharp.Interop.LayoutElementTreeNode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClaySharp.Interop.LayoutElementTreeNode",
+      "Summary": "<p sourcefile=\"api/ClaySharp.Interop.LayoutElementTreeNode.yml\" sourcestartlinenumber=\"1\">A layout tree node structure tracking hierarchical rendering positioning.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClaySharp.Interop.LayoutElementTreeRoot.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClaySharp.Interop.LayoutElementTreeRoot.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClaySharp.Interop.LayoutElementTreeRoot",
+      "Summary": "<p sourcefile=\"api/ClaySharp.Interop.LayoutElementTreeRoot.yml\" sourcestartlinenumber=\"1\">Defines the entry root configurations for a layout tree rendering hierarchy.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClaySharp.Interop.MeasureTextCacheItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClaySharp.Interop.MeasureTextCacheItem.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClaySharp.Interop.MeasureTextCacheItem",
+      "Summary": "<p sourcefile=\"api/ClaySharp.Interop.MeasureTextCacheItem.yml\" sourcestartlinenumber=\"1\">Represents an item stored inside Clay's internal text measurement cache.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClaySharp.Interop.MeasuredWord.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClaySharp.Interop.MeasuredWord.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClaySharp.Interop.MeasuredWord",
+      "Summary": "<p sourcefile=\"api/ClaySharp.Interop.MeasuredWord.yml\" sourcestartlinenumber=\"1\">Holds sizing metadata for a single word computed during text layout wrapping.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClaySharp.Interop.Padding.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClaySharp.Interop.Padding.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClaySharp.Interop.Padding",
+      "Summary": "<p sourcefile=\"api/ClaySharp.Interop.Padding.yml\" sourcestartlinenumber=\"1\">Defines inner spacing padding values surrounding the children of a container.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClaySharp.Interop.PointerCaptureMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClaySharp.Interop.PointerCaptureMode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClaySharp.Interop.PointerCaptureMode",
+      "Summary": "<p sourcefile=\"api/ClaySharp.Interop.PointerCaptureMode.yml\" sourcestartlinenumber=\"1\">Controls pointer capture behavior for floating elements.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClaySharp.Interop.PointerData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClaySharp.Interop.PointerData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClaySharp.Interop.PointerData",
+      "Summary": "<p sourcefile=\"api/ClaySharp.Interop.PointerData.yml\" sourcestartlinenumber=\"1\">Contains pointer (e.g. mouse or touch) position and state information.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClaySharp.Interop.PointerDataInteractionState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClaySharp.Interop.PointerDataInteractionState.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClaySharp.Interop.PointerDataInteractionState",
+      "Summary": "<p sourcefile=\"api/ClaySharp.Interop.PointerDataInteractionState.yml\" sourcestartlinenumber=\"1\">Represents the interaction state of a pointer (e.g. mouse or touch) on a UI element.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClaySharp.Interop.RectangleRenderData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClaySharp.Interop.RectangleRenderData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClaySharp.Interop.RectangleRenderData",
+      "Summary": "<p sourcefile=\"api/ClaySharp.Interop.RectangleRenderData.yml\" sourcestartlinenumber=\"1\">Describes a filled background rectangle emitted inside rectangle render commands.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClaySharp.Interop.RenderCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClaySharp.Interop.RenderCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClaySharp.Interop.RenderCommand",
+      "Summary": "<p sourcefile=\"api/ClaySharp.Interop.RenderCommand.yml\" sourcestartlinenumber=\"1\">Encapsulates a single drawing instruction emitted by Clay's layout resolver.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClaySharp.Interop.RenderCommandArray.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClaySharp.Interop.RenderCommandArray.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClaySharp.Interop.RenderCommandArray",
+      "Summary": "<p sourcefile=\"api/ClaySharp.Interop.RenderCommandArray.yml\" sourcestartlinenumber=\"1\">Contiguous unmanaged array containing the list of <xref href=\"ClaySharp.Interop.RenderCommand\" data-throw-if-not-resolved=\"false\"></xref> elements computed for the current frame.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClaySharp.Interop.RenderCommandType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClaySharp.Interop.RenderCommandType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClaySharp.Interop.RenderCommandType",
+      "Summary": "<p sourcefile=\"api/ClaySharp.Interop.RenderCommandType.yml\" sourcestartlinenumber=\"1\">Specifies the rendering operation command type emitted in the output render command array.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClaySharp.Interop.RenderData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClaySharp.Interop.RenderData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClaySharp.Interop.RenderData",
+      "Summary": "<p sourcefile=\"api/ClaySharp.Interop.RenderData.yml\" sourcestartlinenumber=\"1\">Emulates an anonymous C union packing specific layout drawing payloads.\nOnly one field should be accessed corresponding to the <xref href=\"ClaySharp.Interop.RenderCommand.CommandType\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClaySharp.Interop.ScrollContainerData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClaySharp.Interop.ScrollContainerData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClaySharp.Interop.ScrollContainerData",
+      "Summary": "<p sourcefile=\"api/ClaySharp.Interop.ScrollContainerData.yml\" sourcestartlinenumber=\"1\">Public structure containing scroll coordinates and dimensions for scrollable elements.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClaySharp.Interop.ScrollContainerDataInternal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClaySharp.Interop.ScrollContainerDataInternal.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClaySharp.Interop.ScrollContainerDataInternal",
+      "Summary": "<p sourcefile=\"api/ClaySharp.Interop.ScrollContainerDataInternal.yml\" sourcestartlinenumber=\"1\">Internal layout engine scroll tracker holding physics and position metadata for a scroll container.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClaySharp.Interop.SharedElementConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClaySharp.Interop.SharedElementConfig.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClaySharp.Interop.SharedElementConfig",
+      "Summary": "<p sourcefile=\"api/ClaySharp.Interop.SharedElementConfig.yml\" sourcestartlinenumber=\"1\">Represents style settings that are shared across multiple layout nodes.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClaySharp.Interop.SharedElementConfigArray.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClaySharp.Interop.SharedElementConfigArray.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClaySharp.Interop.SharedElementConfigArray",
+      "Summary": "<p sourcefile=\"api/ClaySharp.Interop.SharedElementConfigArray.yml\" sourcestartlinenumber=\"1\">Unmanaged array wrapper for <xref href=\"ClaySharp.Interop.SharedElementConfig\" data-throw-if-not-resolved=\"false\"></xref> elements.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClaySharp.Interop.Sizing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClaySharp.Interop.Sizing.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClaySharp.Interop.Sizing",
+      "Summary": "<p sourcefile=\"api/ClaySharp.Interop.Sizing.yml\" sourcestartlinenumber=\"1\">Defines layout sizing rules for both axes of a UI element.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClaySharp.Interop.SizingAxis.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClaySharp.Interop.SizingAxis.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClaySharp.Interop.SizingAxis",
+      "Summary": "<p sourcefile=\"api/ClaySharp.Interop.SizingAxis.yml\" sourcestartlinenumber=\"1\">Specifies sizing rules and constraints for a single layout axis (either Width or Height).</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClaySharp.Interop.SizingAxisValue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClaySharp.Interop.SizingAxisValue.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClaySharp.Interop.SizingAxisValue",
+      "Summary": "<p sourcefile=\"api/ClaySharp.Interop.SizingAxisValue.yml\" sourcestartlinenumber=\"1\">Emulates an anonymous C union representing a sizing constraint value.\nField offsets overlap so that it can store either percentage values or min/max bounds.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClaySharp.Interop.SizingMinMax.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClaySharp.Interop.SizingMinMax.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClaySharp.Interop.SizingMinMax",
+      "Summary": "<p sourcefile=\"api/ClaySharp.Interop.SizingMinMax.yml\" sourcestartlinenumber=\"1\">Defines the minimum and maximum constraints for element dimensions.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClaySharp.Interop.SizingType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClaySharp.Interop.SizingType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClaySharp.Interop.SizingType",
+      "Summary": "<p sourcefile=\"api/ClaySharp.Interop.SizingType.yml\" sourcestartlinenumber=\"1\">Determines how an element is sized along a layout axis.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClaySharp.Interop.StringArray.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClaySharp.Interop.StringArray.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClaySharp.Interop.StringArray",
+      "Summary": "<p sourcefile=\"api/ClaySharp.Interop.StringArray.yml\" sourcestartlinenumber=\"1\">Unmanaged array wrapper for <xref href=\"ClaySharp.Interop.ClayString\" data-throw-if-not-resolved=\"false\"></xref> elements.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClaySharp.Interop.TextAlignment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClaySharp.Interop.TextAlignment.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClaySharp.Interop.TextAlignment",
+      "Summary": "<p sourcefile=\"api/ClaySharp.Interop.TextAlignment.yml\" sourcestartlinenumber=\"1\">Specifies the horizontal alignment of text within its bounding container.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClaySharp.Interop.TextElementConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClaySharp.Interop.TextElementConfig.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClaySharp.Interop.TextElementConfig",
+      "Summary": "<p sourcefile=\"api/ClaySharp.Interop.TextElementConfig.yml\" sourcestartlinenumber=\"1\">Provides configuration settings for rendering text elements.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClaySharp.Interop.TextElementConfigArray.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClaySharp.Interop.TextElementConfigArray.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClaySharp.Interop.TextElementConfigArray",
+      "Summary": "<p sourcefile=\"api/ClaySharp.Interop.TextElementConfigArray.yml\" sourcestartlinenumber=\"1\">Unmanaged array wrapper for <xref href=\"ClaySharp.Interop.TextElementConfig\" data-throw-if-not-resolved=\"false\"></xref> elements.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClaySharp.Interop.TextElementConfigWrapMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClaySharp.Interop.TextElementConfigWrapMode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClaySharp.Interop.TextElementConfigWrapMode",
+      "Summary": "<p sourcefile=\"api/ClaySharp.Interop.TextElementConfigWrapMode.yml\" sourcestartlinenumber=\"1\">Defines how text within a text element wraps.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClaySharp.Interop.TextElementData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClaySharp.Interop.TextElementData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClaySharp.Interop.TextElementData",
+      "Summary": "<p sourcefile=\"api/ClaySharp.Interop.TextElementData.yml\" sourcestartlinenumber=\"1\">Holds layout and wrapping details computed specifically for text elements.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClaySharp.Interop.TextRenderData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClaySharp.Interop.TextRenderData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClaySharp.Interop.TextRenderData",
+      "Summary": "<p sourcefile=\"api/ClaySharp.Interop.TextRenderData.yml\" sourcestartlinenumber=\"1\">Describes text content and style attributes emitted inside text render commands.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClaySharp.Interop.Vector2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClaySharp.Interop.Vector2.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClaySharp.Interop.Vector2",
+      "Summary": "<p sourcefile=\"api/ClaySharp.Interop.Vector2.yml\" sourcestartlinenumber=\"1\">Represents a standard 2D vector.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClaySharp.Interop.Warning.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClaySharp.Interop.Warning.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClaySharp.Interop.Warning",
+      "Summary": "<p sourcefile=\"api/ClaySharp.Interop.Warning.yml\" sourcestartlinenumber=\"1\">Structure packing diagnostic warning messaging.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClaySharp.Interop.WrappedTextLine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClaySharp.Interop.WrappedTextLine.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClaySharp.Interop.WrappedTextLine",
+      "Summary": "<p sourcefile=\"api/ClaySharp.Interop.WrappedTextLine.yml\" sourcestartlinenumber=\"1\">Describes a single computed line of text resulting from word wrapping operations.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClaySharp.Interop.WrappedTextLineArraySlice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClaySharp.Interop.WrappedTextLineArraySlice.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClaySharp.Interop.WrappedTextLineArraySlice",
+      "Summary": "<p sourcefile=\"api/ClaySharp.Interop.WrappedTextLineArraySlice.yml\" sourcestartlinenumber=\"1\">Represents a slice segment pointing into an unmanaged array of wrapped text lines.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClaySharp.Interop.boolArray.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClaySharp.Interop.boolArray.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClaySharp.Interop.boolArray",
+      "Summary": "<p sourcefile=\"api/ClaySharp.Interop.boolArray.yml\" sourcestartlinenumber=\"1\">Unmanaged array wrapper for boolean elements.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClaySharp.Interop.charArray.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClaySharp.Interop.charArray.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClaySharp.Interop.charArray",
+      "Summary": "<p sourcefile=\"api/ClaySharp.Interop.charArray.yml\" sourcestartlinenumber=\"1\">Unmanaged array wrapper for raw character bytes.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClaySharp.Interop.int32_tArray.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClaySharp.Interop.int32_tArray.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClaySharp.Interop.int32_tArray",
+      "Summary": "<p sourcefile=\"api/ClaySharp.Interop.int32_tArray.yml\" sourcestartlinenumber=\"1\">Unmanaged array wrapper for 32-bit signed integers.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClaySharp.Interop.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClaySharp.Interop.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClaySharp.Interop",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClaySharp.Layout.ClayElementScope.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClaySharp.Layout.ClayElementScope.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClaySharp.Layout.ClayElementScope",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClaySharp.Layout.ClaySizing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClaySharp.Layout.ClaySizing.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClaySharp.Layout.ClaySizing",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClaySharp.Layout.ClayUI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClaySharp.Layout.ClayUI.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClaySharp.Layout.ClayUI",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClaySharp.Layout.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClaySharp.Layout.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ClaySharp.Layout",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

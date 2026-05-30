@@ -1,0 +1,60 @@
+### YamlMime:ManagedReference
+items:
+- uid: ClaySharp.Layout
+  commentId: N:ClaySharp.Layout
+  id: ClaySharp.Layout
+  children:
+  - ClaySharp.Layout.ClayElementScope
+  - ClaySharp.Layout.ClaySizing
+  - ClaySharp.Layout.ClayUI
+  langs:
+  - csharp
+  - vb
+  name: ClaySharp.Layout
+  nameWithType: ClaySharp.Layout
+  fullName: ClaySharp.Layout
+  type: Namespace
+  assemblies:
+  - BlackHook.ClaySharp
+references:
+- uid: ClaySharp.Layout.ClayElementScope
+  commentId: T:ClaySharp.Layout.ClayElementScope
+  parent: ClaySharp.Layout
+  href: ClaySharp.Layout.ClayElementScope.html
+  name: ClayElementScope
+  nameWithType: ClayElementScope
+  fullName: ClaySharp.Layout.ClayElementScope
+- uid: ClaySharp.Layout.ClaySizing
+  commentId: T:ClaySharp.Layout.ClaySizing
+  href: ClaySharp.Layout.ClaySizing.html
+  name: ClaySizing
+  nameWithType: ClaySizing
+  fullName: ClaySharp.Layout.ClaySizing
+- uid: ClaySharp.Layout.ClayUI
+  commentId: T:ClaySharp.Layout.ClayUI
+  href: ClaySharp.Layout.ClayUI.html
+  name: ClayUI
+  nameWithType: ClayUI
+  fullName: ClaySharp.Layout.ClayUI
+- uid: ClaySharp.Layout
+  commentId: N:ClaySharp.Layout
+  href: ClaySharp.html
+  name: ClaySharp.Layout
+  nameWithType: ClaySharp.Layout
+  fullName: ClaySharp.Layout
+  spec.csharp:
+  - uid: ClaySharp
+    name: ClaySharp
+    href: ClaySharp.html
+  - name: .
+  - uid: ClaySharp.Layout
+    name: Layout
+    href: ClaySharp.Layout.html
+  spec.vb:
+  - uid: ClaySharp
+    name: ClaySharp
+    href: ClaySharp.html
+  - name: .
+  - uid: ClaySharp.Layout
+    name: Layout
+    href: ClaySharp.Layout.html

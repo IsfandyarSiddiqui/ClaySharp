@@ -1,0 +1,118 @@
+### YamlMime:ManagedReference
+items:
+- uid: ClaySharp.Interop.LayoutDirection
+  commentId: T:ClaySharp.Interop.LayoutDirection
+  id: LayoutDirection
+  parent: ClaySharp.Interop
+  children:
+  - ClaySharp.Interop.LayoutDirection.LeftToRight
+  - ClaySharp.Interop.LayoutDirection.TopToBottom
+  langs:
+  - csharp
+  - vb
+  name: LayoutDirection
+  nameWithType: LayoutDirection
+  fullName: ClaySharp.Interop.LayoutDirection
+  type: Enum
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: LayoutDirection
+    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    startLine: 31
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: Defines the layout direction along which children are arranged.
+  example: []
+  syntax:
+    content: 'public enum LayoutDirection : byte'
+    content.vb: Public Enum LayoutDirection As Byte
+- uid: ClaySharp.Interop.LayoutDirection.LeftToRight
+  commentId: F:ClaySharp.Interop.LayoutDirection.LeftToRight
+  id: LeftToRight
+  parent: ClaySharp.Interop.LayoutDirection
+  langs:
+  - csharp
+  - vb
+  name: LeftToRight
+  nameWithType: LayoutDirection.LeftToRight
+  fullName: ClaySharp.Interop.LayoutDirection.LeftToRight
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: LeftToRight
+    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    startLine: 34
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: Arranges child elements horizontally from left to right.
+  example: []
+  syntax:
+    content: LeftToRight = 0
+    return:
+      type: ClaySharp.Interop.LayoutDirection
+- uid: ClaySharp.Interop.LayoutDirection.TopToBottom
+  commentId: F:ClaySharp.Interop.LayoutDirection.TopToBottom
+  id: TopToBottom
+  parent: ClaySharp.Interop.LayoutDirection
+  langs:
+  - csharp
+  - vb
+  name: TopToBottom
+  nameWithType: LayoutDirection.TopToBottom
+  fullName: ClaySharp.Interop.LayoutDirection.TopToBottom
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: TopToBottom
+    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    startLine: 36
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: Arranges child elements vertically from top to bottom.
+  example: []
+  syntax:
+    content: TopToBottom = 1
+    return:
+      type: ClaySharp.Interop.LayoutDirection
+references:
+- uid: ClaySharp.Interop
+  commentId: N:ClaySharp.Interop
+  href: ClaySharp.html
+  name: ClaySharp.Interop
+  nameWithType: ClaySharp.Interop
+  fullName: ClaySharp.Interop
+  spec.csharp:
+  - uid: ClaySharp
+    name: ClaySharp
+    href: ClaySharp.html
+  - name: .
+  - uid: ClaySharp.Interop
+    name: Interop
+    href: ClaySharp.Interop.html
+  spec.vb:
+  - uid: ClaySharp
+    name: ClaySharp
+    href: ClaySharp.html
+  - name: .
+  - uid: ClaySharp.Interop
+    name: Interop
+    href: ClaySharp.Interop.html
+- uid: ClaySharp.Interop.LayoutDirection
+  commentId: T:ClaySharp.Interop.LayoutDirection
+  parent: ClaySharp.Interop
+  href: ClaySharp.Interop.LayoutDirection.html
+  name: LayoutDirection
+  nameWithType: LayoutDirection
+  fullName: ClaySharp.Interop.LayoutDirection

@@ -1,0 +1,707 @@
+### YamlMime:ManagedReference
+items:
+- uid: ClaySharp.Interop.ScrollContainerDataInternal
+  commentId: T:ClaySharp.Interop.ScrollContainerDataInternal
+  id: ScrollContainerDataInternal
+  parent: ClaySharp.Interop
+  children:
+  - ClaySharp.Interop.ScrollContainerDataInternal.BoundingBox
+  - ClaySharp.Interop.ScrollContainerDataInternal.ContentSize
+  - ClaySharp.Interop.ScrollContainerDataInternal.ElementId
+  - ClaySharp.Interop.ScrollContainerDataInternal.LayoutElement
+  - ClaySharp.Interop.ScrollContainerDataInternal.MomentumTime
+  - ClaySharp.Interop.ScrollContainerDataInternal.OpenThisFrame
+  - ClaySharp.Interop.ScrollContainerDataInternal.PointerOrigin
+  - ClaySharp.Interop.ScrollContainerDataInternal.PointerScrollActive
+  - ClaySharp.Interop.ScrollContainerDataInternal.PreviousDelta
+  - ClaySharp.Interop.ScrollContainerDataInternal.ScrollMomentum
+  - ClaySharp.Interop.ScrollContainerDataInternal.ScrollOrigin
+  - ClaySharp.Interop.ScrollContainerDataInternal.ScrollPosition
+  langs:
+  - csharp
+  - vb
+  name: ScrollContainerDataInternal
+  nameWithType: ScrollContainerDataInternal
+  fullName: ClaySharp.Interop.ScrollContainerDataInternal
+  type: Struct
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: ScrollContainerDataInternal
+    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    startLine: 1015
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: Internal layout engine scroll tracker holding physics and position metadata for a scroll container.
+  example: []
+  syntax:
+    content: public struct ScrollContainerDataInternal
+    content.vb: Public Structure ScrollContainerDataInternal
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: ClaySharp.Interop.ScrollContainerDataInternal.LayoutElement
+  commentId: F:ClaySharp.Interop.ScrollContainerDataInternal.LayoutElement
+  id: LayoutElement
+  parent: ClaySharp.Interop.ScrollContainerDataInternal
+  langs:
+  - csharp
+  - vb
+  name: LayoutElement
+  nameWithType: ScrollContainerDataInternal.LayoutElement
+  fullName: ClaySharp.Interop.ScrollContainerDataInternal.LayoutElement
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: LayoutElement
+    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    startLine: 1019
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: A raw pointer to the host layout element.
+  example: []
+  syntax:
+    content: public LayoutElement* LayoutElement
+    return:
+      type: ClaySharp.Interop.LayoutElement*
+    content.vb: Public LayoutElement As LayoutElement*
+- uid: ClaySharp.Interop.ScrollContainerDataInternal.BoundingBox
+  commentId: F:ClaySharp.Interop.ScrollContainerDataInternal.BoundingBox
+  id: BoundingBox
+  parent: ClaySharp.Interop.ScrollContainerDataInternal
+  langs:
+  - csharp
+  - vb
+  name: BoundingBox
+  nameWithType: ScrollContainerDataInternal.BoundingBox
+  fullName: ClaySharp.Interop.ScrollContainerDataInternal.BoundingBox
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: BoundingBox
+    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    startLine: 1022
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: The bounding coordinates of the scroll container viewport.
+  example: []
+  syntax:
+    content: public BoundingBox BoundingBox
+    return:
+      type: ClaySharp.Interop.BoundingBox
+    content.vb: Public BoundingBox As BoundingBox
+- uid: ClaySharp.Interop.ScrollContainerDataInternal.ContentSize
+  commentId: F:ClaySharp.Interop.ScrollContainerDataInternal.ContentSize
+  id: ContentSize
+  parent: ClaySharp.Interop.ScrollContainerDataInternal
+  langs:
+  - csharp
+  - vb
+  name: ContentSize
+  nameWithType: ScrollContainerDataInternal.ContentSize
+  fullName: ClaySharp.Interop.ScrollContainerDataInternal.ContentSize
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: ContentSize
+    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    startLine: 1025
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: The total calculated width and height of the interior content being scrolled.
+  example: []
+  syntax:
+    content: public Dimensions ContentSize
+    return:
+      type: ClaySharp.Interop.Dimensions
+    content.vb: Public ContentSize As Dimensions
+- uid: ClaySharp.Interop.ScrollContainerDataInternal.ScrollOrigin
+  commentId: F:ClaySharp.Interop.ScrollContainerDataInternal.ScrollOrigin
+  id: ScrollOrigin
+  parent: ClaySharp.Interop.ScrollContainerDataInternal
+  langs:
+  - csharp
+  - vb
+  name: ScrollOrigin
+  nameWithType: ScrollContainerDataInternal.ScrollOrigin
+  fullName: ClaySharp.Interop.ScrollContainerDataInternal.ScrollOrigin
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: ScrollOrigin
+    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    startLine: 1028
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: Initial origin coordinate when scrolling initiated.
+  example: []
+  syntax:
+    content: public Vector2 ScrollOrigin
+    return:
+      type: ClaySharp.Interop.Vector2
+    content.vb: Public ScrollOrigin As Vector2
+- uid: ClaySharp.Interop.ScrollContainerDataInternal.PointerOrigin
+  commentId: F:ClaySharp.Interop.ScrollContainerDataInternal.PointerOrigin
+  id: PointerOrigin
+  parent: ClaySharp.Interop.ScrollContainerDataInternal
+  langs:
+  - csharp
+  - vb
+  name: PointerOrigin
+  nameWithType: ScrollContainerDataInternal.PointerOrigin
+  fullName: ClaySharp.Interop.ScrollContainerDataInternal.PointerOrigin
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: PointerOrigin
+    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    startLine: 1031
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: Pointer coordinate when scrolling initiated.
+  example: []
+  syntax:
+    content: public Vector2 PointerOrigin
+    return:
+      type: ClaySharp.Interop.Vector2
+    content.vb: Public PointerOrigin As Vector2
+- uid: ClaySharp.Interop.ScrollContainerDataInternal.ScrollMomentum
+  commentId: F:ClaySharp.Interop.ScrollContainerDataInternal.ScrollMomentum
+  id: ScrollMomentum
+  parent: ClaySharp.Interop.ScrollContainerDataInternal
+  langs:
+  - csharp
+  - vb
+  name: ScrollMomentum
+  nameWithType: ScrollContainerDataInternal.ScrollMomentum
+  fullName: ClaySharp.Interop.ScrollContainerDataInternal.ScrollMomentum
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: ScrollMomentum
+    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    startLine: 1034
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: Current scrolling velocity physics factor.
+  example: []
+  syntax:
+    content: public Vector2 ScrollMomentum
+    return:
+      type: ClaySharp.Interop.Vector2
+    content.vb: Public ScrollMomentum As Vector2
+- uid: ClaySharp.Interop.ScrollContainerDataInternal.ScrollPosition
+  commentId: F:ClaySharp.Interop.ScrollContainerDataInternal.ScrollPosition
+  id: ScrollPosition
+  parent: ClaySharp.Interop.ScrollContainerDataInternal
+  langs:
+  - csharp
+  - vb
+  name: ScrollPosition
+  nameWithType: ScrollContainerDataInternal.ScrollPosition
+  fullName: ClaySharp.Interop.ScrollContainerDataInternal.ScrollPosition
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: ScrollPosition
+    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    startLine: 1037
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: The active scroll position coordinates.
+  example: []
+  syntax:
+    content: public Vector2 ScrollPosition
+    return:
+      type: ClaySharp.Interop.Vector2
+    content.vb: Public ScrollPosition As Vector2
+- uid: ClaySharp.Interop.ScrollContainerDataInternal.PreviousDelta
+  commentId: F:ClaySharp.Interop.ScrollContainerDataInternal.PreviousDelta
+  id: PreviousDelta
+  parent: ClaySharp.Interop.ScrollContainerDataInternal
+  langs:
+  - csharp
+  - vb
+  name: PreviousDelta
+  nameWithType: ScrollContainerDataInternal.PreviousDelta
+  fullName: ClaySharp.Interop.ScrollContainerDataInternal.PreviousDelta
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: PreviousDelta
+    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    startLine: 1040
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: The previous frame's offset delta.
+  example: []
+  syntax:
+    content: public Vector2 PreviousDelta
+    return:
+      type: ClaySharp.Interop.Vector2
+    content.vb: Public PreviousDelta As Vector2
+- uid: ClaySharp.Interop.ScrollContainerDataInternal.MomentumTime
+  commentId: F:ClaySharp.Interop.ScrollContainerDataInternal.MomentumTime
+  id: MomentumTime
+  parent: ClaySharp.Interop.ScrollContainerDataInternal
+  langs:
+  - csharp
+  - vb
+  name: MomentumTime
+  nameWithType: ScrollContainerDataInternal.MomentumTime
+  fullName: ClaySharp.Interop.ScrollContainerDataInternal.MomentumTime
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: MomentumTime
+    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    startLine: 1043
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: Time counter used during scroll acceleration decay.
+  example: []
+  syntax:
+    content: public float MomentumTime
+    return:
+      type: System.Single
+    content.vb: Public MomentumTime As Single
+- uid: ClaySharp.Interop.ScrollContainerDataInternal.ElementId
+  commentId: F:ClaySharp.Interop.ScrollContainerDataInternal.ElementId
+  id: ElementId
+  parent: ClaySharp.Interop.ScrollContainerDataInternal
+  langs:
+  - csharp
+  - vb
+  name: ElementId
+  nameWithType: ScrollContainerDataInternal.ElementId
+  fullName: ClaySharp.Interop.ScrollContainerDataInternal.ElementId
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: ElementId
+    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    startLine: 1046
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: The unique element ID of the scroll container.
+  example: []
+  syntax:
+    content: public uint ElementId
+    return:
+      type: System.UInt32
+    content.vb: Public ElementId As UInteger
+- uid: ClaySharp.Interop.ScrollContainerDataInternal.OpenThisFrame
+  commentId: F:ClaySharp.Interop.ScrollContainerDataInternal.OpenThisFrame
+  id: OpenThisFrame
+  parent: ClaySharp.Interop.ScrollContainerDataInternal
+  langs:
+  - csharp
+  - vb
+  name: OpenThisFrame
+  nameWithType: ScrollContainerDataInternal.OpenThisFrame
+  fullName: ClaySharp.Interop.ScrollContainerDataInternal.OpenThisFrame
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: OpenThisFrame
+    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    startLine: 1049
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: True if the scroll container scope was opened on this frame.
+  example: []
+  syntax:
+    content: public bool OpenThisFrame
+    return:
+      type: System.Boolean
+    content.vb: Public OpenThisFrame As Boolean
+- uid: ClaySharp.Interop.ScrollContainerDataInternal.PointerScrollActive
+  commentId: F:ClaySharp.Interop.ScrollContainerDataInternal.PointerScrollActive
+  id: PointerScrollActive
+  parent: ClaySharp.Interop.ScrollContainerDataInternal
+  langs:
+  - csharp
+  - vb
+  name: PointerScrollActive
+  nameWithType: ScrollContainerDataInternal.PointerScrollActive
+  fullName: ClaySharp.Interop.ScrollContainerDataInternal.PointerScrollActive
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: PointerScrollActive
+    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    startLine: 1052
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: True if scrolling is actively being manipulated by user pointer dragging.
+  example: []
+  syntax:
+    content: public bool PointerScrollActive
+    return:
+      type: System.Boolean
+    content.vb: Public PointerScrollActive As Boolean
+references:
+- uid: ClaySharp.Interop
+  commentId: N:ClaySharp.Interop
+  href: ClaySharp.html
+  name: ClaySharp.Interop
+  nameWithType: ClaySharp.Interop
+  fullName: ClaySharp.Interop
+  spec.csharp:
+  - uid: ClaySharp
+    name: ClaySharp
+    href: ClaySharp.html
+  - name: .
+  - uid: ClaySharp.Interop
+    name: Interop
+    href: ClaySharp.Interop.html
+  spec.vb:
+  - uid: ClaySharp
+    name: ClaySharp
+    href: ClaySharp.html
+  - name: .
+  - uid: ClaySharp.Interop
+    name: Interop
+    href: ClaySharp.Interop.html
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ClaySharp.Interop.LayoutElement*
+  isExternal: true
+  href: ClaySharp.Interop.LayoutElement.html
+  name: LayoutElement*
+  nameWithType: LayoutElement*
+  fullName: ClaySharp.Interop.LayoutElement*
+  spec.csharp:
+  - uid: ClaySharp.Interop.LayoutElement
+    name: LayoutElement
+    href: ClaySharp.Interop.LayoutElement.html
+  - name: '*'
+  spec.vb:
+  - uid: ClaySharp.Interop.LayoutElement
+    name: LayoutElement
+    href: ClaySharp.Interop.LayoutElement.html
+  - name: '*'
+- uid: ClaySharp.Interop.BoundingBox
+  commentId: T:ClaySharp.Interop.BoundingBox
+  parent: ClaySharp.Interop
+  href: ClaySharp.Interop.BoundingBox.html
+  name: BoundingBox
+  nameWithType: BoundingBox
+  fullName: ClaySharp.Interop.BoundingBox
+- uid: ClaySharp.Interop.Dimensions
+  commentId: T:ClaySharp.Interop.Dimensions
+  parent: ClaySharp.Interop
+  href: ClaySharp.Interop.Dimensions.html
+  name: Dimensions
+  nameWithType: Dimensions
+  fullName: ClaySharp.Interop.Dimensions
+- uid: ClaySharp.Interop.Vector2
+  commentId: T:ClaySharp.Interop.Vector2
+  parent: ClaySharp.Interop
+  href: ClaySharp.Interop.Vector2.html
+  name: Vector2
+  nameWithType: Vector2
+  fullName: ClaySharp.Interop.Vector2
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean

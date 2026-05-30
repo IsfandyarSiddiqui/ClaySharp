@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Namespace ClaySharp.Interop | BlackHook </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Namespace ClaySharp.Interop | BlackHook ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="BlackHook">
+            BlackHook
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="ClaySharp.Interop">
+
+  <h1 id="ClaySharp_Interop" data-uid="ClaySharp.Interop" class="text-break">Namespace ClaySharp.Interop</h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="markdown level0 remarks"></div>
+
+    <h3 id="classes">
+Classes
+</h3>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ClaySharp.Interop.ClayNative.html">ClayNative</a></dt>
+      <dd><p>Provides low-level, high-performance C# bindings to the native Clay layout library.
+Uses source-generated marshalling via <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.runtime.interopservices.libraryimportattribute">LibraryImportAttribute</a> and compiles with runtime marshalling disabled
+for zero-overhead, direct native transitions.</p>
+</dd>
+    </dl>
+    <h3 id="structs">
+Structs
+</h3>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ClaySharp.Interop.Arena.html">Arena</a></dt>
+      <dd><p>Defines a contiguous block of pre-allocated unmanaged memory that Clay uses for all structural and dynamic layout allocations.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ClaySharp.Interop.AspectRatioElementConfig.html">AspectRatioElementConfig</a></dt>
+      <dd><p>Imposes aspect ratio constraints on a UI element.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ClaySharp.Interop.AspectRatioElementConfigArray.html">AspectRatioElementConfigArray</a></dt>
+      <dd><p>Unmanaged array wrapper for <a class="xref" href="ClaySharp.Interop.AspectRatioElementConfig.html">AspectRatioElementConfig</a> elements.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ClaySharp.Interop.BorderElementConfig.html">BorderElementConfig</a></dt>
+      <dd><p>Configures styling properties for drawing borders around layout nodes.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ClaySharp.Interop.BorderElementConfigArray.html">BorderElementConfigArray</a></dt>
+      <dd><p>Unmanaged array wrapper for <a class="xref" href="ClaySharp.Interop.BorderElementConfig.html">BorderElementConfig</a> elements.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ClaySharp.Interop.BorderRenderData.html">BorderRenderData</a></dt>
+      <dd><p>Describes calculated border coordinates and stroke styling emitted inside border render commands.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ClaySharp.Interop.BorderWidth.html">BorderWidth</a></dt>
+      <dd><p>Specifies border stroke widths for each edge of a container.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ClaySharp.Interop.BoundingBox.html">BoundingBox</a></dt>
+      <dd><p>Defines a 2D bounding rectangle representing computed UI element placements.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ClaySharp.Interop.ChildAlignment.html">ChildAlignment</a></dt>
+      <dd><p>Specifies how child elements are aligned within their parent container along both axes.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ClaySharp.Interop.ClayString.html">ClayString</a></dt>
+      <dd><p>A native string wrapper used by Clay to represent text safely across the ABI.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ClaySharp.Interop.ClayStringSlice.html">ClayStringSlice</a></dt>
+      <dd><p>Represents a slice or segment of a string. Used by Clay's text layout engine during wrapping and text rendering.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ClaySharp.Interop.ClipElementConfig.html">ClipElementConfig</a></dt>
+      <dd><p>Configures boundary clipping properties for layout nodes.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ClaySharp.Interop.ClipElementConfigArray.html">ClipElementConfigArray</a></dt>
+      <dd><p>Unmanaged array wrapper for <a class="xref" href="ClaySharp.Interop.ClipElementConfig.html">ClipElementConfig</a> elements.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ClaySharp.Interop.ClipRenderData.html">ClipRenderData</a></dt>
+      <dd><p>Describes clipping parameters emitted inside scissor/clip render commands.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ClaySharp.Interop.Color.html">Color</a></dt>
+      <dd><p>Represents a color using four floating-point components (Red, Green, Blue, Alpha).</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ClaySharp.Interop.Context.html">Context</a></dt>
+      <dd><p>Opaque wrapper representing Clay's internal layout engine context context.
+This state should only be accessed via pointers returned by <a class="xref" href="ClaySharp.Interop.ClayNative.html#ClaySharp_Interop_ClayNative_Clay_Initialize_ClaySharp_Interop_Arena_ClaySharp_Interop_Dimensions_ClaySharp_Interop_ErrorHandler_">Clay_Initialize(Arena, Dimensions, ErrorHandler)</a> or <a class="xref" href="ClaySharp.Interop.ClayNative.html#ClaySharp_Interop_ClayNative_GetCurrentContext">GetCurrentContext()</a>.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ClaySharp.Interop.CornerRadius.html">CornerRadius</a></dt>
+      <dd><p>Specifies corner rounding radii for rectangles, borders, and images.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ClaySharp.Interop.CustomElementConfig.html">CustomElementConfig</a></dt>
+      <dd><p>Custom element layout configuration block.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ClaySharp.Interop.CustomElementConfigArray.html">CustomElementConfigArray</a></dt>
+      <dd><p>Unmanaged array wrapper for <a class="xref" href="ClaySharp.Interop.CustomElementConfig.html">CustomElementConfig</a> elements.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ClaySharp.Interop.CustomRenderData.html">CustomRenderData</a></dt>
+      <dd><p>Describes a custom element payload emitted inside custom render commands.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ClaySharp.Interop.DebugElementData.html">DebugElementData</a></dt>
+      <dd><p>Structural debugging attributes associated with layout elements.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ClaySharp.Interop.Dimensions.html">Dimensions</a></dt>
+      <dd><p>Represents standard 2D floating-point dimensions.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ClaySharp.Interop.ElementConfig.html">ElementConfig</a></dt>
+      <dd><p>Associates a layout configuration style with its category type identifier.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ClaySharp.Interop.ElementConfigArraySlice.html">ElementConfigArraySlice</a></dt>
+      <dd><p>Represents a slice segment pointing into a native unmanaged array of <a class="xref" href="ClaySharp.Interop.ElementConfig.html">ElementConfig</a> entries.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ClaySharp.Interop.ElementConfigUnion.html">ElementConfigUnion</a></dt>
+      <dd><p>Emulates an anonymous configuration C union inside <a class="xref" href="ClaySharp.Interop.ElementConfig.html">ElementConfig</a>, holding style detail pointers.
+Only one field should be accessed corresponding to the <a class="xref" href="ClaySharp.Interop.ElementConfig.html#ClaySharp_Interop_ElementConfig_Type">Type</a>.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ClaySharp.Interop.ElementData.html">ElementData</a></dt>
+      <dd><p>Public structure containing calculated layout coordinates.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ClaySharp.Interop.ElementDeclaration.html">ElementDeclaration</a></dt>
+      <dd><p>Composite declaration structure encapsulating all layout, style, and rendering configs for a single UI element.
+Pass this to <a class="xref" href="ClaySharp.Interop.ClayNative.html#ClaySharp_Interop_ClayNative_ConfigureOpenElement_ClaySharp_Interop_ElementDeclaration_">ConfigureOpenElement(ElementDeclaration)</a> to apply styling.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ClaySharp.Interop.ElementId.html">ElementId</a></dt>
+      <dd><p>Holds unique identifiers generated by Clay to track element lifecycle, focus, and layout state.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ClaySharp.Interop.ElementIdArray.html">ElementIdArray</a></dt>
+      <dd><p>Unmanaged array wrapper for <a class="xref" href="ClaySharp.Interop.ElementId.html">ElementId</a> elements.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ClaySharp.Interop.ErrorData.html">ErrorData</a></dt>
+      <dd><p>Structure containing detailed diagnostic information returned when layout errors occur.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ClaySharp.Interop.ErrorHandler.html">ErrorHandler</a></dt>
+      <dd><p>Holds callback function pointer registrations for native error handling.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ClaySharp.Interop.FloatingAttachPoints.html">FloatingAttachPoints</a></dt>
+      <dd><p>Defines target attachment points for floating elements.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ClaySharp.Interop.FloatingElementConfig.html">FloatingElementConfig</a></dt>
+      <dd><p>Controls positioning, depth, and attachment behavior of floating (absolute positioned) UI elements.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ClaySharp.Interop.FloatingElementConfigArray.html">FloatingElementConfigArray</a></dt>
+      <dd><p>Unmanaged array wrapper for <a class="xref" href="ClaySharp.Interop.FloatingElementConfig.html">FloatingElementConfig</a> elements.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ClaySharp.Interop.ImageElementConfig.html">ImageElementConfig</a></dt>
+      <dd><p>Holds image element render configurations.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ClaySharp.Interop.ImageElementConfigArray.html">ImageElementConfigArray</a></dt>
+      <dd><p>Unmanaged array wrapper for <a class="xref" href="ClaySharp.Interop.ImageElementConfig.html">ImageElementConfig</a> elements.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ClaySharp.Interop.ImageRenderData.html">ImageRenderData</a></dt>
+      <dd><p>Describes image content emitted inside image render commands.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ClaySharp.Interop.LayoutConfig.html">LayoutConfig</a></dt>
+      <dd><p>Defines general layout configurations for element arrangement, spacing, and sizing.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ClaySharp.Interop.LayoutConfigArray.html">LayoutConfigArray</a></dt>
+      <dd><p>Unmanaged array wrapper for <a class="xref" href="ClaySharp.Interop.LayoutConfig.html">LayoutConfig</a> elements.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ClaySharp.Interop.LayoutElement.html">LayoutElement</a></dt>
+      <dd><p>Represents a core layout node within Clay's internal structural layout tree.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ClaySharp.Interop.LayoutElementChildren.html">LayoutElementChildren</a></dt>
+      <dd><p>Emulates an anonymous C-style union containing either list of child element indices or text element details.
+Field offsets overlap so only one field should be accessed corresponding to layout node type.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ClaySharp.Interop.LayoutElementChildrenData.html">LayoutElementChildrenData</a></dt>
+      <dd><p>Holds list of child elements inside a container.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ClaySharp.Interop.LayoutElementHashMapItem.html">LayoutElementHashMapItem</a></dt>
+      <dd><p>Represents an entry in Clay's internal layout spatial hash map, used for fast lookup, hover, and layout calculation.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ClaySharp.Interop.LayoutElementTreeNode.html">LayoutElementTreeNode</a></dt>
+      <dd><p>A layout tree node structure tracking hierarchical rendering positioning.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ClaySharp.Interop.LayoutElementTreeRoot.html">LayoutElementTreeRoot</a></dt>
+      <dd><p>Defines the entry root configurations for a layout tree rendering hierarchy.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ClaySharp.Interop.MeasureTextCacheItem.html">MeasureTextCacheItem</a></dt>
+      <dd><p>Represents an item stored inside Clay's internal text measurement cache.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ClaySharp.Interop.MeasuredWord.html">MeasuredWord</a></dt>
+      <dd><p>Holds sizing metadata for a single word computed during text layout wrapping.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ClaySharp.Interop.Padding.html">Padding</a></dt>
+      <dd><p>Defines inner spacing padding values surrounding the children of a container.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ClaySharp.Interop.PointerData.html">PointerData</a></dt>
+      <dd><p>Contains pointer (e.g. mouse or touch) position and state information.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ClaySharp.Interop.RectangleRenderData.html">RectangleRenderData</a></dt>
+      <dd><p>Describes a filled background rectangle emitted inside rectangle render commands.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ClaySharp.Interop.RenderCommand.html">RenderCommand</a></dt>
+      <dd><p>Encapsulates a single drawing instruction emitted by Clay's layout resolver.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ClaySharp.Interop.RenderCommandArray.html">RenderCommandArray</a></dt>
+      <dd><p>Contiguous unmanaged array containing the list of <a class="xref" href="ClaySharp.Interop.RenderCommand.html">RenderCommand</a> elements computed for the current frame.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ClaySharp.Interop.RenderData.html">RenderData</a></dt>
+      <dd><p>Emulates an anonymous C union packing specific layout drawing payloads.
+Only one field should be accessed corresponding to the <a class="xref" href="ClaySharp.Interop.RenderCommand.html#ClaySharp_Interop_RenderCommand_CommandType">CommandType</a>.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ClaySharp.Interop.ScrollContainerData.html">ScrollContainerData</a></dt>
+      <dd><p>Public structure containing scroll coordinates and dimensions for scrollable elements.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ClaySharp.Interop.ScrollContainerDataInternal.html">ScrollContainerDataInternal</a></dt>
+      <dd><p>Internal layout engine scroll tracker holding physics and position metadata for a scroll container.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ClaySharp.Interop.SharedElementConfig.html">SharedElementConfig</a></dt>
+      <dd><p>Represents style settings that are shared across multiple layout nodes.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ClaySharp.Interop.SharedElementConfigArray.html">SharedElementConfigArray</a></dt>
+      <dd><p>Unmanaged array wrapper for <a class="xref" href="ClaySharp.Interop.SharedElementConfig.html">SharedElementConfig</a> elements.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ClaySharp.Interop.Sizing.html">Sizing</a></dt>
+      <dd><p>Defines layout sizing rules for both axes of a UI element.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ClaySharp.Interop.SizingAxis.html">SizingAxis</a></dt>
+      <dd><p>Specifies sizing rules and constraints for a single layout axis (either Width or Height).</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ClaySharp.Interop.SizingAxisValue.html">SizingAxisValue</a></dt>
+      <dd><p>Emulates an anonymous C union representing a sizing constraint value.
+Field offsets overlap so that it can store either percentage values or min/max bounds.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ClaySharp.Interop.SizingMinMax.html">SizingMinMax</a></dt>
+      <dd><p>Defines the minimum and maximum constraints for element dimensions.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ClaySharp.Interop.StringArray.html">StringArray</a></dt>
+      <dd><p>Unmanaged array wrapper for <a class="xref" href="ClaySharp.Interop.ClayString.html">ClayString</a> elements.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ClaySharp.Interop.TextElementConfig.html">TextElementConfig</a></dt>
+      <dd><p>Provides configuration settings for rendering text elements.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ClaySharp.Interop.TextElementConfigArray.html">TextElementConfigArray</a></dt>
+      <dd><p>Unmanaged array wrapper for <a class="xref" href="ClaySharp.Interop.TextElementConfig.html">TextElementConfig</a> elements.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ClaySharp.Interop.TextElementData.html">TextElementData</a></dt>
+      <dd><p>Holds layout and wrapping details computed specifically for text elements.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ClaySharp.Interop.TextRenderData.html">TextRenderData</a></dt>
+      <dd><p>Describes text content and style attributes emitted inside text render commands.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ClaySharp.Interop.Vector2.html">Vector2</a></dt>
+      <dd><p>Represents a standard 2D vector.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ClaySharp.Interop.Warning.html">Warning</a></dt>
+      <dd><p>Structure packing diagnostic warning messaging.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ClaySharp.Interop.WrappedTextLine.html">WrappedTextLine</a></dt>
+      <dd><p>Describes a single computed line of text resulting from word wrapping operations.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ClaySharp.Interop.WrappedTextLineArraySlice.html">WrappedTextLineArraySlice</a></dt>
+      <dd><p>Represents a slice segment pointing into an unmanaged array of wrapped text lines.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ClaySharp.Interop.boolArray.html">boolArray</a></dt>
+      <dd><p>Unmanaged array wrapper for boolean elements.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ClaySharp.Interop.charArray.html">charArray</a></dt>
+      <dd><p>Unmanaged array wrapper for raw character bytes.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ClaySharp.Interop.int32_tArray.html">int32_tArray</a></dt>
+      <dd><p>Unmanaged array wrapper for 32-bit signed integers.</p>
+</dd>
+    </dl>
+    <h3 id="enums">
+Enums
+</h3>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ClaySharp.Interop.ElementConfigType.html">ElementConfigType</a></dt>
+      <dd><p>Specifies the type of layout configuration applied to a UI element.
+This configuration determines which rendering, sizing, or layout rules Clay applies to the element.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ClaySharp.Interop.ErrorType.html">ErrorType</a></dt>
+      <dd><p>Defines the specific errors that can occur during layout calculation or configuration in Clay.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ClaySharp.Interop.FloatingAttachPointType.html">FloatingAttachPointType</a></dt>
+      <dd><p>Defines the attachment points on an element and its target when using floating (absolute) positioning.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ClaySharp.Interop.FloatingAttachToElement.html">FloatingAttachToElement</a></dt>
+      <dd><p>Identifies which element a floating container attaches to.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ClaySharp.Interop.FloatingClipToElement.html">FloatingClipToElement</a></dt>
+      <dd><p>Controls whether a floating element should be clipped by another element's bounds.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ClaySharp.Interop.LayoutAlignmentX.html">LayoutAlignmentX</a></dt>
+      <dd><p>Controls horizontal alignment of children within a layout container.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ClaySharp.Interop.LayoutAlignmentY.html">LayoutAlignmentY</a></dt>
+      <dd><p>Controls vertical alignment of children within a layout container.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ClaySharp.Interop.LayoutDirection.html">LayoutDirection</a></dt>
+      <dd><p>Defines the layout direction along which children are arranged.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ClaySharp.Interop.PointerCaptureMode.html">PointerCaptureMode</a></dt>
+      <dd><p>Controls pointer capture behavior for floating elements.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ClaySharp.Interop.PointerDataInteractionState.html">PointerDataInteractionState</a></dt>
+      <dd><p>Represents the interaction state of a pointer (e.g. mouse or touch) on a UI element.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ClaySharp.Interop.RenderCommandType.html">RenderCommandType</a></dt>
+      <dd><p>Specifies the rendering operation command type emitted in the output render command array.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ClaySharp.Interop.SizingType.html">SizingType</a></dt>
+      <dd><p>Determines how an element is sized along a layout axis.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ClaySharp.Interop.TextAlignment.html">TextAlignment</a></dt>
+      <dd><p>Specifies the horizontal alignment of text within its bounding container.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ClaySharp.Interop.TextElementConfigWrapMode.html">TextElementConfigWrapMode</a></dt>
+      <dd><p>Defines how text within a text element wraps.</p>
+</dd>
+    </dl>
+    <h3 id="delegates">
+Delegates
+</h3>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ClaySharp.Interop.ClayNative.Clay_MeasureTextCallback.html">ClayNative.Clay_MeasureTextCallback</a></dt>
+      <dd><p>Defines the signature of the text measurement callback used by Clay to compute text dimensions.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ClaySharp.Interop.ClayNative.OnHoverCallback.html">ClayNative.OnHoverCallback</a></dt>
+      <dd><p>Defines the signature of the callback invoked when a pointer hovers over an element configured with an hover handler.</p>
+</dd>
+    </dl>
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

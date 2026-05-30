@@ -1,0 +1,292 @@
+### YamlMime:ManagedReference
+items:
+- uid: ClaySharp.Interop.ErrorType
+  commentId: T:ClaySharp.Interop.ErrorType
+  id: ErrorType
+  parent: ClaySharp.Interop
+  children:
+  - ClaySharp.Interop.ErrorType.ArenaCapacityExceeded
+  - ClaySharp.Interop.ErrorType.DuplicateId
+  - ClaySharp.Interop.ErrorType.ElementsCapacityExceeded
+  - ClaySharp.Interop.ErrorType.FloatingContainerParentNotFound
+  - ClaySharp.Interop.ErrorType.InternalError
+  - ClaySharp.Interop.ErrorType.PercentageOver1
+  - ClaySharp.Interop.ErrorType.TextMeasurementCapacityExceeded
+  - ClaySharp.Interop.ErrorType.TextMeasurementFunctionNotProvided
+  langs:
+  - csharp
+  - vb
+  name: ErrorType
+  nameWithType: ErrorType
+  fullName: ClaySharp.Interop.ErrorType
+  type: Enum
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: ErrorType
+    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    startLine: 207
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: Defines the specific errors that can occur during layout calculation or configuration in Clay.
+  example: []
+  syntax:
+    content: 'public enum ErrorType : byte'
+    content.vb: Public Enum ErrorType As Byte
+- uid: ClaySharp.Interop.ErrorType.TextMeasurementFunctionNotProvided
+  commentId: F:ClaySharp.Interop.ErrorType.TextMeasurementFunctionNotProvided
+  id: TextMeasurementFunctionNotProvided
+  parent: ClaySharp.Interop.ErrorType
+  langs:
+  - csharp
+  - vb
+  name: TextMeasurementFunctionNotProvided
+  nameWithType: ErrorType.TextMeasurementFunctionNotProvided
+  fullName: ClaySharp.Interop.ErrorType.TextMeasurementFunctionNotProvided
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: TextMeasurementFunctionNotProvided
+    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    startLine: 210
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: A text measurement callback was not supplied, but a text element was encountered.
+  example: []
+  syntax:
+    content: TextMeasurementFunctionNotProvided = 0
+    return:
+      type: ClaySharp.Interop.ErrorType
+- uid: ClaySharp.Interop.ErrorType.ArenaCapacityExceeded
+  commentId: F:ClaySharp.Interop.ErrorType.ArenaCapacityExceeded
+  id: ArenaCapacityExceeded
+  parent: ClaySharp.Interop.ErrorType
+  langs:
+  - csharp
+  - vb
+  name: ArenaCapacityExceeded
+  nameWithType: ErrorType.ArenaCapacityExceeded
+  fullName: ClaySharp.Interop.ErrorType.ArenaCapacityExceeded
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: ArenaCapacityExceeded
+    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    startLine: 212
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: The internal memory arena capacity has been exceeded.
+  example: []
+  syntax:
+    content: ArenaCapacityExceeded = 1
+    return:
+      type: ClaySharp.Interop.ErrorType
+- uid: ClaySharp.Interop.ErrorType.ElementsCapacityExceeded
+  commentId: F:ClaySharp.Interop.ErrorType.ElementsCapacityExceeded
+  id: ElementsCapacityExceeded
+  parent: ClaySharp.Interop.ErrorType
+  langs:
+  - csharp
+  - vb
+  name: ElementsCapacityExceeded
+  nameWithType: ErrorType.ElementsCapacityExceeded
+  fullName: ClaySharp.Interop.ErrorType.ElementsCapacityExceeded
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: ElementsCapacityExceeded
+    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    startLine: 214
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: The maximum element count capacity specified has been exceeded.
+  example: []
+  syntax:
+    content: ElementsCapacityExceeded = 2
+    return:
+      type: ClaySharp.Interop.ErrorType
+- uid: ClaySharp.Interop.ErrorType.TextMeasurementCapacityExceeded
+  commentId: F:ClaySharp.Interop.ErrorType.TextMeasurementCapacityExceeded
+  id: TextMeasurementCapacityExceeded
+  parent: ClaySharp.Interop.ErrorType
+  langs:
+  - csharp
+  - vb
+  name: TextMeasurementCapacityExceeded
+  nameWithType: ErrorType.TextMeasurementCapacityExceeded
+  fullName: ClaySharp.Interop.ErrorType.TextMeasurementCapacityExceeded
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: TextMeasurementCapacityExceeded
+    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    startLine: 216
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: The internal cache for storing text measurements has run out of space.
+  example: []
+  syntax:
+    content: TextMeasurementCapacityExceeded = 3
+    return:
+      type: ClaySharp.Interop.ErrorType
+- uid: ClaySharp.Interop.ErrorType.DuplicateId
+  commentId: F:ClaySharp.Interop.ErrorType.DuplicateId
+  id: DuplicateId
+  parent: ClaySharp.Interop.ErrorType
+  langs:
+  - csharp
+  - vb
+  name: DuplicateId
+  nameWithType: ErrorType.DuplicateId
+  fullName: ClaySharp.Interop.ErrorType.DuplicateId
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: DuplicateId
+    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    startLine: 218
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: A duplicate element ID was declared in the layout tree.
+  example: []
+  syntax:
+    content: DuplicateId = 4
+    return:
+      type: ClaySharp.Interop.ErrorType
+- uid: ClaySharp.Interop.ErrorType.FloatingContainerParentNotFound
+  commentId: F:ClaySharp.Interop.ErrorType.FloatingContainerParentNotFound
+  id: FloatingContainerParentNotFound
+  parent: ClaySharp.Interop.ErrorType
+  langs:
+  - csharp
+  - vb
+  name: FloatingContainerParentNotFound
+  nameWithType: ErrorType.FloatingContainerParentNotFound
+  fullName: ClaySharp.Interop.ErrorType.FloatingContainerParentNotFound
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: FloatingContainerParentNotFound
+    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    startLine: 220
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: A floating container requested attachment to a parent ID that could not be found.
+  example: []
+  syntax:
+    content: FloatingContainerParentNotFound = 5
+    return:
+      type: ClaySharp.Interop.ErrorType
+- uid: ClaySharp.Interop.ErrorType.PercentageOver1
+  commentId: F:ClaySharp.Interop.ErrorType.PercentageOver1
+  id: PercentageOver1
+  parent: ClaySharp.Interop.ErrorType
+  langs:
+  - csharp
+  - vb
+  name: PercentageOver1
+  nameWithType: ErrorType.PercentageOver1
+  fullName: ClaySharp.Interop.ErrorType.PercentageOver1
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: PercentageOver1
+    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    startLine: 222
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: A layout percentage value was specified which was greater than 1.0 (100%).
+  example: []
+  syntax:
+    content: PercentageOver1 = 6
+    return:
+      type: ClaySharp.Interop.ErrorType
+- uid: ClaySharp.Interop.ErrorType.InternalError
+  commentId: F:ClaySharp.Interop.ErrorType.InternalError
+  id: InternalError
+  parent: ClaySharp.Interop.ErrorType
+  langs:
+  - csharp
+  - vb
+  name: InternalError
+  nameWithType: ErrorType.InternalError
+  fullName: ClaySharp.Interop.ErrorType.InternalError
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: InternalError
+    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    startLine: 224
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: An unclassified internal engine error occurred.
+  example: []
+  syntax:
+    content: InternalError = 7
+    return:
+      type: ClaySharp.Interop.ErrorType
+references:
+- uid: ClaySharp.Interop
+  commentId: N:ClaySharp.Interop
+  href: ClaySharp.html
+  name: ClaySharp.Interop
+  nameWithType: ClaySharp.Interop
+  fullName: ClaySharp.Interop
+  spec.csharp:
+  - uid: ClaySharp
+    name: ClaySharp
+    href: ClaySharp.html
+  - name: .
+  - uid: ClaySharp.Interop
+    name: Interop
+    href: ClaySharp.Interop.html
+  spec.vb:
+  - uid: ClaySharp
+    name: ClaySharp
+    href: ClaySharp.html
+  - name: .
+  - uid: ClaySharp.Interop
+    name: Interop
+    href: ClaySharp.Interop.html
+- uid: ClaySharp.Interop.ErrorType
+  commentId: T:ClaySharp.Interop.ErrorType
+  parent: ClaySharp.Interop
+  href: ClaySharp.Interop.ErrorType.html
+  name: ErrorType
+  nameWithType: ErrorType
+  fullName: ClaySharp.Interop.ErrorType

@@ -1,0 +1,728 @@
+### YamlMime:ManagedReference
+items:
+- uid: ClaySharp.Interop.ElementDeclaration
+  commentId: T:ClaySharp.Interop.ElementDeclaration
+  id: ElementDeclaration
+  parent: ClaySharp.Interop
+  children:
+  - ClaySharp.Interop.ElementDeclaration.AspectRatio
+  - ClaySharp.Interop.ElementDeclaration.BackgroundColor
+  - ClaySharp.Interop.ElementDeclaration.Border
+  - ClaySharp.Interop.ElementDeclaration.Clip
+  - ClaySharp.Interop.ElementDeclaration.CornerRadius
+  - ClaySharp.Interop.ElementDeclaration.Custom
+  - ClaySharp.Interop.ElementDeclaration.Floating
+  - ClaySharp.Interop.ElementDeclaration.Id
+  - ClaySharp.Interop.ElementDeclaration.Image
+  - ClaySharp.Interop.ElementDeclaration.Layout
+  - ClaySharp.Interop.ElementDeclaration.UserData
+  langs:
+  - csharp
+  - vb
+  name: ElementDeclaration
+  nameWithType: ElementDeclaration
+  fullName: ClaySharp.Interop.ElementDeclaration
+  type: Struct
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: ElementDeclaration
+    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    startLine: 472
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: >-
+    Composite declaration structure encapsulating all layout, style, and rendering configs for a single UI element.
+
+    Pass this to <xref href="ClaySharp.Interop.ClayNative.ConfigureOpenElement(ClaySharp.Interop.ElementDeclaration)" data-throw-if-not-resolved="false"></xref> to apply styling.
+  example: []
+  syntax:
+    content: public struct ElementDeclaration
+    content.vb: Public Structure ElementDeclaration
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: ClaySharp.Interop.ElementDeclaration.Id
+  commentId: F:ClaySharp.Interop.ElementDeclaration.Id
+  id: Id
+  parent: ClaySharp.Interop.ElementDeclaration
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: ElementDeclaration.Id
+  fullName: ClaySharp.Interop.ElementDeclaration.Id
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: Id
+    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    startLine: 476
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: The unique ID handle for this element.
+  example: []
+  syntax:
+    content: public ElementId Id
+    return:
+      type: ClaySharp.Interop.ElementId
+    content.vb: Public Id As ElementId
+- uid: ClaySharp.Interop.ElementDeclaration.Layout
+  commentId: F:ClaySharp.Interop.ElementDeclaration.Layout
+  id: Layout
+  parent: ClaySharp.Interop.ElementDeclaration
+  langs:
+  - csharp
+  - vb
+  name: Layout
+  nameWithType: ElementDeclaration.Layout
+  fullName: ClaySharp.Interop.ElementDeclaration.Layout
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: Layout
+    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    startLine: 479
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: General layout settings (sizing, alignment, padding).
+  example: []
+  syntax:
+    content: public LayoutConfig Layout
+    return:
+      type: ClaySharp.Interop.LayoutConfig
+    content.vb: Public Layout As LayoutConfig
+- uid: ClaySharp.Interop.ElementDeclaration.BackgroundColor
+  commentId: F:ClaySharp.Interop.ElementDeclaration.BackgroundColor
+  id: BackgroundColor
+  parent: ClaySharp.Interop.ElementDeclaration
+  langs:
+  - csharp
+  - vb
+  name: BackgroundColor
+  nameWithType: ElementDeclaration.BackgroundColor
+  fullName: ClaySharp.Interop.ElementDeclaration.BackgroundColor
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: BackgroundColor
+    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    startLine: 482
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: The element's solid background fill color.
+  example: []
+  syntax:
+    content: public Color BackgroundColor
+    return:
+      type: ClaySharp.Interop.Color
+    content.vb: Public BackgroundColor As Color
+- uid: ClaySharp.Interop.ElementDeclaration.CornerRadius
+  commentId: F:ClaySharp.Interop.ElementDeclaration.CornerRadius
+  id: CornerRadius
+  parent: ClaySharp.Interop.ElementDeclaration
+  langs:
+  - csharp
+  - vb
+  name: CornerRadius
+  nameWithType: ElementDeclaration.CornerRadius
+  fullName: ClaySharp.Interop.ElementDeclaration.CornerRadius
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: CornerRadius
+    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    startLine: 485
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: Corner rounding radii applied to backgrounds and borders.
+  example: []
+  syntax:
+    content: public CornerRadius CornerRadius
+    return:
+      type: ClaySharp.Interop.CornerRadius
+    content.vb: Public CornerRadius As CornerRadius
+- uid: ClaySharp.Interop.ElementDeclaration.AspectRatio
+  commentId: F:ClaySharp.Interop.ElementDeclaration.AspectRatio
+  id: AspectRatio
+  parent: ClaySharp.Interop.ElementDeclaration
+  langs:
+  - csharp
+  - vb
+  name: AspectRatio
+  nameWithType: ElementDeclaration.AspectRatio
+  fullName: ClaySharp.Interop.ElementDeclaration.AspectRatio
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: AspectRatio
+    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    startLine: 488
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: Optional aspect ratio constraint.
+  example: []
+  syntax:
+    content: public AspectRatioElementConfig AspectRatio
+    return:
+      type: ClaySharp.Interop.AspectRatioElementConfig
+    content.vb: Public AspectRatio As AspectRatioElementConfig
+- uid: ClaySharp.Interop.ElementDeclaration.Image
+  commentId: F:ClaySharp.Interop.ElementDeclaration.Image
+  id: Image
+  parent: ClaySharp.Interop.ElementDeclaration
+  langs:
+  - csharp
+  - vb
+  name: Image
+  nameWithType: ElementDeclaration.Image
+  fullName: ClaySharp.Interop.ElementDeclaration.Image
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: Image
+    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    startLine: 491
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: Optional image settings.
+  example: []
+  syntax:
+    content: public ImageElementConfig Image
+    return:
+      type: ClaySharp.Interop.ImageElementConfig
+    content.vb: Public Image As ImageElementConfig
+- uid: ClaySharp.Interop.ElementDeclaration.Floating
+  commentId: F:ClaySharp.Interop.ElementDeclaration.Floating
+  id: Floating
+  parent: ClaySharp.Interop.ElementDeclaration
+  langs:
+  - csharp
+  - vb
+  name: Floating
+  nameWithType: ElementDeclaration.Floating
+  fullName: ClaySharp.Interop.ElementDeclaration.Floating
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: Floating
+    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    startLine: 494
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: Optional floating/absolute placement settings.
+  example: []
+  syntax:
+    content: public FloatingElementConfig Floating
+    return:
+      type: ClaySharp.Interop.FloatingElementConfig
+    content.vb: Public Floating As FloatingElementConfig
+- uid: ClaySharp.Interop.ElementDeclaration.Custom
+  commentId: F:ClaySharp.Interop.ElementDeclaration.Custom
+  id: Custom
+  parent: ClaySharp.Interop.ElementDeclaration
+  langs:
+  - csharp
+  - vb
+  name: Custom
+  nameWithType: ElementDeclaration.Custom
+  fullName: ClaySharp.Interop.ElementDeclaration.Custom
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: Custom
+    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    startLine: 497
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: Optional custom drawing settings.
+  example: []
+  syntax:
+    content: public CustomElementConfig Custom
+    return:
+      type: ClaySharp.Interop.CustomElementConfig
+    content.vb: Public Custom As CustomElementConfig
+- uid: ClaySharp.Interop.ElementDeclaration.Clip
+  commentId: F:ClaySharp.Interop.ElementDeclaration.Clip
+  id: Clip
+  parent: ClaySharp.Interop.ElementDeclaration
+  langs:
+  - csharp
+  - vb
+  name: Clip
+  nameWithType: ElementDeclaration.Clip
+  fullName: ClaySharp.Interop.ElementDeclaration.Clip
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: Clip
+    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    startLine: 500
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: Optional scroll/overflow clipping settings.
+  example: []
+  syntax:
+    content: public ClipElementConfig Clip
+    return:
+      type: ClaySharp.Interop.ClipElementConfig
+    content.vb: Public Clip As ClipElementConfig
+- uid: ClaySharp.Interop.ElementDeclaration.Border
+  commentId: F:ClaySharp.Interop.ElementDeclaration.Border
+  id: Border
+  parent: ClaySharp.Interop.ElementDeclaration
+  langs:
+  - csharp
+  - vb
+  name: Border
+  nameWithType: ElementDeclaration.Border
+  fullName: ClaySharp.Interop.ElementDeclaration.Border
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: Border
+    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    startLine: 503
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: Optional border stroke settings.
+  example: []
+  syntax:
+    content: public BorderElementConfig Border
+    return:
+      type: ClaySharp.Interop.BorderElementConfig
+    content.vb: Public Border As BorderElementConfig
+- uid: ClaySharp.Interop.ElementDeclaration.UserData
+  commentId: F:ClaySharp.Interop.ElementDeclaration.UserData
+  id: UserData
+  parent: ClaySharp.Interop.ElementDeclaration
+  langs:
+  - csharp
+  - vb
+  name: UserData
+  nameWithType: ElementDeclaration.UserData
+  fullName: ClaySharp.Interop.ElementDeclaration.UserData
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: UserData
+    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    startLine: 506
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: Optional custom unmanaged user metadata pointer.
+  example: []
+  syntax:
+    content: public void* UserData
+    return:
+      type: System.Void*
+    content.vb: Public UserData As Void*
+references:
+- uid: ClaySharp.Interop.ClayNative.ConfigureOpenElement(ClaySharp.Interop.ElementDeclaration)
+  commentId: M:ClaySharp.Interop.ClayNative.ConfigureOpenElement(ClaySharp.Interop.ElementDeclaration)
+  isExternal: true
+  href: ClaySharp.Interop.ClayNative.html#ClaySharp_Interop_ClayNative_ConfigureOpenElement_ClaySharp_Interop_ElementDeclaration_
+  name: ConfigureOpenElement(ElementDeclaration)
+  nameWithType: ClayNative.ConfigureOpenElement(ElementDeclaration)
+  fullName: ClaySharp.Interop.ClayNative.ConfigureOpenElement(ClaySharp.Interop.ElementDeclaration)
+  spec.csharp:
+  - uid: ClaySharp.Interop.ClayNative.ConfigureOpenElement(ClaySharp.Interop.ElementDeclaration)
+    name: ConfigureOpenElement
+    isExternal: true
+    href: ClaySharp.Interop.ClayNative.html#ClaySharp_Interop_ClayNative_ConfigureOpenElement_ClaySharp_Interop_ElementDeclaration_
+  - name: (
+  - uid: ClaySharp.Interop.ElementDeclaration
+    name: ElementDeclaration
+    href: ClaySharp.Interop.ElementDeclaration.html
+  - name: )
+  spec.vb:
+  - uid: ClaySharp.Interop.ClayNative.ConfigureOpenElement(ClaySharp.Interop.ElementDeclaration)
+    name: ConfigureOpenElement
+    isExternal: true
+    href: ClaySharp.Interop.ClayNative.html#ClaySharp_Interop_ClayNative_ConfigureOpenElement_ClaySharp_Interop_ElementDeclaration_
+  - name: (
+  - uid: ClaySharp.Interop.ElementDeclaration
+    name: ElementDeclaration
+    href: ClaySharp.Interop.ElementDeclaration.html
+  - name: )
+- uid: ClaySharp.Interop
+  commentId: N:ClaySharp.Interop
+  href: ClaySharp.html
+  name: ClaySharp.Interop
+  nameWithType: ClaySharp.Interop
+  fullName: ClaySharp.Interop
+  spec.csharp:
+  - uid: ClaySharp
+    name: ClaySharp
+    href: ClaySharp.html
+  - name: .
+  - uid: ClaySharp.Interop
+    name: Interop
+    href: ClaySharp.Interop.html
+  spec.vb:
+  - uid: ClaySharp
+    name: ClaySharp
+    href: ClaySharp.html
+  - name: .
+  - uid: ClaySharp.Interop
+    name: Interop
+    href: ClaySharp.Interop.html
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ClaySharp.Interop.ElementId
+  commentId: T:ClaySharp.Interop.ElementId
+  parent: ClaySharp.Interop
+  href: ClaySharp.Interop.ElementId.html
+  name: ElementId
+  nameWithType: ElementId
+  fullName: ClaySharp.Interop.ElementId
+- uid: ClaySharp.Interop.LayoutConfig
+  commentId: T:ClaySharp.Interop.LayoutConfig
+  parent: ClaySharp.Interop
+  href: ClaySharp.Interop.LayoutConfig.html
+  name: LayoutConfig
+  nameWithType: LayoutConfig
+  fullName: ClaySharp.Interop.LayoutConfig
+- uid: ClaySharp.Interop.Color
+  commentId: T:ClaySharp.Interop.Color
+  parent: ClaySharp.Interop
+  href: ClaySharp.Interop.Color.html
+  name: Color
+  nameWithType: Color
+  fullName: ClaySharp.Interop.Color
+- uid: ClaySharp.Interop.CornerRadius
+  commentId: T:ClaySharp.Interop.CornerRadius
+  parent: ClaySharp.Interop
+  href: ClaySharp.Interop.CornerRadius.html
+  name: CornerRadius
+  nameWithType: CornerRadius
+  fullName: ClaySharp.Interop.CornerRadius
+- uid: ClaySharp.Interop.AspectRatioElementConfig
+  commentId: T:ClaySharp.Interop.AspectRatioElementConfig
+  parent: ClaySharp.Interop
+  href: ClaySharp.Interop.AspectRatioElementConfig.html
+  name: AspectRatioElementConfig
+  nameWithType: AspectRatioElementConfig
+  fullName: ClaySharp.Interop.AspectRatioElementConfig
+- uid: ClaySharp.Interop.ImageElementConfig
+  commentId: T:ClaySharp.Interop.ImageElementConfig
+  parent: ClaySharp.Interop
+  href: ClaySharp.Interop.ImageElementConfig.html
+  name: ImageElementConfig
+  nameWithType: ImageElementConfig
+  fullName: ClaySharp.Interop.ImageElementConfig
+- uid: ClaySharp.Interop.FloatingElementConfig
+  commentId: T:ClaySharp.Interop.FloatingElementConfig
+  parent: ClaySharp.Interop
+  href: ClaySharp.Interop.FloatingElementConfig.html
+  name: FloatingElementConfig
+  nameWithType: FloatingElementConfig
+  fullName: ClaySharp.Interop.FloatingElementConfig
+- uid: ClaySharp.Interop.CustomElementConfig
+  commentId: T:ClaySharp.Interop.CustomElementConfig
+  parent: ClaySharp.Interop
+  href: ClaySharp.Interop.CustomElementConfig.html
+  name: CustomElementConfig
+  nameWithType: CustomElementConfig
+  fullName: ClaySharp.Interop.CustomElementConfig
+- uid: ClaySharp.Interop.ClipElementConfig
+  commentId: T:ClaySharp.Interop.ClipElementConfig
+  parent: ClaySharp.Interop
+  href: ClaySharp.Interop.ClipElementConfig.html
+  name: ClipElementConfig
+  nameWithType: ClipElementConfig
+  fullName: ClaySharp.Interop.ClipElementConfig
+- uid: ClaySharp.Interop.BorderElementConfig
+  commentId: T:ClaySharp.Interop.BorderElementConfig
+  parent: ClaySharp.Interop
+  href: ClaySharp.Interop.BorderElementConfig.html
+  name: BorderElementConfig
+  nameWithType: BorderElementConfig
+  fullName: ClaySharp.Interop.BorderElementConfig
+- uid: System.Void*
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.void
+  name: void*
+  nameWithType: void*
+  fullName: void*
+  nameWithType.vb: Void*
+  fullName.vb: Void*
+  name.vb: Void*
+  spec.csharp:
+  - uid: System.Void
+    name: void
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.void
+  - name: '*'
+  spec.vb:
+  - uid: System.Void
+    name: Void
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.void
+  - name: '*'

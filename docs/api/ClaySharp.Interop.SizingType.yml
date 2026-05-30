@@ -1,0 +1,176 @@
+### YamlMime:ManagedReference
+items:
+- uid: ClaySharp.Interop.SizingType
+  commentId: T:ClaySharp.Interop.SizingType
+  id: SizingType
+  parent: ClaySharp.Interop
+  children:
+  - ClaySharp.Interop.SizingType.Fit
+  - ClaySharp.Interop.SizingType.Fixed
+  - ClaySharp.Interop.SizingType.Grow
+  - ClaySharp.Interop.SizingType.Percent
+  langs:
+  - csharp
+  - vb
+  name: SizingType
+  nameWithType: SizingType
+  fullName: ClaySharp.Interop.SizingType
+  type: Enum
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: SizingType
+    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    startLine: 68
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: Determines how an element is sized along a layout axis.
+  example: []
+  syntax:
+    content: 'public enum SizingType : byte'
+    content.vb: Public Enum SizingType As Byte
+- uid: ClaySharp.Interop.SizingType.Fit
+  commentId: F:ClaySharp.Interop.SizingType.Fit
+  id: Fit
+  parent: ClaySharp.Interop.SizingType
+  langs:
+  - csharp
+  - vb
+  name: Fit
+  nameWithType: SizingType.Fit
+  fullName: ClaySharp.Interop.SizingType.Fit
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: Fit
+    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    startLine: 71
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: Sizes the element to exactly fit its content.
+  example: []
+  syntax:
+    content: Fit = 0
+    return:
+      type: ClaySharp.Interop.SizingType
+- uid: ClaySharp.Interop.SizingType.Grow
+  commentId: F:ClaySharp.Interop.SizingType.Grow
+  id: Grow
+  parent: ClaySharp.Interop.SizingType
+  langs:
+  - csharp
+  - vb
+  name: Grow
+  nameWithType: SizingType.Grow
+  fullName: ClaySharp.Interop.SizingType.Grow
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: Grow
+    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    startLine: 73
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: Allows the element to grow and fill remaining space in its parent container.
+  example: []
+  syntax:
+    content: Grow = 1
+    return:
+      type: ClaySharp.Interop.SizingType
+- uid: ClaySharp.Interop.SizingType.Percent
+  commentId: F:ClaySharp.Interop.SizingType.Percent
+  id: Percent
+  parent: ClaySharp.Interop.SizingType
+  langs:
+  - csharp
+  - vb
+  name: Percent
+  nameWithType: SizingType.Percent
+  fullName: ClaySharp.Interop.SizingType.Percent
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: Percent
+    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    startLine: 75
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: Sizes the element as a percentage of its parent container's size.
+  example: []
+  syntax:
+    content: Percent = 2
+    return:
+      type: ClaySharp.Interop.SizingType
+- uid: ClaySharp.Interop.SizingType.Fixed
+  commentId: F:ClaySharp.Interop.SizingType.Fixed
+  id: Fixed
+  parent: ClaySharp.Interop.SizingType
+  langs:
+  - csharp
+  - vb
+  name: Fixed
+  nameWithType: SizingType.Fixed
+  fullName: ClaySharp.Interop.SizingType.Fixed
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: Fixed
+    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    startLine: 77
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: Sizes the element to a fixed pixel dimension.
+  example: []
+  syntax:
+    content: Fixed = 3
+    return:
+      type: ClaySharp.Interop.SizingType
+references:
+- uid: ClaySharp.Interop
+  commentId: N:ClaySharp.Interop
+  href: ClaySharp.html
+  name: ClaySharp.Interop
+  nameWithType: ClaySharp.Interop
+  fullName: ClaySharp.Interop
+  spec.csharp:
+  - uid: ClaySharp
+    name: ClaySharp
+    href: ClaySharp.html
+  - name: .
+  - uid: ClaySharp.Interop
+    name: Interop
+    href: ClaySharp.Interop.html
+  spec.vb:
+  - uid: ClaySharp
+    name: ClaySharp
+    href: ClaySharp.html
+  - name: .
+  - uid: ClaySharp.Interop
+    name: Interop
+    href: ClaySharp.Interop.html
+- uid: ClaySharp.Interop.SizingType
+  commentId: T:ClaySharp.Interop.SizingType
+  parent: ClaySharp.Interop
+  href: ClaySharp.Interop.SizingType.html
+  name: SizingType
+  nameWithType: SizingType
+  fullName: ClaySharp.Interop.SizingType

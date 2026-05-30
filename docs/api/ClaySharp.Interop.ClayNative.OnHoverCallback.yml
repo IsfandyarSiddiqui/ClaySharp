@@ -1,0 +1,95 @@
+### YamlMime:ManagedReference
+items:
+- uid: ClaySharp.Interop.ClayNative.OnHoverCallback
+  commentId: T:ClaySharp.Interop.ClayNative.OnHoverCallback
+  id: ClayNative.OnHoverCallback
+  parent: ClaySharp.Interop
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: ClayNative.OnHoverCallback
+  nameWithType: ClayNative.OnHoverCallback
+  fullName: ClaySharp.Interop.ClayNative.OnHoverCallback
+  type: Delegate
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayNative.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: OnHoverCallback
+    path: ../BlackHook.ClaySharp/Interop/ClayNative.cs
+    startLine: 118
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: Defines the signature of the callback invoked when a pointer hovers over an element configured with an hover handler.
+  example: []
+  syntax:
+    content: public delegate void ClayNative.OnHoverCallback(ElementId elementId, PointerData pointerData, nint userData)
+    parameters:
+    - id: elementId
+      type: ClaySharp.Interop.ElementId
+      description: The unique ID of the hovered element.
+    - id: pointerData
+      type: ClaySharp.Interop.PointerData
+      description: The position and button state of the pointer during interaction.
+    - id: userData
+      type: System.IntPtr
+      description: A custom user-defined data pointer passed during registration.
+    content.vb: Public Delegate Sub ClayNative.OnHoverCallback(elementId As ElementId, pointerData As PointerData, userData As IntPtr)
+references:
+- uid: ClaySharp.Interop
+  commentId: N:ClaySharp.Interop
+  href: ClaySharp.html
+  name: ClaySharp.Interop
+  nameWithType: ClaySharp.Interop
+  fullName: ClaySharp.Interop
+  spec.csharp:
+  - uid: ClaySharp
+    name: ClaySharp
+    href: ClaySharp.html
+  - name: .
+  - uid: ClaySharp.Interop
+    name: Interop
+    href: ClaySharp.Interop.html
+  spec.vb:
+  - uid: ClaySharp
+    name: ClaySharp
+    href: ClaySharp.html
+  - name: .
+  - uid: ClaySharp.Interop
+    name: Interop
+    href: ClaySharp.Interop.html
+- uid: ClaySharp.Interop.ElementId
+  commentId: T:ClaySharp.Interop.ElementId
+  parent: ClaySharp.Interop
+  href: ClaySharp.Interop.ElementId.html
+  name: ElementId
+  nameWithType: ElementId
+  fullName: ClaySharp.Interop.ElementId
+- uid: ClaySharp.Interop.PointerData
+  commentId: T:ClaySharp.Interop.PointerData
+  parent: ClaySharp.Interop
+  href: ClaySharp.Interop.PointerData.html
+  name: PointerData
+  nameWithType: PointerData
+  fullName: ClaySharp.Interop.PointerData
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.intptr
+  name: nint
+  nameWithType: nint
+  fullName: nint
+  nameWithType.vb: IntPtr
+  fullName.vb: System.IntPtr
+  name.vb: IntPtr
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

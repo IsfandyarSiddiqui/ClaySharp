@@ -1,0 +1,1524 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class ClayNative | BlackHook </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class ClayNative | BlackHook ">
+      
+      <meta name="description" content="Provides low-level, high-performance C# bindings to the native Clay layout library. Uses source-generated marshalling via  and compiles with runtime marshalling disabled for zero-overhead, direct native transitions.">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="BlackHook">
+            BlackHook
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="ClaySharp.Interop.ClayNative">
+
+
+
+  <h1 id="ClaySharp_Interop_ClayNative" data-uid="ClaySharp.Interop.ClayNative" class="text-break">
+Class ClayNative  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="ClaySharp.html">ClaySharp</a>.<a class="xref" href="ClaySharp.Interop.html">Interop</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>BlackHook.ClaySharp.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Provides low-level, high-performance C# bindings to the native Clay layout library.
+Uses source-generated marshalling via <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.runtime.interopservices.libraryimportattribute">LibraryImportAttribute</a> and compiles with runtime marshalling disabled
+for zero-overhead, direct native transitions.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class ClayNative</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">ClayNative</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+  <h2 id="ClaySharp_Interop_ClayNative_remarks">Remarks</h2>
+  <div class="markdown level0 remarks"><p>Clay is a single-header C library for high-performance 2D layout. This class provides the direct interop wrapper.
+Since runtime marshalling is disabled, all parameters and return types are marshaled at compile-time by the C# compiler.
+Unsafe pointers are utilized heavily; developers must ensure correct lifetime management of memory backings and arenas.</p>
+</div>
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="ClaySharp_Interop_ClayNative_BeginLayout_" data-uid="ClaySharp.Interop.ClayNative.BeginLayout*"></a>
+
+  <h3 id="ClaySharp_Interop_ClayNative_BeginLayout" data-uid="ClaySharp.Interop.ClayNative.BeginLayout">
+  BeginLayout()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Begins a new layout pass. Must be called every frame before declaring UI elements.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static extern void BeginLayout()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ClaySharp_Interop_ClayNative_Clay_Initialize_" data-uid="ClaySharp.Interop.ClayNative.Clay_Initialize*"></a>
+
+  <h3 id="ClaySharp_Interop_ClayNative_Clay_Initialize_ClaySharp_Interop_Arena_ClaySharp_Interop_Dimensions_ClaySharp_Interop_ErrorHandler_" data-uid="ClaySharp.Interop.ClayNative.Clay_Initialize(ClaySharp.Interop.Arena,ClaySharp.Interop.Dimensions,ClaySharp.Interop.ErrorHandler)">
+  Clay_Initialize(Arena, Dimensions, ErrorHandler)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Initializes the native Clay layout engine context with a memory arena, initial window dimensions, and an error handler.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static extern Context* Clay_Initialize(Arena arena, Dimensions layoutDimensions, ErrorHandler errorHandler)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>arena</code> <a class="xref" href="ClaySharp.Interop.Arena.html">Arena</a></dt>
+    <dd><p>The allocated memory arena for Clay's internal structures.</p>
+</dd>
+    <dt><code>layoutDimensions</code> <a class="xref" href="ClaySharp.Interop.Dimensions.html">Dimensions</a></dt>
+    <dd><p>The initial width and height of the layout viewport.</p>
+</dd>
+    <dt><code>errorHandler</code> <a class="xref" href="ClaySharp.Interop.ErrorHandler.html">ErrorHandler</a></dt>
+    <dd><p>The error handler callback and user data to receive error notifications.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ClaySharp.Interop.Context.html">Context</a>*</dt>
+    <dd><p>A raw pointer to the initialized internal <a class="xref" href="ClaySharp.Interop.Context.html">Context</a> structure.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ClaySharp_Interop_ClayNative_CloseElement_" data-uid="ClaySharp.Interop.ClayNative.CloseElement*"></a>
+
+  <h3 id="ClaySharp_Interop_ClayNative_CloseElement" data-uid="ClaySharp.Interop.ClayNative.CloseElement">
+  CloseElement()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Low-level function: closes the current active layout element scope.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static extern void CloseElement()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ClaySharp_Interop_ClayNative_ConfigureOpenElement_" data-uid="ClaySharp.Interop.ClayNative.ConfigureOpenElement*"></a>
+
+  <h3 id="ClaySharp_Interop_ClayNative_ConfigureOpenElement_ClaySharp_Interop_ElementDeclaration_" data-uid="ClaySharp.Interop.ClayNative.ConfigureOpenElement(ClaySharp.Interop.ElementDeclaration)">
+  ConfigureOpenElement(ElementDeclaration)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Low-level function: configures the currently open layout element with the provided styling declarations.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static extern void ConfigureOpenElement(ElementDeclaration config)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>config</code> <a class="xref" href="ClaySharp.Interop.ElementDeclaration.html">ElementDeclaration</a></dt>
+    <dd><p>The configuration parameters for the element.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ClaySharp_Interop_ClayNative_ConfigureOpenElementPtr_" data-uid="ClaySharp.Interop.ClayNative.ConfigureOpenElementPtr*"></a>
+
+  <h3 id="ClaySharp_Interop_ClayNative_ConfigureOpenElementPtr_ClaySharp_Interop_ElementDeclaration__" data-uid="ClaySharp.Interop.ClayNative.ConfigureOpenElementPtr(ClaySharp.Interop.ElementDeclaration@)">
+  ConfigureOpenElementPtr(in ElementDeclaration)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/IsfandyarSiddiqui/BlackHook/blob/master/BlackHook.ClaySharp/Interop/ClayNative.cs/#L274"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Low-level function: configures the currently open layout element passing a reference to avoid structure copy.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void ConfigureOpenElementPtr(in ElementDeclaration config)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>config</code> <a class="xref" href="ClaySharp.Interop.ElementDeclaration.html">ElementDeclaration</a></dt>
+    <dd><p>A reference to the configuration parameters.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ClaySharp_Interop_ClayNative_CreateArenaWithCapacityAndMemory_" data-uid="ClaySharp.Interop.ClayNative.CreateArenaWithCapacityAndMemory*"></a>
+
+  <h3 id="ClaySharp_Interop_ClayNative_CreateArenaWithCapacityAndMemory_System_UIntPtr_System_Void__" data-uid="ClaySharp.Interop.ClayNative.CreateArenaWithCapacityAndMemory(System.UIntPtr,System.Void*)">
+  CreateArenaWithCapacityAndMemory(nuint, void*)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Creates a memory allocation arena using a pre-allocated block of raw unmanaged memory.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static extern Arena CreateArenaWithCapacityAndMemory(nuint capacity, void* memory)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>capacity</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uintptr">nuint</a></dt>
+    <dd><p>The capacity of the memory backing in bytes. Usually obtained via <a class="xref" href="ClaySharp.Interop.ClayNative.html#ClaySharp_Interop_ClayNative_MinMemorySize">MinMemorySize()</a>.</p>
+</dd>
+    <dt><code>memory</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.void">void</a>*</dt>
+    <dd><p>A raw pointer to the block of unmanaged memory allocated for Clay.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ClaySharp.Interop.Arena.html">Arena</a></dt>
+    <dd><p>A initialized <a class="xref" href="ClaySharp.Interop.Arena.html">Arena</a> struct ready to be passed to initialization.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ClaySharp_Interop_ClayNative_EndLayout_" data-uid="ClaySharp.Interop.ClayNative.EndLayout*"></a>
+
+  <h3 id="ClaySharp_Interop_ClayNative_EndLayout" data-uid="ClaySharp.Interop.ClayNative.EndLayout">
+  EndLayout()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Concludes the current layout pass, computes alignments, sizes, and positions, and returns the resulting rendering commands.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static extern RenderCommandArray EndLayout()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ClaySharp.Interop.RenderCommandArray.html">RenderCommandArray</a></dt>
+    <dd><p>A <a class="xref" href="ClaySharp.Interop.RenderCommandArray.html">RenderCommandArray</a> containing the drawing operations to perform for the frame.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ClaySharp_Interop_ClayNative_GetCurrentContext_" data-uid="ClaySharp.Interop.ClayNative.GetCurrentContext*"></a>
+
+  <h3 id="ClaySharp_Interop_ClayNative_GetCurrentContext" data-uid="ClaySharp.Interop.ClayNative.GetCurrentContext">
+  GetCurrentContext()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets a pointer to the active, thread-local Clay layout context.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static extern Context* GetCurrentContext()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ClaySharp.Interop.Context.html">Context</a>*</dt>
+    <dd><p>A pointer to the current <a class="xref" href="ClaySharp.Interop.Context.html">Context</a>, or null if none is active.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ClaySharp_Interop_ClayNative_GetElementData_" data-uid="ClaySharp.Interop.ClayNative.GetElementData*"></a>
+
+  <h3 id="ClaySharp_Interop_ClayNative_GetElementData_ClaySharp_Interop_ElementId_" data-uid="ClaySharp.Interop.ClayNative.GetElementData(ClaySharp.Interop.ElementId)">
+  GetElementData(ElementId)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Retrieves calculated layout details (such as the computed bounding box) for a specific element.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static extern ElementData GetElementData(ElementId id)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="ClaySharp.Interop.ElementId.html">ElementId</a></dt>
+    <dd><p>The unique ID of the element.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ClaySharp.Interop.ElementData.html">ElementData</a></dt>
+    <dd><p>An <a class="xref" href="ClaySharp.Interop.ElementData.html">ElementData</a> structure containing layout metadata.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ClaySharp_Interop_ClayNative_GetElementId_" data-uid="ClaySharp.Interop.ClayNative.GetElementId*"></a>
+
+  <h3 id="ClaySharp_Interop_ClayNative_GetElementId_ClaySharp_Interop_ClayString_" data-uid="ClaySharp.Interop.ClayNative.GetElementId(ClaySharp.Interop.ClayString)">
+  GetElementId(ClayString)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Computes a unique element ID from a descriptive ID string.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static extern ElementId GetElementId(ClayString idString)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>idString</code> <a class="xref" href="ClaySharp.Interop.ClayString.html">ClayString</a></dt>
+    <dd><p>The string key identifying the element.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ClaySharp.Interop.ElementId.html">ElementId</a></dt>
+    <dd><p>A unique <a class="xref" href="ClaySharp.Interop.ElementId.html">ElementId</a> for element declarations.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ClaySharp_Interop_ClayNative_GetElementIdWithIndex_" data-uid="ClaySharp.Interop.ClayNative.GetElementIdWithIndex*"></a>
+
+  <h3 id="ClaySharp_Interop_ClayNative_GetElementIdWithIndex_ClaySharp_Interop_ClayString_System_UInt32_" data-uid="ClaySharp.Interop.ClayNative.GetElementIdWithIndex(ClaySharp.Interop.ClayString,System.UInt32)">
+  GetElementIdWithIndex(ClayString, uint)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Computes a unique element ID from a descriptive ID string and an index (e.g. inside loops).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static extern ElementId GetElementIdWithIndex(ClayString idString, uint index)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>idString</code> <a class="xref" href="ClaySharp.Interop.ClayString.html">ClayString</a></dt>
+    <dd><p>The base string key identifying the collection.</p>
+</dd>
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd><p>An integer loop index to guarantee uniqueness.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ClaySharp.Interop.ElementId.html">ElementId</a></dt>
+    <dd><p>A unique indexed <a class="xref" href="ClaySharp.Interop.ElementId.html">ElementId</a>.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ClaySharp_Interop_ClayNative_GetMaxElementCount_" data-uid="ClaySharp.Interop.ClayNative.GetMaxElementCount*"></a>
+
+  <h3 id="ClaySharp_Interop_ClayNative_GetMaxElementCount" data-uid="ClaySharp.Interop.ClayNative.GetMaxElementCount">
+  GetMaxElementCount()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the maximum number of UI elements that can be stored in the layout tree.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static extern int GetMaxElementCount()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The maximum element capacity.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ClaySharp_Interop_ClayNative_GetMaxMeasureTextCacheWordCount_" data-uid="ClaySharp.Interop.ClayNative.GetMaxMeasureTextCacheWordCount*"></a>
+
+  <h3 id="ClaySharp_Interop_ClayNative_GetMaxMeasureTextCacheWordCount" data-uid="ClaySharp.Interop.ClayNative.GetMaxMeasureTextCacheWordCount">
+  GetMaxMeasureTextCacheWordCount()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the maximum capacity of the word cache used during text measurement.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static extern int GetMaxMeasureTextCacheWordCount()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The word cache capacity.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ClaySharp_Interop_ClayNative_GetParentElementId_" data-uid="ClaySharp.Interop.ClayNative.GetParentElementId*"></a>
+
+  <h3 id="ClaySharp_Interop_ClayNative_GetParentElementId" data-uid="ClaySharp.Interop.ClayNative.GetParentElementId">
+  GetParentElementId()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Retrieves the unique integer ID of the currently open parent element.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static extern uint GetParentElementId()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd><p>The parent element's ID value.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ClaySharp_Interop_ClayNative_GetPointerOverIds_" data-uid="ClaySharp.Interop.ClayNative.GetPointerOverIds*"></a>
+
+  <h3 id="ClaySharp_Interop_ClayNative_GetPointerOverIds" data-uid="ClaySharp.Interop.ClayNative.GetPointerOverIds">
+  GetPointerOverIds()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Retrieves an array of all layout element IDs that the pointer is currently positioned over.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static extern ElementIdArray GetPointerOverIds()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ClaySharp.Interop.ElementIdArray.html">ElementIdArray</a></dt>
+    <dd><p>An array slice of <a class="xref" href="ClaySharp.Interop.ElementId.html">ElementId</a> structs representing the hovered hierarchy.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ClaySharp_Interop_ClayNative_GetScrollContainerData_" data-uid="ClaySharp.Interop.ClayNative.GetScrollContainerData*"></a>
+
+  <h3 id="ClaySharp_Interop_ClayNative_GetScrollContainerData_ClaySharp_Interop_ElementId_" data-uid="ClaySharp.Interop.ClayNative.GetScrollContainerData(ClaySharp.Interop.ElementId)">
+  GetScrollContainerData(ElementId)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Retrieves scroll offset and container dimensions for a scrollable layout element.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static extern ScrollContainerData GetScrollContainerData(ElementId id)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="ClaySharp.Interop.ElementId.html">ElementId</a></dt>
+    <dd><p>The unique ID of the scroll container element.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ClaySharp.Interop.ScrollContainerData.html">ScrollContainerData</a></dt>
+    <dd><p>A <a class="xref" href="ClaySharp.Interop.ScrollContainerData.html">ScrollContainerData</a> structure containing scroll state.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ClaySharp_Interop_ClayNative_GetScrollOffset_" data-uid="ClaySharp.Interop.ClayNative.GetScrollOffset*"></a>
+
+  <h3 id="ClaySharp_Interop_ClayNative_GetScrollOffset" data-uid="ClaySharp.Interop.ClayNative.GetScrollOffset">
+  GetScrollOffset()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the current active scroll offset accumulated for scroll containers.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static extern Vector2 GetScrollOffset()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ClaySharp.Interop.Vector2.html">Vector2</a></dt>
+    <dd><p>A <a class="xref" href="ClaySharp.Interop.Vector2.html">Vector2</a> representing the horizontal and vertical scroll offsets.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ClaySharp_Interop_ClayNative_HashString_" data-uid="ClaySharp.Interop.ClayNative.HashString*"></a>
+
+  <h3 id="ClaySharp_Interop_ClayNative_HashString_ClaySharp_Interop_ClayString_System_UInt32_System_UInt32_" data-uid="ClaySharp.Interop.ClayNative.HashString(ClaySharp.Interop.ClayString,System.UInt32,System.UInt32)">
+  HashString(ClayString, uint, uint)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Generates a unique layout ID based on a string key and hashing parameters.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static extern ElementId HashString(ClayString key, uint offset, uint seed)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>key</code> <a class="xref" href="ClaySharp.Interop.ClayString.html">ClayString</a></dt>
+    <dd><p>The source string to hash.</p>
+</dd>
+    <dt><code>offset</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd><p>An offset index to append to avoid conflicts.</p>
+</dd>
+    <dt><code>seed</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd><p>A custom hashing seed value.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ClaySharp.Interop.ElementId.html">ElementId</a></dt>
+    <dd><p>A hashed <a class="xref" href="ClaySharp.Interop.ElementId.html">ElementId</a> structure.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ClaySharp_Interop_ClayNative_Hovered_" data-uid="ClaySharp.Interop.ClayNative.Hovered*"></a>
+
+  <h3 id="ClaySharp_Interop_ClayNative_Hovered" data-uid="ClaySharp.Interop.ClayNative.Hovered">
+  Hovered()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/IsfandyarSiddiqui/BlackHook/blob/master/BlackHook.ClaySharp/Interop/ClayNative.cs/#L108"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Checks if any element in the active layout was hovered by the pointer during the current frame.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool Hovered()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True if a layout element is currently hovered; otherwise, false.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ClaySharp_Interop_ClayNative_IsDebugModeEnabled_" data-uid="ClaySharp.Interop.ClayNative.IsDebugModeEnabled*"></a>
+
+  <h3 id="ClaySharp_Interop_ClayNative_IsDebugModeEnabled" data-uid="ClaySharp.Interop.ClayNative.IsDebugModeEnabled">
+  IsDebugModeEnabled()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/IsfandyarSiddiqui/BlackHook/blob/master/BlackHook.ClaySharp/Interop/ClayNative.cs/#L213"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Checks whether Clay's debug mode is currently active.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsDebugModeEnabled()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True if debugging is enabled; otherwise, false.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ClaySharp_Interop_ClayNative_MinMemorySize_" data-uid="ClaySharp.Interop.ClayNative.MinMemorySize*"></a>
+
+  <h3 id="ClaySharp_Interop_ClayNative_MinMemorySize" data-uid="ClaySharp.Interop.ClayNative.MinMemorySize">
+  MinMemorySize()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Retrieves the minimum size in bytes of the memory backing required for Clay's internal allocator.
+Call this before allocating memory for the arena.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static extern uint MinMemorySize()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd><p>The minimum memory size in bytes.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ClaySharp_Interop_ClayNative_OnHover_" data-uid="ClaySharp.Interop.ClayNative.OnHover*"></a>
+
+  <h3 id="ClaySharp_Interop_ClayNative_OnHover_System_IntPtr_System_IntPtr_" data-uid="ClaySharp.Interop.ClayNative.OnHover(System.IntPtr,System.IntPtr)">
+  OnHover(nint, nint)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Registers a global hover callback that is invoked when any element configured to trigger on-hover events is hovered.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static extern void OnHover(nint onHoverFunction, nint userData)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>onHoverFunction</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">nint</a></dt>
+    <dd><p>A function pointer to a method matching the <a class="xref" href="ClaySharp.Interop.ClayNative.OnHoverCallback.html">ClayNative.OnHoverCallback</a> signature.</p>
+</dd>
+    <dt><code>userData</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">nint</a></dt>
+    <dd><p>A custom unmanaged data pointer that will be supplied to the callback.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ClaySharp_Interop_ClayNative_OpenElement_" data-uid="ClaySharp.Interop.ClayNative.OpenElement*"></a>
+
+  <h3 id="ClaySharp_Interop_ClayNative_OpenElement" data-uid="ClaySharp.Interop.ClayNative.OpenElement">
+  OpenElement()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Low-level function: opens a new layout element scope.
+Must be paired with a corresponding call to <a class="xref" href="ClaySharp.Interop.ClayNative.html#ClaySharp_Interop_ClayNative_CloseElement">CloseElement()</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static extern void OpenElement()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ClaySharp_Interop_ClayNative_OpenTextElement_" data-uid="ClaySharp.Interop.ClayNative.OpenTextElement*"></a>
+
+  <h3 id="ClaySharp_Interop_ClayNative_OpenTextElement_ClaySharp_Interop_ClayString_ClaySharp_Interop_TextElementConfig__" data-uid="ClaySharp.Interop.ClayNative.OpenTextElement(ClaySharp.Interop.ClayString,ClaySharp.Interop.TextElementConfig*)">
+  OpenTextElement(ClayString, TextElementConfig*)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Low-level function: opens and declares a text element within the current parent scope.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static extern void OpenTextElement(ClayString text, TextElementConfig* textConfig)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>text</code> <a class="xref" href="ClaySharp.Interop.ClayString.html">ClayString</a></dt>
+    <dd><p>The string text to display.</p>
+</dd>
+    <dt><code>textConfig</code> <a class="xref" href="ClaySharp.Interop.TextElementConfig.html">TextElementConfig</a>*</dt>
+    <dd><p>A pointer to the text rendering style parameters.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ClaySharp_Interop_ClayNative_PointerOver_" data-uid="ClaySharp.Interop.ClayNative.PointerOver*"></a>
+
+  <h3 id="ClaySharp_Interop_ClayNative_PointerOver_ClaySharp_Interop_ElementId_" data-uid="ClaySharp.Interop.ClayNative.PointerOver(ClaySharp.Interop.ElementId)">
+  PointerOver(ElementId)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/IsfandyarSiddiqui/BlackHook/blob/master/BlackHook.ClaySharp/Interop/ClayNative.cs/#L134"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Determines whether the pointer is currently positioned over a specific layout element.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool PointerOver(ElementId elementId)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>elementId</code> <a class="xref" href="ClaySharp.Interop.ElementId.html">ElementId</a></dt>
+    <dd><p>The unique ID of the element to check.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True if the pointer is hovering over the specified element; otherwise, false.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ClaySharp_Interop_ClayNative_RenderCommandArray_Get_" data-uid="ClaySharp.Interop.ClayNative.RenderCommandArray_Get*"></a>
+
+  <h3 id="ClaySharp_Interop_ClayNative_RenderCommandArray_Get_ClaySharp_Interop_RenderCommandArray_System_Int32_" data-uid="ClaySharp.Interop.ClayNative.RenderCommandArray_Get(ClaySharp.Interop.RenderCommandArray,System.Int32)">
+  RenderCommandArray_Get(RenderCommandArray, int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Helper: retrieves a pointer to a specific <a class="xref" href="ClaySharp.Interop.RenderCommand.html">RenderCommand</a> inside a <a class="xref" href="ClaySharp.Interop.RenderCommandArray.html">RenderCommandArray</a> at the specified index.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static extern RenderCommand* RenderCommandArray_Get(RenderCommandArray array, int index)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>array</code> <a class="xref" href="ClaySharp.Interop.RenderCommandArray.html">RenderCommandArray</a></dt>
+    <dd><p>The list of render commands returned by <a class="xref" href="ClaySharp.Interop.ClayNative.html#ClaySharp_Interop_ClayNative_EndLayout">EndLayout()</a>.</p>
+</dd>
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The 0-based index of the command to retrieve.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ClaySharp.Interop.RenderCommand.html">RenderCommand</a>*</dt>
+    <dd><p>A pointer to the render command structure, or null if the index is out of bounds.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ClaySharp_Interop_ClayNative_ResetMeasureTextCache_" data-uid="ClaySharp.Interop.ClayNative.ResetMeasureTextCache*"></a>
+
+  <h3 id="ClaySharp_Interop_ClayNative_ResetMeasureTextCache" data-uid="ClaySharp.Interop.ClayNative.ResetMeasureTextCache">
+  ResetMeasureTextCache()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Resets the internal text measurement cache. Call this if fonts, sizes, or global zoom levels change.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static extern void ResetMeasureTextCache()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ClaySharp_Interop_ClayNative_SetCullingEnabled_" data-uid="ClaySharp.Interop.ClayNative.SetCullingEnabled*"></a>
+
+  <h3 id="ClaySharp_Interop_ClayNative_SetCullingEnabled_System_Boolean_" data-uid="ClaySharp.Interop.ClayNative.SetCullingEnabled(System.Boolean)">
+  SetCullingEnabled(bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/IsfandyarSiddiqui/BlackHook/blob/master/BlackHook.ClaySharp/Interop/ClayNative.cs/#L222"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Enables or disables viewport culling. When enabled, elements outside the visible viewport are excluded from rendering.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetCullingEnabled(bool enabled)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>enabled</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True to enable clipping/culling; otherwise, false.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ClaySharp_Interop_ClayNative_SetCurrentContext_" data-uid="ClaySharp.Interop.ClayNative.SetCurrentContext*"></a>
+
+  <h3 id="ClaySharp_Interop_ClayNative_SetCurrentContext_ClaySharp_Interop_Context__" data-uid="ClaySharp.Interop.ClayNative.SetCurrentContext(ClaySharp.Interop.Context*)">
+  SetCurrentContext(Context*)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sets the active, thread-local Clay layout context.
+Useful for multi-context architectures where multiple layout states are maintained.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static extern void SetCurrentContext(Context* context)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <a class="xref" href="ClaySharp.Interop.Context.html">Context</a>*</dt>
+    <dd><p>A pointer to the <a class="xref" href="ClaySharp.Interop.Context.html">Context</a> to set as active.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ClaySharp_Interop_ClayNative_SetDebugModeEnabled_" data-uid="ClaySharp.Interop.ClayNative.SetDebugModeEnabled*"></a>
+
+  <h3 id="ClaySharp_Interop_ClayNative_SetDebugModeEnabled_System_Boolean_" data-uid="ClaySharp.Interop.ClayNative.SetDebugModeEnabled(System.Boolean)">
+  SetDebugModeEnabled(bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/IsfandyarSiddiqui/BlackHook/blob/master/BlackHook.ClaySharp/Interop/ClayNative.cs/#L206"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Enables or disables the native Clay debugger overlay.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetDebugModeEnabled(bool enabled)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>enabled</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True to enable debug mode; otherwise, false.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ClaySharp_Interop_ClayNative_SetLayoutDimensions_" data-uid="ClaySharp.Interop.ClayNative.SetLayoutDimensions*"></a>
+
+  <h3 id="ClaySharp_Interop_ClayNative_SetLayoutDimensions_ClaySharp_Interop_Dimensions_" data-uid="ClaySharp.Interop.ClayNative.SetLayoutDimensions(ClaySharp.Interop.Dimensions)">
+  SetLayoutDimensions(Dimensions)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Updates the dimensions of the layout viewport. Usually called on window resize.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static extern void SetLayoutDimensions(Dimensions dimensions)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>dimensions</code> <a class="xref" href="ClaySharp.Interop.Dimensions.html">Dimensions</a></dt>
+    <dd><p>The new viewport width and height.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ClaySharp_Interop_ClayNative_SetMaxElementCount_" data-uid="ClaySharp.Interop.ClayNative.SetMaxElementCount*"></a>
+
+  <h3 id="ClaySharp_Interop_ClayNative_SetMaxElementCount_System_Int32_" data-uid="ClaySharp.Interop.ClayNative.SetMaxElementCount(System.Int32)">
+  SetMaxElementCount(int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sets the maximum number of UI elements that can be stored in the layout tree.
+Must be configured to match structural complexities.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static extern void SetMaxElementCount(int maxElementCount)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>maxElementCount</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The new maximum element capacity.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ClaySharp_Interop_ClayNative_SetMaxMeasureTextCacheWordCount_" data-uid="ClaySharp.Interop.ClayNative.SetMaxMeasureTextCacheWordCount*"></a>
+
+  <h3 id="ClaySharp_Interop_ClayNative_SetMaxMeasureTextCacheWordCount_System_Int32_" data-uid="ClaySharp.Interop.ClayNative.SetMaxMeasureTextCacheWordCount(System.Int32)">
+  SetMaxMeasureTextCacheWordCount(int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sets the maximum capacity of the word cache used during text measurement.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static extern void SetMaxMeasureTextCacheWordCount(int maxMeasureTextCacheWordCount)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>maxMeasureTextCacheWordCount</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The new cache word limit.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ClaySharp_Interop_ClayNative_SetMeasureTextFunction_" data-uid="ClaySharp.Interop.ClayNative.SetMeasureTextFunction*"></a>
+
+  <h3 id="ClaySharp_Interop_ClayNative_SetMeasureTextFunction_System_IntPtr_System_Void__" data-uid="ClaySharp.Interop.ClayNative.SetMeasureTextFunction(System.IntPtr,System.Void*)">
+  SetMeasureTextFunction(nint, void*)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Configures the callback function that Clay will invoke whenever it needs to calculate text sizing.
+This callback must be provided if the layout tree contains any text elements.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static extern void SetMeasureTextFunction(nint measureTextFunction, void* userData)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>measureTextFunction</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">nint</a></dt>
+    <dd><p>A function pointer matching the <a class="xref" href="ClaySharp.Interop.ClayNative.Clay_MeasureTextCallback.html">ClayNative.Clay_MeasureTextCallback</a> signature.</p>
+</dd>
+    <dt><code>userData</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.void">void</a>*</dt>
+    <dd><p>A custom data pointer that will be supplied to the measurement callback.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ClaySharp_Interop_ClayNative_SetPointerState_" data-uid="ClaySharp.Interop.ClayNative.SetPointerState*"></a>
+
+  <h3 id="ClaySharp_Interop_ClayNative_SetPointerState_ClaySharp_Interop_Vector2_System_Boolean_" data-uid="ClaySharp.Interop.ClayNative.SetPointerState(ClaySharp.Interop.Vector2,System.Boolean)">
+  SetPointerState(Vector2, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/IsfandyarSiddiqui/BlackHook/blob/master/BlackHook.ClaySharp/Interop/ClayNative.cs/#L91"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Updates Clay's pointer input state (e.g. mouse or touch pointer coordinates and button state).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetPointerState(Vector2 position, bool pointerDown)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>position</code> <a class="xref" href="ClaySharp.Interop.Vector2.html">Vector2</a></dt>
+    <dd><p>The current 2D screen coordinate of the pointer.</p>
+</dd>
+    <dt><code>pointerDown</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True if the primary pointer button is pressed; otherwise, false.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ClaySharp_Interop_ClayNative_SetQueryScrollOffsetFunction_" data-uid="ClaySharp.Interop.ClayNative.SetQueryScrollOffsetFunction*"></a>
+
+  <h3 id="ClaySharp_Interop_ClayNative_SetQueryScrollOffsetFunction_System_IntPtr_System_Void__" data-uid="ClaySharp.Interop.ClayNative.SetQueryScrollOffsetFunction(System.IntPtr,System.Void*)">
+  SetQueryScrollOffsetFunction(nint, void*)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sets a custom callback to query scroll offsets if external scroll integration is desired.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static extern void SetQueryScrollOffsetFunction(nint queryScrollOffsetFunction, void* userData)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>queryScrollOffsetFunction</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">nint</a></dt>
+    <dd><p>A function pointer to the scroll querying function.</p>
+</dd>
+    <dt><code>userData</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.void">void</a>*</dt>
+    <dd><p>A custom data pointer passed to the callback.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ClaySharp_Interop_ClayNative_StoreTextElementConfig_" data-uid="ClaySharp.Interop.ClayNative.StoreTextElementConfig*"></a>
+
+  <h3 id="ClaySharp_Interop_ClayNative_StoreTextElementConfig_ClaySharp_Interop_TextElementConfig_" data-uid="ClaySharp.Interop.ClayNative.StoreTextElementConfig(ClaySharp.Interop.TextElementConfig)">
+  StoreTextElementConfig(TextElementConfig)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Low-level function: copies the text configuration into Clay's internal layout storage arena.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static extern TextElementConfig* StoreTextElementConfig(TextElementConfig config)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>config</code> <a class="xref" href="ClaySharp.Interop.TextElementConfig.html">TextElementConfig</a></dt>
+    <dd><p>The text configuration to store.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ClaySharp.Interop.TextElementConfig.html">TextElementConfig</a>*</dt>
+    <dd><p>A pointer to the persisted config within native memory.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ClaySharp_Interop_ClayNative_UpdateScrollContainers_" data-uid="ClaySharp.Interop.ClayNative.UpdateScrollContainers*"></a>
+
+  <h3 id="ClaySharp_Interop_ClayNative_UpdateScrollContainers_System_Boolean_ClaySharp_Interop_Vector2_System_Single_" data-uid="ClaySharp.Interop.ClayNative.UpdateScrollContainers(System.Boolean,ClaySharp.Interop.Vector2,System.Single)">
+  UpdateScrollContainers(bool, Vector2, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/IsfandyarSiddiqui/BlackHook/blob/master/BlackHook.ClaySharp/Interop/ClayNative.cs/#L101"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Processes scroll movements for scrollable containers based on user actions.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void UpdateScrollContainers(bool enableDragScrolling, Vector2 scrollDelta, float deltaTime)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>enableDragScrolling</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>If true, allows users to click and drag to scroll.</p>
+</dd>
+    <dt><code>scrollDelta</code> <a class="xref" href="ClaySharp.Interop.Vector2.html">Vector2</a></dt>
+    <dd><p>The scroll wheel or trackpad delta offset applied this frame.</p>
+</dd>
+    <dt><code>deltaTime</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>The time elapsed since the last frame in seconds.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

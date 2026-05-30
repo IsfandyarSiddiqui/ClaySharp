@@ -1,0 +1,570 @@
+### YamlMime:ManagedReference
+items:
+- uid: ClaySharp.Interop.TextElementConfig
+  commentId: T:ClaySharp.Interop.TextElementConfig
+  id: TextElementConfig
+  parent: ClaySharp.Interop
+  children:
+  - ClaySharp.Interop.TextElementConfig.FontId
+  - ClaySharp.Interop.TextElementConfig.FontSize
+  - ClaySharp.Interop.TextElementConfig.LetterSpacing
+  - ClaySharp.Interop.TextElementConfig.LineHeight
+  - ClaySharp.Interop.TextElementConfig.TextAlignment
+  - ClaySharp.Interop.TextElementConfig.TextColor
+  - ClaySharp.Interop.TextElementConfig.UserData
+  - ClaySharp.Interop.TextElementConfig.WrapMode
+  langs:
+  - csharp
+  - vb
+  name: TextElementConfig
+  nameWithType: TextElementConfig
+  fullName: ClaySharp.Interop.TextElementConfig
+  type: Struct
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: TextElementConfig
+    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    startLine: 297
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: Provides configuration settings for rendering text elements.
+  example: []
+  syntax:
+    content: public struct TextElementConfig
+    content.vb: Public Structure TextElementConfig
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: ClaySharp.Interop.TextElementConfig.UserData
+  commentId: F:ClaySharp.Interop.TextElementConfig.UserData
+  id: UserData
+  parent: ClaySharp.Interop.TextElementConfig
+  langs:
+  - csharp
+  - vb
+  name: UserData
+  nameWithType: TextElementConfig.UserData
+  fullName: ClaySharp.Interop.TextElementConfig.UserData
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: UserData
+    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    startLine: 301
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: Custom pointer to attach user-defined metadata to this text node.
+  example: []
+  syntax:
+    content: public void* UserData
+    return:
+      type: System.Void*
+    content.vb: Public UserData As Void*
+- uid: ClaySharp.Interop.TextElementConfig.TextColor
+  commentId: F:ClaySharp.Interop.TextElementConfig.TextColor
+  id: TextColor
+  parent: ClaySharp.Interop.TextElementConfig
+  langs:
+  - csharp
+  - vb
+  name: TextColor
+  nameWithType: TextElementConfig.TextColor
+  fullName: ClaySharp.Interop.TextElementConfig.TextColor
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: TextColor
+    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    startLine: 304
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: The color used to paint the text glyphs.
+  example: []
+  syntax:
+    content: public Color TextColor
+    return:
+      type: ClaySharp.Interop.Color
+    content.vb: Public TextColor As Color
+- uid: ClaySharp.Interop.TextElementConfig.FontId
+  commentId: F:ClaySharp.Interop.TextElementConfig.FontId
+  id: FontId
+  parent: ClaySharp.Interop.TextElementConfig
+  langs:
+  - csharp
+  - vb
+  name: FontId
+  nameWithType: TextElementConfig.FontId
+  fullName: ClaySharp.Interop.TextElementConfig.FontId
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: FontId
+    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    startLine: 307
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: The unique ID of the font family registered with the renderer.
+  example: []
+  syntax:
+    content: public ushort FontId
+    return:
+      type: System.UInt16
+    content.vb: Public FontId As UShort
+- uid: ClaySharp.Interop.TextElementConfig.FontSize
+  commentId: F:ClaySharp.Interop.TextElementConfig.FontSize
+  id: FontSize
+  parent: ClaySharp.Interop.TextElementConfig
+  langs:
+  - csharp
+  - vb
+  name: FontSize
+  nameWithType: TextElementConfig.FontSize
+  fullName: ClaySharp.Interop.TextElementConfig.FontSize
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: FontSize
+    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    startLine: 310
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: The font size in pixels.
+  example: []
+  syntax:
+    content: public ushort FontSize
+    return:
+      type: System.UInt16
+    content.vb: Public FontSize As UShort
+- uid: ClaySharp.Interop.TextElementConfig.LetterSpacing
+  commentId: F:ClaySharp.Interop.TextElementConfig.LetterSpacing
+  id: LetterSpacing
+  parent: ClaySharp.Interop.TextElementConfig
+  langs:
+  - csharp
+  - vb
+  name: LetterSpacing
+  nameWithType: TextElementConfig.LetterSpacing
+  fullName: ClaySharp.Interop.TextElementConfig.LetterSpacing
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: LetterSpacing
+    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    startLine: 313
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: Spacing distance between consecutive letters.
+  example: []
+  syntax:
+    content: public ushort LetterSpacing
+    return:
+      type: System.UInt16
+    content.vb: Public LetterSpacing As UShort
+- uid: ClaySharp.Interop.TextElementConfig.LineHeight
+  commentId: F:ClaySharp.Interop.TextElementConfig.LineHeight
+  id: LineHeight
+  parent: ClaySharp.Interop.TextElementConfig
+  langs:
+  - csharp
+  - vb
+  name: LineHeight
+  nameWithType: TextElementConfig.LineHeight
+  fullName: ClaySharp.Interop.TextElementConfig.LineHeight
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: LineHeight
+    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    startLine: 316
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: The height of each layout line boundary.
+  example: []
+  syntax:
+    content: public ushort LineHeight
+    return:
+      type: System.UInt16
+    content.vb: Public LineHeight As UShort
+- uid: ClaySharp.Interop.TextElementConfig.WrapMode
+  commentId: F:ClaySharp.Interop.TextElementConfig.WrapMode
+  id: WrapMode
+  parent: ClaySharp.Interop.TextElementConfig
+  langs:
+  - csharp
+  - vb
+  name: WrapMode
+  nameWithType: TextElementConfig.WrapMode
+  fullName: ClaySharp.Interop.TextElementConfig.WrapMode
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: WrapMode
+    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    startLine: 319
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: Text wrap settings.
+  example: []
+  syntax:
+    content: public TextElementConfigWrapMode WrapMode
+    return:
+      type: ClaySharp.Interop.TextElementConfigWrapMode
+    content.vb: Public WrapMode As TextElementConfigWrapMode
+- uid: ClaySharp.Interop.TextElementConfig.TextAlignment
+  commentId: F:ClaySharp.Interop.TextElementConfig.TextAlignment
+  id: TextAlignment
+  parent: ClaySharp.Interop.TextElementConfig
+  langs:
+  - csharp
+  - vb
+  name: TextAlignment
+  nameWithType: TextElementConfig.TextAlignment
+  fullName: ClaySharp.Interop.TextElementConfig.TextAlignment
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: TextAlignment
+    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    startLine: 322
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: Horizontal text alignment properties.
+  example: []
+  syntax:
+    content: public TextAlignment TextAlignment
+    return:
+      type: ClaySharp.Interop.TextAlignment
+    content.vb: Public TextAlignment As TextAlignment
+references:
+- uid: ClaySharp.Interop
+  commentId: N:ClaySharp.Interop
+  href: ClaySharp.html
+  name: ClaySharp.Interop
+  nameWithType: ClaySharp.Interop
+  fullName: ClaySharp.Interop
+  spec.csharp:
+  - uid: ClaySharp
+    name: ClaySharp
+    href: ClaySharp.html
+  - name: .
+  - uid: ClaySharp.Interop
+    name: Interop
+    href: ClaySharp.Interop.html
+  spec.vb:
+  - uid: ClaySharp
+    name: ClaySharp
+    href: ClaySharp.html
+  - name: .
+  - uid: ClaySharp.Interop
+    name: Interop
+    href: ClaySharp.Interop.html
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Void*
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.void
+  name: void*
+  nameWithType: void*
+  fullName: void*
+  nameWithType.vb: Void*
+  fullName.vb: Void*
+  name.vb: Void*
+  spec.csharp:
+  - uid: System.Void
+    name: void
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.void
+  - name: '*'
+  spec.vb:
+  - uid: System.Void
+    name: Void
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.void
+  - name: '*'
+- uid: ClaySharp.Interop.Color
+  commentId: T:ClaySharp.Interop.Color
+  parent: ClaySharp.Interop
+  href: ClaySharp.Interop.Color.html
+  name: Color
+  nameWithType: Color
+  fullName: ClaySharp.Interop.Color
+- uid: System.UInt16
+  commentId: T:System.UInt16
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint16
+  name: ushort
+  nameWithType: ushort
+  fullName: ushort
+  nameWithType.vb: UShort
+  fullName.vb: UShort
+  name.vb: UShort
+- uid: ClaySharp.Interop.TextElementConfigWrapMode
+  commentId: T:ClaySharp.Interop.TextElementConfigWrapMode
+  parent: ClaySharp.Interop
+  href: ClaySharp.Interop.TextElementConfigWrapMode.html
+  name: TextElementConfigWrapMode
+  nameWithType: TextElementConfigWrapMode
+  fullName: ClaySharp.Interop.TextElementConfigWrapMode
+- uid: ClaySharp.Interop.TextAlignment
+  commentId: T:ClaySharp.Interop.TextAlignment
+  parent: ClaySharp.Interop
+  href: ClaySharp.Interop.TextAlignment.html
+  name: TextAlignment
+  nameWithType: TextAlignment
+  fullName: ClaySharp.Interop.TextAlignment

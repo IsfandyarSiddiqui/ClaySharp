@@ -1,0 +1,13 @@
+C:\Users\user\source\repos\BlackHook\BlackHook.ClaySharp\bin\Debug\net10.0\clay.dll
+C:\Users\user\source\repos\BlackHook\BlackHook.ClaySharp\bin\Debug\net10.0\BlackHook.ClaySharp.deps.json
+C:\Users\user\source\repos\BlackHook\BlackHook.ClaySharp\bin\Debug\net10.0\BlackHook.ClaySharp.dll
+C:\Users\user\source\repos\BlackHook\BlackHook.ClaySharp\bin\Debug\net10.0\BlackHook.ClaySharp.pdb
+C:\Users\user\source\repos\BlackHook\BlackHook.ClaySharp\obj\Debug\net10.0\BlackHook.ClaySharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\BlackHook\BlackHook.ClaySharp\obj\Debug\net10.0\BlackHook.ClaySharp.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\BlackHook\BlackHook.ClaySharp\obj\Debug\net10.0\BlackHook.ClaySharp.AssemblyInfo.cs
+C:\Users\user\source\repos\BlackHook\BlackHook.ClaySharp\obj\Debug\net10.0\BlackHook.ClaySharp.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\BlackHook\BlackHook.ClaySharp\obj\Debug\net10.0\BlackHook.ClaySharp.sourcelink.json
+C:\Users\user\source\repos\BlackHook\BlackHook.ClaySharp\obj\Debug\net10.0\BlackHook.ClaySharp.dll
+C:\Users\user\source\repos\BlackHook\BlackHook.ClaySharp\obj\Debug\net10.0\refint\BlackHook.ClaySharp.dll
+C:\Users\user\source\repos\BlackHook\BlackHook.ClaySharp\obj\Debug\net10.0\BlackHook.ClaySharp.pdb
+C:\Users\user\source\repos\BlackHook\BlackHook.ClaySharp\obj\Debug\net10.0\ref\BlackHook.ClaySharp.dll

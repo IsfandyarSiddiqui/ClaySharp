@@ -1,0 +1,626 @@
+### YamlMime:ManagedReference
+items:
+- uid: ClaySharp.Interop.LayoutElementHashMapItem
+  commentId: T:ClaySharp.Interop.LayoutElementHashMapItem
+  id: LayoutElementHashMapItem
+  parent: ClaySharp.Interop
+  children:
+  - ClaySharp.Interop.LayoutElementHashMapItem.BoundingBox
+  - ClaySharp.Interop.LayoutElementHashMapItem.DebugData
+  - ClaySharp.Interop.LayoutElementHashMapItem.ElementId
+  - ClaySharp.Interop.LayoutElementHashMapItem.Generation
+  - ClaySharp.Interop.LayoutElementHashMapItem.HoverFunctionUserData
+  - ClaySharp.Interop.LayoutElementHashMapItem.IdAlias
+  - ClaySharp.Interop.LayoutElementHashMapItem.LayoutElement
+  - ClaySharp.Interop.LayoutElementHashMapItem.NextIndex
+  - ClaySharp.Interop.LayoutElementHashMapItem.OnHoverFunction
+  langs:
+  - csharp
+  - vb
+  name: LayoutElementHashMapItem
+  nameWithType: LayoutElementHashMapItem
+  fullName: ClaySharp.Interop.LayoutElementHashMapItem
+  type: Struct
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: LayoutElementHashMapItem
+    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    startLine: 1071
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: Represents an entry in Clay's internal layout spatial hash map, used for fast lookup, hover, and layout calculation.
+  example: []
+  syntax:
+    content: public struct LayoutElementHashMapItem
+    content.vb: Public Structure LayoutElementHashMapItem
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: ClaySharp.Interop.LayoutElementHashMapItem.BoundingBox
+  commentId: F:ClaySharp.Interop.LayoutElementHashMapItem.BoundingBox
+  id: BoundingBox
+  parent: ClaySharp.Interop.LayoutElementHashMapItem
+  langs:
+  - csharp
+  - vb
+  name: BoundingBox
+  nameWithType: LayoutElementHashMapItem.BoundingBox
+  fullName: ClaySharp.Interop.LayoutElementHashMapItem.BoundingBox
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: BoundingBox
+    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    startLine: 1075
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: Calculated absolute screen coordinates.
+  example: []
+  syntax:
+    content: public BoundingBox BoundingBox
+    return:
+      type: ClaySharp.Interop.BoundingBox
+    content.vb: Public BoundingBox As BoundingBox
+- uid: ClaySharp.Interop.LayoutElementHashMapItem.ElementId
+  commentId: F:ClaySharp.Interop.LayoutElementHashMapItem.ElementId
+  id: ElementId
+  parent: ClaySharp.Interop.LayoutElementHashMapItem
+  langs:
+  - csharp
+  - vb
+  name: ElementId
+  nameWithType: LayoutElementHashMapItem.ElementId
+  fullName: ClaySharp.Interop.LayoutElementHashMapItem.ElementId
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: ElementId
+    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    startLine: 1078
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: The unique element ID.
+  example: []
+  syntax:
+    content: public ElementId ElementId
+    return:
+      type: ClaySharp.Interop.ElementId
+    content.vb: Public ElementId As ElementId
+- uid: ClaySharp.Interop.LayoutElementHashMapItem.LayoutElement
+  commentId: F:ClaySharp.Interop.LayoutElementHashMapItem.LayoutElement
+  id: LayoutElement
+  parent: ClaySharp.Interop.LayoutElementHashMapItem
+  langs:
+  - csharp
+  - vb
+  name: LayoutElement
+  nameWithType: LayoutElementHashMapItem.LayoutElement
+  fullName: ClaySharp.Interop.LayoutElementHashMapItem.LayoutElement
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: LayoutElement
+    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    startLine: 1081
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: A raw pointer to the matching layout node.
+  example: []
+  syntax:
+    content: public LayoutElement* LayoutElement
+    return:
+      type: ClaySharp.Interop.LayoutElement*
+    content.vb: Public LayoutElement As LayoutElement*
+- uid: ClaySharp.Interop.LayoutElementHashMapItem.OnHoverFunction
+  commentId: F:ClaySharp.Interop.LayoutElementHashMapItem.OnHoverFunction
+  id: OnHoverFunction
+  parent: ClaySharp.Interop.LayoutElementHashMapItem
+  langs:
+  - csharp
+  - vb
+  name: OnHoverFunction
+  nameWithType: LayoutElementHashMapItem.OnHoverFunction
+  fullName: ClaySharp.Interop.LayoutElementHashMapItem.OnHoverFunction
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: OnHoverFunction
+    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    startLine: 1084
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: Function pointer to the on-hover callback handler registered for this node.
+  example: []
+  syntax:
+    content: public nint OnHoverFunction
+    return:
+      type: System.IntPtr
+    content.vb: Public OnHoverFunction As IntPtr
+- uid: ClaySharp.Interop.LayoutElementHashMapItem.HoverFunctionUserData
+  commentId: F:ClaySharp.Interop.LayoutElementHashMapItem.HoverFunctionUserData
+  id: HoverFunctionUserData
+  parent: ClaySharp.Interop.LayoutElementHashMapItem
+  langs:
+  - csharp
+  - vb
+  name: HoverFunctionUserData
+  nameWithType: LayoutElementHashMapItem.HoverFunctionUserData
+  fullName: ClaySharp.Interop.LayoutElementHashMapItem.HoverFunctionUserData
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: HoverFunctionUserData
+    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    startLine: 1087
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: User data pointer supplied to the on-hover handler.
+  example: []
+  syntax:
+    content: public nint HoverFunctionUserData
+    return:
+      type: System.IntPtr
+    content.vb: Public HoverFunctionUserData As IntPtr
+- uid: ClaySharp.Interop.LayoutElementHashMapItem.NextIndex
+  commentId: F:ClaySharp.Interop.LayoutElementHashMapItem.NextIndex
+  id: NextIndex
+  parent: ClaySharp.Interop.LayoutElementHashMapItem
+  langs:
+  - csharp
+  - vb
+  name: NextIndex
+  nameWithType: LayoutElementHashMapItem.NextIndex
+  fullName: ClaySharp.Interop.LayoutElementHashMapItem.NextIndex
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: NextIndex
+    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    startLine: 1090
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: Index tracking pointer for spatial chaining.
+  example: []
+  syntax:
+    content: public int NextIndex
+    return:
+      type: System.Int32
+    content.vb: Public NextIndex As Integer
+- uid: ClaySharp.Interop.LayoutElementHashMapItem.Generation
+  commentId: F:ClaySharp.Interop.LayoutElementHashMapItem.Generation
+  id: Generation
+  parent: ClaySharp.Interop.LayoutElementHashMapItem
+  langs:
+  - csharp
+  - vb
+  name: Generation
+  nameWithType: LayoutElementHashMapItem.Generation
+  fullName: ClaySharp.Interop.LayoutElementHashMapItem.Generation
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: Generation
+    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    startLine: 1093
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: Generation tick index used for lifetime recycling.
+  example: []
+  syntax:
+    content: public uint Generation
+    return:
+      type: System.UInt32
+    content.vb: Public Generation As UInteger
+- uid: ClaySharp.Interop.LayoutElementHashMapItem.IdAlias
+  commentId: F:ClaySharp.Interop.LayoutElementHashMapItem.IdAlias
+  id: IdAlias
+  parent: ClaySharp.Interop.LayoutElementHashMapItem
+  langs:
+  - csharp
+  - vb
+  name: IdAlias
+  nameWithType: LayoutElementHashMapItem.IdAlias
+  fullName: ClaySharp.Interop.LayoutElementHashMapItem.IdAlias
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: IdAlias
+    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    startLine: 1096
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: Alias identifier for alternate ID matching.
+  example: []
+  syntax:
+    content: public uint IdAlias
+    return:
+      type: System.UInt32
+    content.vb: Public IdAlias As UInteger
+- uid: ClaySharp.Interop.LayoutElementHashMapItem.DebugData
+  commentId: F:ClaySharp.Interop.LayoutElementHashMapItem.DebugData
+  id: DebugData
+  parent: ClaySharp.Interop.LayoutElementHashMapItem
+  langs:
+  - csharp
+  - vb
+  name: DebugData
+  nameWithType: LayoutElementHashMapItem.DebugData
+  fullName: ClaySharp.Interop.LayoutElementHashMapItem.DebugData
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: DebugData
+    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    startLine: 1099
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: A raw pointer to optional debugging metadata.
+  example: []
+  syntax:
+    content: public DebugElementData* DebugData
+    return:
+      type: ClaySharp.Interop.DebugElementData*
+    content.vb: Public DebugData As DebugElementData*
+references:
+- uid: ClaySharp.Interop
+  commentId: N:ClaySharp.Interop
+  href: ClaySharp.html
+  name: ClaySharp.Interop
+  nameWithType: ClaySharp.Interop
+  fullName: ClaySharp.Interop
+  spec.csharp:
+  - uid: ClaySharp
+    name: ClaySharp
+    href: ClaySharp.html
+  - name: .
+  - uid: ClaySharp.Interop
+    name: Interop
+    href: ClaySharp.Interop.html
+  spec.vb:
+  - uid: ClaySharp
+    name: ClaySharp
+    href: ClaySharp.html
+  - name: .
+  - uid: ClaySharp.Interop
+    name: Interop
+    href: ClaySharp.Interop.html
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ClaySharp.Interop.BoundingBox
+  commentId: T:ClaySharp.Interop.BoundingBox
+  parent: ClaySharp.Interop
+  href: ClaySharp.Interop.BoundingBox.html
+  name: BoundingBox
+  nameWithType: BoundingBox
+  fullName: ClaySharp.Interop.BoundingBox
+- uid: ClaySharp.Interop.ElementId
+  commentId: T:ClaySharp.Interop.ElementId
+  parent: ClaySharp.Interop
+  href: ClaySharp.Interop.ElementId.html
+  name: ElementId
+  nameWithType: ElementId
+  fullName: ClaySharp.Interop.ElementId
+- uid: ClaySharp.Interop.LayoutElement*
+  isExternal: true
+  href: ClaySharp.Interop.LayoutElement.html
+  name: LayoutElement*
+  nameWithType: LayoutElement*
+  fullName: ClaySharp.Interop.LayoutElement*
+  spec.csharp:
+  - uid: ClaySharp.Interop.LayoutElement
+    name: LayoutElement
+    href: ClaySharp.Interop.LayoutElement.html
+  - name: '*'
+  spec.vb:
+  - uid: ClaySharp.Interop.LayoutElement
+    name: LayoutElement
+    href: ClaySharp.Interop.LayoutElement.html
+  - name: '*'
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.intptr
+  name: nint
+  nameWithType: nint
+  fullName: nint
+  nameWithType.vb: IntPtr
+  fullName.vb: System.IntPtr
+  name.vb: IntPtr
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: ClaySharp.Interop.DebugElementData*
+  isExternal: true
+  href: ClaySharp.Interop.DebugElementData.html
+  name: DebugElementData*
+  nameWithType: DebugElementData*
+  fullName: ClaySharp.Interop.DebugElementData*
+  spec.csharp:
+  - uid: ClaySharp.Interop.DebugElementData
+    name: DebugElementData
+    href: ClaySharp.Interop.DebugElementData.html
+  - name: '*'
+  spec.vb:
+  - uid: ClaySharp.Interop.DebugElementData
+    name: DebugElementData
+    href: ClaySharp.Interop.DebugElementData.html
+  - name: '*'

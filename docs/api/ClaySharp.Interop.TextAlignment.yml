@@ -1,0 +1,147 @@
+### YamlMime:ManagedReference
+items:
+- uid: ClaySharp.Interop.TextAlignment
+  commentId: T:ClaySharp.Interop.TextAlignment
+  id: TextAlignment
+  parent: ClaySharp.Interop
+  children:
+  - ClaySharp.Interop.TextAlignment.Center
+  - ClaySharp.Interop.TextAlignment.Left
+  - ClaySharp.Interop.TextAlignment.Right
+  langs:
+  - csharp
+  - vb
+  name: TextAlignment
+  nameWithType: TextAlignment
+  fullName: ClaySharp.Interop.TextAlignment
+  type: Enum
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: TextAlignment
+    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    startLine: 111
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: Specifies the horizontal alignment of text within its bounding container.
+  example: []
+  syntax:
+    content: 'public enum TextAlignment : byte'
+    content.vb: Public Enum TextAlignment As Byte
+- uid: ClaySharp.Interop.TextAlignment.Left
+  commentId: F:ClaySharp.Interop.TextAlignment.Left
+  id: Left
+  parent: ClaySharp.Interop.TextAlignment
+  langs:
+  - csharp
+  - vb
+  name: Left
+  nameWithType: TextAlignment.Left
+  fullName: ClaySharp.Interop.TextAlignment.Left
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: Left
+    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    startLine: 114
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: Aligns text to the left margin.
+  example: []
+  syntax:
+    content: Left = 0
+    return:
+      type: ClaySharp.Interop.TextAlignment
+- uid: ClaySharp.Interop.TextAlignment.Center
+  commentId: F:ClaySharp.Interop.TextAlignment.Center
+  id: Center
+  parent: ClaySharp.Interop.TextAlignment
+  langs:
+  - csharp
+  - vb
+  name: Center
+  nameWithType: TextAlignment.Center
+  fullName: ClaySharp.Interop.TextAlignment.Center
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: Center
+    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    startLine: 116
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: Centers text horizontally.
+  example: []
+  syntax:
+    content: Center = 1
+    return:
+      type: ClaySharp.Interop.TextAlignment
+- uid: ClaySharp.Interop.TextAlignment.Right
+  commentId: F:ClaySharp.Interop.TextAlignment.Right
+  id: Right
+  parent: ClaySharp.Interop.TextAlignment
+  langs:
+  - csharp
+  - vb
+  name: Right
+  nameWithType: TextAlignment.Right
+  fullName: ClaySharp.Interop.TextAlignment.Right
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: Right
+    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    startLine: 118
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: Aligns text to the right margin.
+  example: []
+  syntax:
+    content: Right = 2
+    return:
+      type: ClaySharp.Interop.TextAlignment
+references:
+- uid: ClaySharp.Interop
+  commentId: N:ClaySharp.Interop
+  href: ClaySharp.html
+  name: ClaySharp.Interop
+  nameWithType: ClaySharp.Interop
+  fullName: ClaySharp.Interop
+  spec.csharp:
+  - uid: ClaySharp
+    name: ClaySharp
+    href: ClaySharp.html
+  - name: .
+  - uid: ClaySharp.Interop
+    name: Interop
+    href: ClaySharp.Interop.html
+  spec.vb:
+  - uid: ClaySharp
+    name: ClaySharp
+    href: ClaySharp.html
+  - name: .
+  - uid: ClaySharp.Interop
+    name: Interop
+    href: ClaySharp.Interop.html
+- uid: ClaySharp.Interop.TextAlignment
+  commentId: T:ClaySharp.Interop.TextAlignment
+  parent: ClaySharp.Interop
+  href: ClaySharp.Interop.TextAlignment.html
+  name: TextAlignment
+  nameWithType: TextAlignment
+  fullName: ClaySharp.Interop.TextAlignment

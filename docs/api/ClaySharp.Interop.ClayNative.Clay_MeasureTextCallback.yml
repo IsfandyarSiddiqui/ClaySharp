@@ -1,0 +1,117 @@
+### YamlMime:ManagedReference
+items:
+- uid: ClaySharp.Interop.ClayNative.Clay_MeasureTextCallback
+  commentId: T:ClaySharp.Interop.ClayNative.Clay_MeasureTextCallback
+  id: ClayNative.Clay_MeasureTextCallback
+  parent: ClaySharp.Interop
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: ClayNative.Clay_MeasureTextCallback
+  nameWithType: ClayNative.Clay_MeasureTextCallback
+  fullName: ClaySharp.Interop.ClayNative.Clay_MeasureTextCallback
+  type: Delegate
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayNative.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: Clay_MeasureTextCallback
+    path: ../BlackHook.ClaySharp/Interop/ClayNative.cs
+    startLine: 176
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: Defines the signature of the text measurement callback used by Clay to compute text dimensions.
+  example: []
+  syntax:
+    content: public delegate Dimensions ClayNative.Clay_MeasureTextCallback(ClayStringSlice text, TextElementConfig* config, void* userData)
+    parameters:
+    - id: text
+      type: ClaySharp.Interop.ClayStringSlice
+      description: A slice of the string content to measure.
+    - id: config
+      type: ClaySharp.Interop.TextElementConfig*
+      description: A pointer to the text styling configuration (font, size, line height, spacing, etc.).
+    - id: userData
+      type: System.Void*
+      description: A custom user-defined data pointer passed during registration.
+    return:
+      type: ClaySharp.Interop.Dimensions
+      description: The computed width and height of the rendered text block.
+    content.vb: Public Delegate Function ClayNative.Clay_MeasureTextCallback(text As ClayStringSlice, config As TextElementConfig*, userData As Void*) As Dimensions
+references:
+- uid: ClaySharp.Interop
+  commentId: N:ClaySharp.Interop
+  href: ClaySharp.html
+  name: ClaySharp.Interop
+  nameWithType: ClaySharp.Interop
+  fullName: ClaySharp.Interop
+  spec.csharp:
+  - uid: ClaySharp
+    name: ClaySharp
+    href: ClaySharp.html
+  - name: .
+  - uid: ClaySharp.Interop
+    name: Interop
+    href: ClaySharp.Interop.html
+  spec.vb:
+  - uid: ClaySharp
+    name: ClaySharp
+    href: ClaySharp.html
+  - name: .
+  - uid: ClaySharp.Interop
+    name: Interop
+    href: ClaySharp.Interop.html
+- uid: ClaySharp.Interop.ClayStringSlice
+  commentId: T:ClaySharp.Interop.ClayStringSlice
+  parent: ClaySharp.Interop
+  href: ClaySharp.Interop.ClayStringSlice.html
+  name: ClayStringSlice
+  nameWithType: ClayStringSlice
+  fullName: ClaySharp.Interop.ClayStringSlice
+- uid: ClaySharp.Interop.TextElementConfig*
+  isExternal: true
+  href: ClaySharp.Interop.TextElementConfig.html
+  name: TextElementConfig*
+  nameWithType: TextElementConfig*
+  fullName: ClaySharp.Interop.TextElementConfig*
+  spec.csharp:
+  - uid: ClaySharp.Interop.TextElementConfig
+    name: TextElementConfig
+    href: ClaySharp.Interop.TextElementConfig.html
+  - name: '*'
+  spec.vb:
+  - uid: ClaySharp.Interop.TextElementConfig
+    name: TextElementConfig
+    href: ClaySharp.Interop.TextElementConfig.html
+  - name: '*'
+- uid: System.Void*
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.void
+  name: void*
+  nameWithType: void*
+  fullName: void*
+  nameWithType.vb: Void*
+  fullName.vb: Void*
+  name.vb: Void*
+  spec.csharp:
+  - uid: System.Void
+    name: void
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.void
+  - name: '*'
+  spec.vb:
+  - uid: System.Void
+    name: Void
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.void
+  - name: '*'
+- uid: ClaySharp.Interop.Dimensions
+  commentId: T:ClaySharp.Interop.Dimensions
+  parent: ClaySharp.Interop
+  href: ClaySharp.Interop.Dimensions.html
+  name: Dimensions
+  nameWithType: Dimensions
+  fullName: ClaySharp.Interop.Dimensions

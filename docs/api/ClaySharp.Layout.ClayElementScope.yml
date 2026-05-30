@@ -1,0 +1,379 @@
+### YamlMime:ManagedReference
+items:
+- uid: ClaySharp.Layout.ClayElementScope
+  commentId: T:ClaySharp.Layout.ClayElementScope
+  id: ClayElementScope
+  parent: ClaySharp.Layout
+  children:
+  - ClaySharp.Layout.ClayElementScope.#ctor(ClaySharp.Interop.ElementDeclaration@)
+  - ClaySharp.Layout.ClayElementScope.Dispose
+  langs:
+  - csharp
+  - vb
+  name: ClayElementScope
+  nameWithType: ClayElementScope
+  fullName: ClaySharp.Layout.ClayElementScope
+  type: Struct
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Layout/ClayElementScope.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: ClayElementScope
+    path: ../BlackHook.ClaySharp/Layout/ClayElementScope.cs
+    startLine: 4
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Layout
+  syntax:
+    content: public readonly ref struct ClayElementScope
+    content.vb: Public Structure ClayElementScope
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: ClaySharp.Layout.ClayElementScope.#ctor(ClaySharp.Interop.ElementDeclaration@)
+  commentId: M:ClaySharp.Layout.ClayElementScope.#ctor(ClaySharp.Interop.ElementDeclaration@)
+  id: '#ctor(ClaySharp.Interop.ElementDeclaration@)'
+  parent: ClaySharp.Layout.ClayElementScope
+  langs:
+  - csharp
+  - vb
+  name: ClayElementScope(in ElementDeclaration)
+  nameWithType: ClayElementScope.ClayElementScope(in ElementDeclaration)
+  fullName: ClaySharp.Layout.ClayElementScope.ClayElementScope(in ClaySharp.Interop.ElementDeclaration)
+  type: Constructor
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Layout/ClayElementScope.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: .ctor
+    path: ../BlackHook.ClaySharp/Layout/ClayElementScope.cs
+    startLine: 6
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Layout
+  syntax:
+    content: public ClayElementScope(in ElementDeclaration declaration)
+    parameters:
+    - id: declaration
+      type: ClaySharp.Interop.ElementDeclaration
+    content.vb: Public Sub New(declaration As ElementDeclaration)
+  overload: ClaySharp.Layout.ClayElementScope.#ctor*
+  nameWithType.vb: ClayElementScope.New(ElementDeclaration)
+  fullName.vb: ClaySharp.Layout.ClayElementScope.New(ClaySharp.Interop.ElementDeclaration)
+  name.vb: New(ElementDeclaration)
+- uid: ClaySharp.Layout.ClayElementScope.Dispose
+  commentId: M:ClaySharp.Layout.ClayElementScope.Dispose
+  id: Dispose
+  parent: ClaySharp.Layout.ClayElementScope
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: ClayElementScope.Dispose()
+  fullName: ClaySharp.Layout.ClayElementScope.Dispose()
+  type: Method
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Layout/ClayElementScope.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: Dispose
+    path: ../BlackHook.ClaySharp/Layout/ClayElementScope.cs
+    startLine: 12
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Layout
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: ClaySharp.Layout.ClayElementScope.Dispose*
+references:
+- uid: ClaySharp.Layout
+  commentId: N:ClaySharp.Layout
+  href: ClaySharp.html
+  name: ClaySharp.Layout
+  nameWithType: ClaySharp.Layout
+  fullName: ClaySharp.Layout
+  spec.csharp:
+  - uid: ClaySharp
+    name: ClaySharp
+    href: ClaySharp.html
+  - name: .
+  - uid: ClaySharp.Layout
+    name: Layout
+    href: ClaySharp.Layout.html
+  spec.vb:
+  - uid: ClaySharp
+    name: ClaySharp
+    href: ClaySharp.html
+  - name: .
+  - uid: ClaySharp.Layout
+    name: Layout
+    href: ClaySharp.Layout.html
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ClaySharp.Layout.ClayElementScope.#ctor*
+  commentId: Overload:ClaySharp.Layout.ClayElementScope.#ctor
+  href: ClaySharp.Layout.ClayElementScope.html#ClaySharp_Layout_ClayElementScope__ctor_ClaySharp_Interop_ElementDeclaration__
+  name: ClayElementScope
+  nameWithType: ClayElementScope.ClayElementScope
+  fullName: ClaySharp.Layout.ClayElementScope.ClayElementScope
+  nameWithType.vb: ClayElementScope.New
+  fullName.vb: ClaySharp.Layout.ClayElementScope.New
+  name.vb: New
+- uid: ClaySharp.Interop.ElementDeclaration
+  commentId: T:ClaySharp.Interop.ElementDeclaration
+  parent: ClaySharp.Interop
+  href: ClaySharp.Interop.ElementDeclaration.html
+  name: ElementDeclaration
+  nameWithType: ElementDeclaration
+  fullName: ClaySharp.Interop.ElementDeclaration
+- uid: ClaySharp.Interop
+  commentId: N:ClaySharp.Interop
+  href: ClaySharp.html
+  name: ClaySharp.Interop
+  nameWithType: ClaySharp.Interop
+  fullName: ClaySharp.Interop
+  spec.csharp:
+  - uid: ClaySharp
+    name: ClaySharp
+    href: ClaySharp.html
+  - name: .
+  - uid: ClaySharp.Interop
+    name: Interop
+    href: ClaySharp.Interop.html
+  spec.vb:
+  - uid: ClaySharp
+    name: ClaySharp
+    href: ClaySharp.html
+  - name: .
+  - uid: ClaySharp.Interop
+    name: Interop
+    href: ClaySharp.Interop.html
+- uid: ClaySharp.Layout.ClayElementScope.Dispose*
+  commentId: Overload:ClaySharp.Layout.ClayElementScope.Dispose
+  href: ClaySharp.Layout.ClayElementScope.html#ClaySharp_Layout_ClayElementScope_Dispose
+  name: Dispose
+  nameWithType: ClayElementScope.Dispose
+  fullName: ClaySharp.Layout.ClayElementScope.Dispose

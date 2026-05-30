@@ -1,0 +1,321 @@
+### YamlMime:ManagedReference
+items:
+- uid: ClaySharp.Interop.FloatingAttachPointType
+  commentId: T:ClaySharp.Interop.FloatingAttachPointType
+  id: FloatingAttachPointType
+  parent: ClaySharp.Interop
+  children:
+  - ClaySharp.Interop.FloatingAttachPointType.CenterBottom
+  - ClaySharp.Interop.FloatingAttachPointType.CenterCenter
+  - ClaySharp.Interop.FloatingAttachPointType.CenterTop
+  - ClaySharp.Interop.FloatingAttachPointType.LeftBottom
+  - ClaySharp.Interop.FloatingAttachPointType.LeftCenter
+  - ClaySharp.Interop.FloatingAttachPointType.LeftTop
+  - ClaySharp.Interop.FloatingAttachPointType.RightBottom
+  - ClaySharp.Interop.FloatingAttachPointType.RightCenter
+  - ClaySharp.Interop.FloatingAttachPointType.RightTop
+  langs:
+  - csharp
+  - vb
+  name: FloatingAttachPointType
+  nameWithType: FloatingAttachPointType
+  fullName: ClaySharp.Interop.FloatingAttachPointType
+  type: Enum
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: FloatingAttachPointType
+    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    startLine: 124
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: Defines the attachment points on an element and its target when using floating (absolute) positioning.
+  example: []
+  syntax:
+    content: 'public enum FloatingAttachPointType : byte'
+    content.vb: Public Enum FloatingAttachPointType As Byte
+- uid: ClaySharp.Interop.FloatingAttachPointType.LeftTop
+  commentId: F:ClaySharp.Interop.FloatingAttachPointType.LeftTop
+  id: LeftTop
+  parent: ClaySharp.Interop.FloatingAttachPointType
+  langs:
+  - csharp
+  - vb
+  name: LeftTop
+  nameWithType: FloatingAttachPointType.LeftTop
+  fullName: ClaySharp.Interop.FloatingAttachPointType.LeftTop
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: LeftTop
+    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    startLine: 127
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: Anchor at the top-left corner.
+  example: []
+  syntax:
+    content: LeftTop = 0
+    return:
+      type: ClaySharp.Interop.FloatingAttachPointType
+- uid: ClaySharp.Interop.FloatingAttachPointType.LeftCenter
+  commentId: F:ClaySharp.Interop.FloatingAttachPointType.LeftCenter
+  id: LeftCenter
+  parent: ClaySharp.Interop.FloatingAttachPointType
+  langs:
+  - csharp
+  - vb
+  name: LeftCenter
+  nameWithType: FloatingAttachPointType.LeftCenter
+  fullName: ClaySharp.Interop.FloatingAttachPointType.LeftCenter
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: LeftCenter
+    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    startLine: 129
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: Anchor at the middle-left edge.
+  example: []
+  syntax:
+    content: LeftCenter = 1
+    return:
+      type: ClaySharp.Interop.FloatingAttachPointType
+- uid: ClaySharp.Interop.FloatingAttachPointType.LeftBottom
+  commentId: F:ClaySharp.Interop.FloatingAttachPointType.LeftBottom
+  id: LeftBottom
+  parent: ClaySharp.Interop.FloatingAttachPointType
+  langs:
+  - csharp
+  - vb
+  name: LeftBottom
+  nameWithType: FloatingAttachPointType.LeftBottom
+  fullName: ClaySharp.Interop.FloatingAttachPointType.LeftBottom
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: LeftBottom
+    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    startLine: 131
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: Anchor at the bottom-left corner.
+  example: []
+  syntax:
+    content: LeftBottom = 2
+    return:
+      type: ClaySharp.Interop.FloatingAttachPointType
+- uid: ClaySharp.Interop.FloatingAttachPointType.CenterTop
+  commentId: F:ClaySharp.Interop.FloatingAttachPointType.CenterTop
+  id: CenterTop
+  parent: ClaySharp.Interop.FloatingAttachPointType
+  langs:
+  - csharp
+  - vb
+  name: CenterTop
+  nameWithType: FloatingAttachPointType.CenterTop
+  fullName: ClaySharp.Interop.FloatingAttachPointType.CenterTop
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: CenterTop
+    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    startLine: 133
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: Anchor at the top-center edge.
+  example: []
+  syntax:
+    content: CenterTop = 3
+    return:
+      type: ClaySharp.Interop.FloatingAttachPointType
+- uid: ClaySharp.Interop.FloatingAttachPointType.CenterCenter
+  commentId: F:ClaySharp.Interop.FloatingAttachPointType.CenterCenter
+  id: CenterCenter
+  parent: ClaySharp.Interop.FloatingAttachPointType
+  langs:
+  - csharp
+  - vb
+  name: CenterCenter
+  nameWithType: FloatingAttachPointType.CenterCenter
+  fullName: ClaySharp.Interop.FloatingAttachPointType.CenterCenter
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: CenterCenter
+    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    startLine: 135
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: Anchor at the true center.
+  example: []
+  syntax:
+    content: CenterCenter = 4
+    return:
+      type: ClaySharp.Interop.FloatingAttachPointType
+- uid: ClaySharp.Interop.FloatingAttachPointType.CenterBottom
+  commentId: F:ClaySharp.Interop.FloatingAttachPointType.CenterBottom
+  id: CenterBottom
+  parent: ClaySharp.Interop.FloatingAttachPointType
+  langs:
+  - csharp
+  - vb
+  name: CenterBottom
+  nameWithType: FloatingAttachPointType.CenterBottom
+  fullName: ClaySharp.Interop.FloatingAttachPointType.CenterBottom
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: CenterBottom
+    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    startLine: 137
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: Anchor at the bottom-center edge.
+  example: []
+  syntax:
+    content: CenterBottom = 5
+    return:
+      type: ClaySharp.Interop.FloatingAttachPointType
+- uid: ClaySharp.Interop.FloatingAttachPointType.RightTop
+  commentId: F:ClaySharp.Interop.FloatingAttachPointType.RightTop
+  id: RightTop
+  parent: ClaySharp.Interop.FloatingAttachPointType
+  langs:
+  - csharp
+  - vb
+  name: RightTop
+  nameWithType: FloatingAttachPointType.RightTop
+  fullName: ClaySharp.Interop.FloatingAttachPointType.RightTop
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: RightTop
+    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    startLine: 139
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: Anchor at the top-right corner.
+  example: []
+  syntax:
+    content: RightTop = 6
+    return:
+      type: ClaySharp.Interop.FloatingAttachPointType
+- uid: ClaySharp.Interop.FloatingAttachPointType.RightCenter
+  commentId: F:ClaySharp.Interop.FloatingAttachPointType.RightCenter
+  id: RightCenter
+  parent: ClaySharp.Interop.FloatingAttachPointType
+  langs:
+  - csharp
+  - vb
+  name: RightCenter
+  nameWithType: FloatingAttachPointType.RightCenter
+  fullName: ClaySharp.Interop.FloatingAttachPointType.RightCenter
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: RightCenter
+    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    startLine: 141
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: Anchor at the middle-right edge.
+  example: []
+  syntax:
+    content: RightCenter = 7
+    return:
+      type: ClaySharp.Interop.FloatingAttachPointType
+- uid: ClaySharp.Interop.FloatingAttachPointType.RightBottom
+  commentId: F:ClaySharp.Interop.FloatingAttachPointType.RightBottom
+  id: RightBottom
+  parent: ClaySharp.Interop.FloatingAttachPointType
+  langs:
+  - csharp
+  - vb
+  name: RightBottom
+  nameWithType: FloatingAttachPointType.RightBottom
+  fullName: ClaySharp.Interop.FloatingAttachPointType.RightBottom
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: RightBottom
+    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    startLine: 143
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: Anchor at the bottom-right corner.
+  example: []
+  syntax:
+    content: RightBottom = 8
+    return:
+      type: ClaySharp.Interop.FloatingAttachPointType
+references:
+- uid: ClaySharp.Interop
+  commentId: N:ClaySharp.Interop
+  href: ClaySharp.html
+  name: ClaySharp.Interop
+  nameWithType: ClaySharp.Interop
+  fullName: ClaySharp.Interop
+  spec.csharp:
+  - uid: ClaySharp
+    name: ClaySharp
+    href: ClaySharp.html
+  - name: .
+  - uid: ClaySharp.Interop
+    name: Interop
+    href: ClaySharp.Interop.html
+  spec.vb:
+  - uid: ClaySharp
+    name: ClaySharp
+    href: ClaySharp.html
+  - name: .
+  - uid: ClaySharp.Interop
+    name: Interop
+    href: ClaySharp.Interop.html
+- uid: ClaySharp.Interop.FloatingAttachPointType
+  commentId: T:ClaySharp.Interop.FloatingAttachPointType
+  parent: ClaySharp.Interop
+  href: ClaySharp.Interop.FloatingAttachPointType.html
+  name: FloatingAttachPointType
+  nameWithType: FloatingAttachPointType
+  fullName: ClaySharp.Interop.FloatingAttachPointType

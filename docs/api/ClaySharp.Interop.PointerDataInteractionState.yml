@@ -1,0 +1,176 @@
+### YamlMime:ManagedReference
+items:
+- uid: ClaySharp.Interop.PointerDataInteractionState
+  commentId: T:ClaySharp.Interop.PointerDataInteractionState
+  id: PointerDataInteractionState
+  parent: ClaySharp.Interop
+  children:
+  - ClaySharp.Interop.PointerDataInteractionState.Pressed
+  - ClaySharp.Interop.PointerDataInteractionState.PressedThisFrame
+  - ClaySharp.Interop.PointerDataInteractionState.Released
+  - ClaySharp.Interop.PointerDataInteractionState.ReleasedThisFrame
+  langs:
+  - csharp
+  - vb
+  name: PointerDataInteractionState
+  nameWithType: PointerDataInteractionState
+  fullName: ClaySharp.Interop.PointerDataInteractionState
+  type: Enum
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: PointerDataInteractionState
+    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    startLine: 83
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: Represents the interaction state of a pointer (e.g. mouse or touch) on a UI element.
+  example: []
+  syntax:
+    content: 'public enum PointerDataInteractionState : byte'
+    content.vb: Public Enum PointerDataInteractionState As Byte
+- uid: ClaySharp.Interop.PointerDataInteractionState.PressedThisFrame
+  commentId: F:ClaySharp.Interop.PointerDataInteractionState.PressedThisFrame
+  id: PressedThisFrame
+  parent: ClaySharp.Interop.PointerDataInteractionState
+  langs:
+  - csharp
+  - vb
+  name: PressedThisFrame
+  nameWithType: PointerDataInteractionState.PressedThisFrame
+  fullName: ClaySharp.Interop.PointerDataInteractionState.PressedThisFrame
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: PressedThisFrame
+    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    startLine: 86
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: The pointer was pressed down on this frame.
+  example: []
+  syntax:
+    content: PressedThisFrame = 0
+    return:
+      type: ClaySharp.Interop.PointerDataInteractionState
+- uid: ClaySharp.Interop.PointerDataInteractionState.Pressed
+  commentId: F:ClaySharp.Interop.PointerDataInteractionState.Pressed
+  id: Pressed
+  parent: ClaySharp.Interop.PointerDataInteractionState
+  langs:
+  - csharp
+  - vb
+  name: Pressed
+  nameWithType: PointerDataInteractionState.Pressed
+  fullName: ClaySharp.Interop.PointerDataInteractionState.Pressed
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: Pressed
+    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    startLine: 88
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: The pointer is currently held down.
+  example: []
+  syntax:
+    content: Pressed = 1
+    return:
+      type: ClaySharp.Interop.PointerDataInteractionState
+- uid: ClaySharp.Interop.PointerDataInteractionState.ReleasedThisFrame
+  commentId: F:ClaySharp.Interop.PointerDataInteractionState.ReleasedThisFrame
+  id: ReleasedThisFrame
+  parent: ClaySharp.Interop.PointerDataInteractionState
+  langs:
+  - csharp
+  - vb
+  name: ReleasedThisFrame
+  nameWithType: PointerDataInteractionState.ReleasedThisFrame
+  fullName: ClaySharp.Interop.PointerDataInteractionState.ReleasedThisFrame
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: ReleasedThisFrame
+    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    startLine: 90
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: The pointer was released on this frame.
+  example: []
+  syntax:
+    content: ReleasedThisFrame = 2
+    return:
+      type: ClaySharp.Interop.PointerDataInteractionState
+- uid: ClaySharp.Interop.PointerDataInteractionState.Released
+  commentId: F:ClaySharp.Interop.PointerDataInteractionState.Released
+  id: Released
+  parent: ClaySharp.Interop.PointerDataInteractionState
+  langs:
+  - csharp
+  - vb
+  name: Released
+  nameWithType: PointerDataInteractionState.Released
+  fullName: ClaySharp.Interop.PointerDataInteractionState.Released
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: Released
+    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    startLine: 92
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: The pointer is currently released/up.
+  example: []
+  syntax:
+    content: Released = 3
+    return:
+      type: ClaySharp.Interop.PointerDataInteractionState
+references:
+- uid: ClaySharp.Interop
+  commentId: N:ClaySharp.Interop
+  href: ClaySharp.html
+  name: ClaySharp.Interop
+  nameWithType: ClaySharp.Interop
+  fullName: ClaySharp.Interop
+  spec.csharp:
+  - uid: ClaySharp
+    name: ClaySharp
+    href: ClaySharp.html
+  - name: .
+  - uid: ClaySharp.Interop
+    name: Interop
+    href: ClaySharp.Interop.html
+  spec.vb:
+  - uid: ClaySharp
+    name: ClaySharp
+    href: ClaySharp.html
+  - name: .
+  - uid: ClaySharp.Interop
+    name: Interop
+    href: ClaySharp.Interop.html
+- uid: ClaySharp.Interop.PointerDataInteractionState
+  commentId: T:ClaySharp.Interop.PointerDataInteractionState
+  parent: ClaySharp.Interop
+  href: ClaySharp.Interop.PointerDataInteractionState.html
+  name: PointerDataInteractionState
+  nameWithType: PointerDataInteractionState
+  fullName: ClaySharp.Interop.PointerDataInteractionState

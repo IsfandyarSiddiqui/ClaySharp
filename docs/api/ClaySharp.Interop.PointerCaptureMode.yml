@@ -1,0 +1,89 @@
+### YamlMime:ManagedReference
+items:
+- uid: ClaySharp.Interop.PointerCaptureMode
+  commentId: T:ClaySharp.Interop.PointerCaptureMode
+  id: PointerCaptureMode
+  parent: ClaySharp.Interop
+  children:
+  - ClaySharp.Interop.PointerCaptureMode.Capture
+  langs:
+  - csharp
+  - vb
+  name: PointerCaptureMode
+  nameWithType: PointerCaptureMode
+  fullName: ClaySharp.Interop.PointerCaptureMode
+  type: Enum
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: PointerCaptureMode
+    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    startLine: 149
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: Controls pointer capture behavior for floating elements.
+  example: []
+  syntax:
+    content: 'public enum PointerCaptureMode : byte'
+    content.vb: Public Enum PointerCaptureMode As Byte
+- uid: ClaySharp.Interop.PointerCaptureMode.Capture
+  commentId: F:ClaySharp.Interop.PointerCaptureMode.Capture
+  id: Capture
+  parent: ClaySharp.Interop.PointerCaptureMode
+  langs:
+  - csharp
+  - vb
+  name: Capture
+  nameWithType: PointerCaptureMode.Capture
+  fullName: ClaySharp.Interop.PointerCaptureMode.Capture
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: Capture
+    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    startLine: 152
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: Capture pointer input events when interacting with the floating element.
+  example: []
+  syntax:
+    content: Capture = 0
+    return:
+      type: ClaySharp.Interop.PointerCaptureMode
+references:
+- uid: ClaySharp.Interop
+  commentId: N:ClaySharp.Interop
+  href: ClaySharp.html
+  name: ClaySharp.Interop
+  nameWithType: ClaySharp.Interop
+  fullName: ClaySharp.Interop
+  spec.csharp:
+  - uid: ClaySharp
+    name: ClaySharp
+    href: ClaySharp.html
+  - name: .
+  - uid: ClaySharp.Interop
+    name: Interop
+    href: ClaySharp.Interop.html
+  spec.vb:
+  - uid: ClaySharp
+    name: ClaySharp
+    href: ClaySharp.html
+  - name: .
+  - uid: ClaySharp.Interop
+    name: Interop
+    href: ClaySharp.Interop.html
+- uid: ClaySharp.Interop.PointerCaptureMode
+  commentId: T:ClaySharp.Interop.PointerCaptureMode
+  parent: ClaySharp.Interop
+  href: ClaySharp.Interop.PointerCaptureMode.html
+  name: PointerCaptureMode
+  nameWithType: PointerCaptureMode
+  fullName: ClaySharp.Interop.PointerCaptureMode

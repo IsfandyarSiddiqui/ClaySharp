@@ -1,0 +1,456 @@
+### YamlMime:ManagedReference
+items:
+- uid: ClaySharp.Interop.Arena
+  commentId: T:ClaySharp.Interop.Arena
+  id: Arena
+  parent: ClaySharp.Interop
+  children:
+  - ClaySharp.Interop.Arena.Capacity
+  - ClaySharp.Interop.Arena.Memory
+  - ClaySharp.Interop.Arena.NextAllocation
+  langs:
+  - csharp
+  - vb
+  name: Arena
+  nameWithType: Arena
+  fullName: ClaySharp.Interop.Arena
+  type: Struct
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: Arena
+    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    startLine: 83
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: Defines a contiguous block of pre-allocated unmanaged memory that Clay uses for all structural and dynamic layout allocations.
+  remarks: >-
+    Developers must allocate a block of memory (e.g., via <xref href="System.Runtime.InteropServices.Marshal.AllocHGlobal(System.Int32)" data-throw-if-not-resolved="false"></xref>) of at least <xref href="ClaySharp.Interop.ClayNative.MinMemorySize" data-throw-if-not-resolved="false"></xref>
+
+    and pass it to initialize the arena. Clay performs linear allocator increments internally within this block.
+  example: []
+  syntax:
+    content: public struct Arena
+    content.vb: Public Structure Arena
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: ClaySharp.Interop.Arena.NextAllocation
+  commentId: F:ClaySharp.Interop.Arena.NextAllocation
+  id: NextAllocation
+  parent: ClaySharp.Interop.Arena
+  langs:
+  - csharp
+  - vb
+  name: NextAllocation
+  nameWithType: Arena.NextAllocation
+  fullName: ClaySharp.Interop.Arena.NextAllocation
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: NextAllocation
+    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    startLine: 89
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: The current allocation offset pointer within the memory block.
+  example: []
+  syntax:
+    content: public nuint NextAllocation
+    return:
+      type: System.UIntPtr
+    content.vb: Public NextAllocation As UIntPtr
+- uid: ClaySharp.Interop.Arena.Capacity
+  commentId: F:ClaySharp.Interop.Arena.Capacity
+  id: Capacity
+  parent: ClaySharp.Interop.Arena
+  langs:
+  - csharp
+  - vb
+  name: Capacity
+  nameWithType: Arena.Capacity
+  fullName: ClaySharp.Interop.Arena.Capacity
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: Capacity
+    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    startLine: 94
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: The total memory capacity of the arena in bytes.
+  example: []
+  syntax:
+    content: public nuint Capacity
+    return:
+      type: System.UIntPtr
+    content.vb: Public Capacity As UIntPtr
+- uid: ClaySharp.Interop.Arena.Memory
+  commentId: F:ClaySharp.Interop.Arena.Memory
+  id: Memory
+  parent: ClaySharp.Interop.Arena
+  langs:
+  - csharp
+  - vb
+  name: Memory
+  nameWithType: Arena.Memory
+  fullName: ClaySharp.Interop.Arena.Memory
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: Memory
+    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    startLine: 99
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: A raw pointer to the start of the backing unmanaged memory block.
+  example: []
+  syntax:
+    content: public byte* Memory
+    return:
+      type: System.Byte*
+    content.vb: Public Memory As Byte*
+references:
+- uid: System.Runtime.InteropServices.Marshal.AllocHGlobal(System.Int32)
+  commentId: M:System.Runtime.InteropServices.Marshal.AllocHGlobal(System.Int32)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.runtime.interopservices.marshal.allochglobal#system-runtime-interopservices-marshal-allochglobal(system-int32)
+  name: AllocHGlobal(int)
+  nameWithType: Marshal.AllocHGlobal(int)
+  fullName: System.Runtime.InteropServices.Marshal.AllocHGlobal(int)
+  nameWithType.vb: Marshal.AllocHGlobal(Integer)
+  fullName.vb: System.Runtime.InteropServices.Marshal.AllocHGlobal(Integer)
+  name.vb: AllocHGlobal(Integer)
+  spec.csharp:
+  - uid: System.Runtime.InteropServices.Marshal.AllocHGlobal(System.Int32)
+    name: AllocHGlobal
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.interopservices.marshal.allochglobal#system-runtime-interopservices-marshal-allochglobal(system-int32)
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: System.Runtime.InteropServices.Marshal.AllocHGlobal(System.Int32)
+    name: AllocHGlobal
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.interopservices.marshal.allochglobal#system-runtime-interopservices-marshal-allochglobal(system-int32)
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: ClaySharp.Interop.ClayNative.MinMemorySize
+  commentId: M:ClaySharp.Interop.ClayNative.MinMemorySize
+  isExternal: true
+  href: ClaySharp.Interop.ClayNative.html#ClaySharp_Interop_ClayNative_MinMemorySize
+  name: MinMemorySize()
+  nameWithType: ClayNative.MinMemorySize()
+  fullName: ClaySharp.Interop.ClayNative.MinMemorySize()
+  spec.csharp:
+  - uid: ClaySharp.Interop.ClayNative.MinMemorySize
+    name: MinMemorySize
+    isExternal: true
+    href: ClaySharp.Interop.ClayNative.html#ClaySharp_Interop_ClayNative_MinMemorySize
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ClaySharp.Interop.ClayNative.MinMemorySize
+    name: MinMemorySize
+    isExternal: true
+    href: ClaySharp.Interop.ClayNative.html#ClaySharp_Interop_ClayNative_MinMemorySize
+  - name: (
+  - name: )
+- uid: ClaySharp.Interop
+  commentId: N:ClaySharp.Interop
+  href: ClaySharp.html
+  name: ClaySharp.Interop
+  nameWithType: ClaySharp.Interop
+  fullName: ClaySharp.Interop
+  spec.csharp:
+  - uid: ClaySharp
+    name: ClaySharp
+    href: ClaySharp.html
+  - name: .
+  - uid: ClaySharp.Interop
+    name: Interop
+    href: ClaySharp.Interop.html
+  spec.vb:
+  - uid: ClaySharp
+    name: ClaySharp
+    href: ClaySharp.html
+  - name: .
+  - uid: ClaySharp.Interop
+    name: Interop
+    href: ClaySharp.Interop.html
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.UIntPtr
+  commentId: T:System.UIntPtr
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uintptr
+  name: nuint
+  nameWithType: nuint
+  fullName: nuint
+  nameWithType.vb: UIntPtr
+  fullName.vb: System.UIntPtr
+  name.vb: UIntPtr
+- uid: System.Byte*
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.byte
+  name: byte*
+  nameWithType: byte*
+  fullName: byte*
+  nameWithType.vb: Byte*
+  fullName.vb: Byte*
+  name.vb: Byte*
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '*'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '*'

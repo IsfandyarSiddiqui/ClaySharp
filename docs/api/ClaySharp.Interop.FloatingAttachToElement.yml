@@ -1,0 +1,176 @@
+### YamlMime:ManagedReference
+items:
+- uid: ClaySharp.Interop.FloatingAttachToElement
+  commentId: T:ClaySharp.Interop.FloatingAttachToElement
+  id: FloatingAttachToElement
+  parent: ClaySharp.Interop
+  children:
+  - ClaySharp.Interop.FloatingAttachToElement.ElementWithId
+  - ClaySharp.Interop.FloatingAttachToElement.None
+  - ClaySharp.Interop.FloatingAttachToElement.Parent
+  - ClaySharp.Interop.FloatingAttachToElement.Root
+  langs:
+  - csharp
+  - vb
+  name: FloatingAttachToElement
+  nameWithType: FloatingAttachToElement
+  fullName: ClaySharp.Interop.FloatingAttachToElement
+  type: Enum
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: FloatingAttachToElement
+    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    startLine: 158
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: Identifies which element a floating container attaches to.
+  example: []
+  syntax:
+    content: 'public enum FloatingAttachToElement : byte'
+    content.vb: Public Enum FloatingAttachToElement As Byte
+- uid: ClaySharp.Interop.FloatingAttachToElement.None
+  commentId: F:ClaySharp.Interop.FloatingAttachToElement.None
+  id: None
+  parent: ClaySharp.Interop.FloatingAttachToElement
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: FloatingAttachToElement.None
+  fullName: ClaySharp.Interop.FloatingAttachToElement.None
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: None
+    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    startLine: 161
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: Does not attach to any element (defaults to absolute layout root coordinate space).
+  example: []
+  syntax:
+    content: None = 0
+    return:
+      type: ClaySharp.Interop.FloatingAttachToElement
+- uid: ClaySharp.Interop.FloatingAttachToElement.Parent
+  commentId: F:ClaySharp.Interop.FloatingAttachToElement.Parent
+  id: Parent
+  parent: ClaySharp.Interop.FloatingAttachToElement
+  langs:
+  - csharp
+  - vb
+  name: Parent
+  nameWithType: FloatingAttachToElement.Parent
+  fullName: ClaySharp.Interop.FloatingAttachToElement.Parent
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: Parent
+    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    startLine: 163
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: Attaches to the direct parent element in the layout tree.
+  example: []
+  syntax:
+    content: Parent = 1
+    return:
+      type: ClaySharp.Interop.FloatingAttachToElement
+- uid: ClaySharp.Interop.FloatingAttachToElement.ElementWithId
+  commentId: F:ClaySharp.Interop.FloatingAttachToElement.ElementWithId
+  id: ElementWithId
+  parent: ClaySharp.Interop.FloatingAttachToElement
+  langs:
+  - csharp
+  - vb
+  name: ElementWithId
+  nameWithType: FloatingAttachToElement.ElementWithId
+  fullName: ClaySharp.Interop.FloatingAttachToElement.ElementWithId
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: ElementWithId
+    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    startLine: 165
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: Attaches to an element with a specific ID.
+  example: []
+  syntax:
+    content: ElementWithId = 2
+    return:
+      type: ClaySharp.Interop.FloatingAttachToElement
+- uid: ClaySharp.Interop.FloatingAttachToElement.Root
+  commentId: F:ClaySharp.Interop.FloatingAttachToElement.Root
+  id: Root
+  parent: ClaySharp.Interop.FloatingAttachToElement
+  langs:
+  - csharp
+  - vb
+  name: Root
+  nameWithType: FloatingAttachToElement.Root
+  fullName: ClaySharp.Interop.FloatingAttachToElement.Root
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: Root
+    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    startLine: 167
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: Attaches to the root layout container.
+  example: []
+  syntax:
+    content: Root = 3
+    return:
+      type: ClaySharp.Interop.FloatingAttachToElement
+references:
+- uid: ClaySharp.Interop
+  commentId: N:ClaySharp.Interop
+  href: ClaySharp.html
+  name: ClaySharp.Interop
+  nameWithType: ClaySharp.Interop
+  fullName: ClaySharp.Interop
+  spec.csharp:
+  - uid: ClaySharp
+    name: ClaySharp
+    href: ClaySharp.html
+  - name: .
+  - uid: ClaySharp.Interop
+    name: Interop
+    href: ClaySharp.Interop.html
+  spec.vb:
+  - uid: ClaySharp
+    name: ClaySharp
+    href: ClaySharp.html
+  - name: .
+  - uid: ClaySharp.Interop
+    name: Interop
+    href: ClaySharp.Interop.html
+- uid: ClaySharp.Interop.FloatingAttachToElement
+  commentId: T:ClaySharp.Interop.FloatingAttachToElement
+  parent: ClaySharp.Interop
+  href: ClaySharp.Interop.FloatingAttachToElement.html
+  name: FloatingAttachToElement
+  nameWithType: FloatingAttachToElement
+  fullName: ClaySharp.Interop.FloatingAttachToElement

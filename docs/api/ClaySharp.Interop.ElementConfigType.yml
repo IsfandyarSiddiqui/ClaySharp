@@ -1,0 +1,324 @@
+### YamlMime:ManagedReference
+items:
+- uid: ClaySharp.Interop.ElementConfigType
+  commentId: T:ClaySharp.Interop.ElementConfigType
+  id: ElementConfigType
+  parent: ClaySharp.Interop
+  children:
+  - ClaySharp.Interop.ElementConfigType.Aspect
+  - ClaySharp.Interop.ElementConfigType.Border
+  - ClaySharp.Interop.ElementConfigType.Clip
+  - ClaySharp.Interop.ElementConfigType.Custom
+  - ClaySharp.Interop.ElementConfigType.Floating
+  - ClaySharp.Interop.ElementConfigType.Image
+  - ClaySharp.Interop.ElementConfigType.None
+  - ClaySharp.Interop.ElementConfigType.Shared
+  - ClaySharp.Interop.ElementConfigType.Text
+  langs:
+  - csharp
+  - vb
+  name: ElementConfigType
+  nameWithType: ElementConfigType
+  fullName: ClaySharp.Interop.ElementConfigType
+  type: Enum
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: ElementConfigType
+    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    startLine: 6
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: >-
+    Specifies the type of layout configuration applied to a UI element.
+
+    This configuration determines which rendering, sizing, or layout rules Clay applies to the element.
+  example: []
+  syntax:
+    content: 'public enum ElementConfigType : byte'
+    content.vb: Public Enum ElementConfigType As Byte
+- uid: ClaySharp.Interop.ElementConfigType.None
+  commentId: F:ClaySharp.Interop.ElementConfigType.None
+  id: None
+  parent: ClaySharp.Interop.ElementConfigType
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: ElementConfigType.None
+  fullName: ClaySharp.Interop.ElementConfigType.None
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: None
+    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    startLine: 9
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: No configuration type is set.
+  example: []
+  syntax:
+    content: None = 0
+    return:
+      type: ClaySharp.Interop.ElementConfigType
+- uid: ClaySharp.Interop.ElementConfigType.Border
+  commentId: F:ClaySharp.Interop.ElementConfigType.Border
+  id: Border
+  parent: ClaySharp.Interop.ElementConfigType
+  langs:
+  - csharp
+  - vb
+  name: Border
+  nameWithType: ElementConfigType.Border
+  fullName: ClaySharp.Interop.ElementConfigType.Border
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: Border
+    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    startLine: 11
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: Applies a border layout config, drawing borders on one or more edges.
+  example: []
+  syntax:
+    content: Border = 1
+    return:
+      type: ClaySharp.Interop.ElementConfigType
+- uid: ClaySharp.Interop.ElementConfigType.Floating
+  commentId: F:ClaySharp.Interop.ElementConfigType.Floating
+  id: Floating
+  parent: ClaySharp.Interop.ElementConfigType
+  langs:
+  - csharp
+  - vb
+  name: Floating
+  nameWithType: ElementConfigType.Floating
+  fullName: ClaySharp.Interop.ElementConfigType.Floating
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: Floating
+    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    startLine: 13
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: Allows the element to float dynamically relative to other elements (absolute positioning).
+  example: []
+  syntax:
+    content: Floating = 2
+    return:
+      type: ClaySharp.Interop.ElementConfigType
+- uid: ClaySharp.Interop.ElementConfigType.Clip
+  commentId: F:ClaySharp.Interop.ElementConfigType.Clip
+  id: Clip
+  parent: ClaySharp.Interop.ElementConfigType
+  langs:
+  - csharp
+  - vb
+  name: Clip
+  nameWithType: ElementConfigType.Clip
+  fullName: ClaySharp.Interop.ElementConfigType.Clip
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: Clip
+    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    startLine: 15
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: Clips child elements when they exceed the boundaries of this element.
+  example: []
+  syntax:
+    content: Clip = 3
+    return:
+      type: ClaySharp.Interop.ElementConfigType
+- uid: ClaySharp.Interop.ElementConfigType.Aspect
+  commentId: F:ClaySharp.Interop.ElementConfigType.Aspect
+  id: Aspect
+  parent: ClaySharp.Interop.ElementConfigType
+  langs:
+  - csharp
+  - vb
+  name: Aspect
+  nameWithType: ElementConfigType.Aspect
+  fullName: ClaySharp.Interop.ElementConfigType.Aspect
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: Aspect
+    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    startLine: 17
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: Enforces a specific aspect ratio on the element.
+  example: []
+  syntax:
+    content: Aspect = 4
+    return:
+      type: ClaySharp.Interop.ElementConfigType
+- uid: ClaySharp.Interop.ElementConfigType.Image
+  commentId: F:ClaySharp.Interop.ElementConfigType.Image
+  id: Image
+  parent: ClaySharp.Interop.ElementConfigType
+  langs:
+  - csharp
+  - vb
+  name: Image
+  nameWithType: ElementConfigType.Image
+  fullName: ClaySharp.Interop.ElementConfigType.Image
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: Image
+    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    startLine: 19
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: Specifies that the element renders an image.
+  example: []
+  syntax:
+    content: Image = 5
+    return:
+      type: ClaySharp.Interop.ElementConfigType
+- uid: ClaySharp.Interop.ElementConfigType.Text
+  commentId: F:ClaySharp.Interop.ElementConfigType.Text
+  id: Text
+  parent: ClaySharp.Interop.ElementConfigType
+  langs:
+  - csharp
+  - vb
+  name: Text
+  nameWithType: ElementConfigType.Text
+  fullName: ClaySharp.Interop.ElementConfigType.Text
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: Text
+    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    startLine: 21
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: Specifies that the element renders text.
+  example: []
+  syntax:
+    content: Text = 6
+    return:
+      type: ClaySharp.Interop.ElementConfigType
+- uid: ClaySharp.Interop.ElementConfigType.Custom
+  commentId: F:ClaySharp.Interop.ElementConfigType.Custom
+  id: Custom
+  parent: ClaySharp.Interop.ElementConfigType
+  langs:
+  - csharp
+  - vb
+  name: Custom
+  nameWithType: ElementConfigType.Custom
+  fullName: ClaySharp.Interop.ElementConfigType.Custom
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: Custom
+    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    startLine: 23
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: Applies a custom layout configuration or renderer for custom elements.
+  example: []
+  syntax:
+    content: Custom = 7
+    return:
+      type: ClaySharp.Interop.ElementConfigType
+- uid: ClaySharp.Interop.ElementConfigType.Shared
+  commentId: F:ClaySharp.Interop.ElementConfigType.Shared
+  id: Shared
+  parent: ClaySharp.Interop.ElementConfigType
+  langs:
+  - csharp
+  - vb
+  name: Shared
+  nameWithType: ElementConfigType.Shared
+  fullName: ClaySharp.Interop.ElementConfigType.Shared
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayEnums.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: Shared
+    path: ../BlackHook.ClaySharp/Interop/ClayEnums.cs
+    startLine: 25
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: Uses a shared style or configuration block.
+  example: []
+  syntax:
+    content: Shared = 8
+    return:
+      type: ClaySharp.Interop.ElementConfigType
+references:
+- uid: ClaySharp.Interop
+  commentId: N:ClaySharp.Interop
+  href: ClaySharp.html
+  name: ClaySharp.Interop
+  nameWithType: ClaySharp.Interop
+  fullName: ClaySharp.Interop
+  spec.csharp:
+  - uid: ClaySharp
+    name: ClaySharp
+    href: ClaySharp.html
+  - name: .
+  - uid: ClaySharp.Interop
+    name: Interop
+    href: ClaySharp.Interop.html
+  spec.vb:
+  - uid: ClaySharp
+    name: ClaySharp
+    href: ClaySharp.html
+  - name: .
+  - uid: ClaySharp.Interop
+    name: Interop
+    href: ClaySharp.Interop.html
+- uid: ClaySharp.Interop.ElementConfigType
+  commentId: T:ClaySharp.Interop.ElementConfigType
+  parent: ClaySharp.Interop
+  href: ClaySharp.Interop.ElementConfigType.html
+  name: ElementConfigType
+  nameWithType: ElementConfigType
+  fullName: ClaySharp.Interop.ElementConfigType

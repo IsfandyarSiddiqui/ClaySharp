@@ -1,0 +1,581 @@
+### YamlMime:ManagedReference
+items:
+- uid: ClaySharp.Interop.FloatingElementConfig
+  commentId: T:ClaySharp.Interop.FloatingElementConfig
+  id: FloatingElementConfig
+  parent: ClaySharp.Interop
+  children:
+  - ClaySharp.Interop.FloatingElementConfig.AttachPoints
+  - ClaySharp.Interop.FloatingElementConfig.AttachTo
+  - ClaySharp.Interop.FloatingElementConfig.ClipTo
+  - ClaySharp.Interop.FloatingElementConfig.Expand
+  - ClaySharp.Interop.FloatingElementConfig.Offset
+  - ClaySharp.Interop.FloatingElementConfig.ParentId
+  - ClaySharp.Interop.FloatingElementConfig.PointerCaptureMode
+  - ClaySharp.Interop.FloatingElementConfig.ZIndex
+  langs:
+  - csharp
+  - vb
+  name: FloatingElementConfig
+  nameWithType: FloatingElementConfig
+  fullName: ClaySharp.Interop.FloatingElementConfig
+  type: Struct
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: FloatingElementConfig
+    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    startLine: 365
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: Controls positioning, depth, and attachment behavior of floating (absolute positioned) UI elements.
+  example: []
+  syntax:
+    content: public struct FloatingElementConfig
+    content.vb: Public Structure FloatingElementConfig
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: ClaySharp.Interop.FloatingElementConfig.Offset
+  commentId: F:ClaySharp.Interop.FloatingElementConfig.Offset
+  id: Offset
+  parent: ClaySharp.Interop.FloatingElementConfig
+  langs:
+  - csharp
+  - vb
+  name: Offset
+  nameWithType: FloatingElementConfig.Offset
+  fullName: ClaySharp.Interop.FloatingElementConfig.Offset
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: Offset
+    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    startLine: 369
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: Offset distance in pixels applied after anchoring calculation.
+  example: []
+  syntax:
+    content: public Vector2 Offset
+    return:
+      type: ClaySharp.Interop.Vector2
+    content.vb: Public Offset As Vector2
+- uid: ClaySharp.Interop.FloatingElementConfig.Expand
+  commentId: F:ClaySharp.Interop.FloatingElementConfig.Expand
+  id: Expand
+  parent: ClaySharp.Interop.FloatingElementConfig
+  langs:
+  - csharp
+  - vb
+  name: Expand
+  nameWithType: FloatingElementConfig.Expand
+  fullName: ClaySharp.Interop.FloatingElementConfig.Expand
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: Expand
+    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    startLine: 372
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: Additional dimensions in pixels to expand the element's bounding size.
+  example: []
+  syntax:
+    content: public Dimensions Expand
+    return:
+      type: ClaySharp.Interop.Dimensions
+    content.vb: Public Expand As Dimensions
+- uid: ClaySharp.Interop.FloatingElementConfig.ParentId
+  commentId: F:ClaySharp.Interop.FloatingElementConfig.ParentId
+  id: ParentId
+  parent: ClaySharp.Interop.FloatingElementConfig
+  langs:
+  - csharp
+  - vb
+  name: ParentId
+  nameWithType: FloatingElementConfig.ParentId
+  fullName: ClaySharp.Interop.FloatingElementConfig.ParentId
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: ParentId
+    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    startLine: 375
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: The unique ID of the element to anchor to, if attaching to an element by ID.
+  example: []
+  syntax:
+    content: public uint ParentId
+    return:
+      type: System.UInt32
+    content.vb: Public ParentId As UInteger
+- uid: ClaySharp.Interop.FloatingElementConfig.ZIndex
+  commentId: F:ClaySharp.Interop.FloatingElementConfig.ZIndex
+  id: ZIndex
+  parent: ClaySharp.Interop.FloatingElementConfig
+  langs:
+  - csharp
+  - vb
+  name: ZIndex
+  nameWithType: FloatingElementConfig.ZIndex
+  fullName: ClaySharp.Interop.FloatingElementConfig.ZIndex
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: ZIndex
+    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    startLine: 378
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: Layer drawing order index. Higher values render on top of lower values.
+  example: []
+  syntax:
+    content: public short ZIndex
+    return:
+      type: System.Int16
+    content.vb: Public ZIndex As Short
+- uid: ClaySharp.Interop.FloatingElementConfig.AttachPoints
+  commentId: F:ClaySharp.Interop.FloatingElementConfig.AttachPoints
+  id: AttachPoints
+  parent: ClaySharp.Interop.FloatingElementConfig
+  langs:
+  - csharp
+  - vb
+  name: AttachPoints
+  nameWithType: FloatingElementConfig.AttachPoints
+  fullName: ClaySharp.Interop.FloatingElementConfig.AttachPoints
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: AttachPoints
+    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    startLine: 381
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: The attachment point mappings.
+  example: []
+  syntax:
+    content: public FloatingAttachPoints AttachPoints
+    return:
+      type: ClaySharp.Interop.FloatingAttachPoints
+    content.vb: Public AttachPoints As FloatingAttachPoints
+- uid: ClaySharp.Interop.FloatingElementConfig.PointerCaptureMode
+  commentId: F:ClaySharp.Interop.FloatingElementConfig.PointerCaptureMode
+  id: PointerCaptureMode
+  parent: ClaySharp.Interop.FloatingElementConfig
+  langs:
+  - csharp
+  - vb
+  name: PointerCaptureMode
+  nameWithType: FloatingElementConfig.PointerCaptureMode
+  fullName: ClaySharp.Interop.FloatingElementConfig.PointerCaptureMode
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: PointerCaptureMode
+    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    startLine: 384
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: Input pointer capturing behavior details.
+  example: []
+  syntax:
+    content: public PointerCaptureMode PointerCaptureMode
+    return:
+      type: ClaySharp.Interop.PointerCaptureMode
+    content.vb: Public PointerCaptureMode As PointerCaptureMode
+- uid: ClaySharp.Interop.FloatingElementConfig.AttachTo
+  commentId: F:ClaySharp.Interop.FloatingElementConfig.AttachTo
+  id: AttachTo
+  parent: ClaySharp.Interop.FloatingElementConfig
+  langs:
+  - csharp
+  - vb
+  name: AttachTo
+  nameWithType: FloatingElementConfig.AttachTo
+  fullName: ClaySharp.Interop.FloatingElementConfig.AttachTo
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: AttachTo
+    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    startLine: 387
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: Target host object type to attach the floating element to.
+  example: []
+  syntax:
+    content: public FloatingAttachToElement AttachTo
+    return:
+      type: ClaySharp.Interop.FloatingAttachToElement
+    content.vb: Public AttachTo As FloatingAttachToElement
+- uid: ClaySharp.Interop.FloatingElementConfig.ClipTo
+  commentId: F:ClaySharp.Interop.FloatingElementConfig.ClipTo
+  id: ClipTo
+  parent: ClaySharp.Interop.FloatingElementConfig
+  langs:
+  - csharp
+  - vb
+  name: ClipTo
+  nameWithType: FloatingElementConfig.ClipTo
+  fullName: ClaySharp.Interop.FloatingElementConfig.ClipTo
+  type: Field
+  source:
+    remote:
+      path: BlackHook.ClaySharp/Interop/ClayTypes.cs
+      branch: master
+      repo: https://github.com/IsfandyarSiddiqui/BlackHook.git
+    id: ClipTo
+    path: ../BlackHook.ClaySharp/Interop/ClayTypes.cs
+    startLine: 390
+  assemblies:
+  - BlackHook.ClaySharp
+  namespace: ClaySharp.Interop
+  summary: Specifies if drawing coordinates are clipped by the target container.
+  example: []
+  syntax:
+    content: public FloatingClipToElement ClipTo
+    return:
+      type: ClaySharp.Interop.FloatingClipToElement
+    content.vb: Public ClipTo As FloatingClipToElement
+references:
+- uid: ClaySharp.Interop
+  commentId: N:ClaySharp.Interop
+  href: ClaySharp.html
+  name: ClaySharp.Interop
+  nameWithType: ClaySharp.Interop
+  fullName: ClaySharp.Interop
+  spec.csharp:
+  - uid: ClaySharp
+    name: ClaySharp
+    href: ClaySharp.html
+  - name: .
+  - uid: ClaySharp.Interop
+    name: Interop
+    href: ClaySharp.Interop.html
+  spec.vb:
+  - uid: ClaySharp
+    name: ClaySharp
+    href: ClaySharp.html
+  - name: .
+  - uid: ClaySharp.Interop
+    name: Interop
+    href: ClaySharp.Interop.html
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ClaySharp.Interop.Vector2
+  commentId: T:ClaySharp.Interop.Vector2
+  parent: ClaySharp.Interop
+  href: ClaySharp.Interop.Vector2.html
+  name: Vector2
+  nameWithType: Vector2
+  fullName: ClaySharp.Interop.Vector2
+- uid: ClaySharp.Interop.Dimensions
+  commentId: T:ClaySharp.Interop.Dimensions
+  parent: ClaySharp.Interop
+  href: ClaySharp.Interop.Dimensions.html
+  name: Dimensions
+  nameWithType: Dimensions
+  fullName: ClaySharp.Interop.Dimensions
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int16
+  name: short
+  nameWithType: short
+  fullName: short
+  nameWithType.vb: Short
+  fullName.vb: Short
+  name.vb: Short
+- uid: ClaySharp.Interop.FloatingAttachPoints
+  commentId: T:ClaySharp.Interop.FloatingAttachPoints
+  parent: ClaySharp.Interop
+  href: ClaySharp.Interop.FloatingAttachPoints.html
+  name: FloatingAttachPoints
+  nameWithType: FloatingAttachPoints
+  fullName: ClaySharp.Interop.FloatingAttachPoints
+- uid: ClaySharp.Interop.PointerCaptureMode
+  commentId: T:ClaySharp.Interop.PointerCaptureMode
+  parent: ClaySharp.Interop
+  href: ClaySharp.Interop.PointerCaptureMode.html
+  name: PointerCaptureMode
+  nameWithType: PointerCaptureMode
+  fullName: ClaySharp.Interop.PointerCaptureMode
+- uid: ClaySharp.Interop.FloatingAttachToElement
+  commentId: T:ClaySharp.Interop.FloatingAttachToElement
+  parent: ClaySharp.Interop
+  href: ClaySharp.Interop.FloatingAttachToElement.html
+  name: FloatingAttachToElement
+  nameWithType: FloatingAttachToElement
+  fullName: ClaySharp.Interop.FloatingAttachToElement
+- uid: ClaySharp.Interop.FloatingClipToElement
+  commentId: T:ClaySharp.Interop.FloatingClipToElement
+  parent: ClaySharp.Interop
+  href: ClaySharp.Interop.FloatingClipToElement.html
+  name: FloatingClipToElement
+  nameWithType: FloatingClipToElement
+  fullName: ClaySharp.Interop.FloatingClipToElement
