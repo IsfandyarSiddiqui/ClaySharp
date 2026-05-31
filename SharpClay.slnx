@@ -1,3 +1,11 @@
 <Solution>
+  <Folder Name="/Solution Items/">
+    <File Path="docs/docfx.json" />
+    <File Path="docs/getting-started.md" />
+    <File Path="docs/index.md" />
+    <File Path="docs/introduction.md" />
+    <File Path="docs/toc.yml" />
+    <File Path="docs/_site/index.html" />
+  </Folder>
   <Project Path="SharpClay/SharpClay.csproj" />
 </Solution>
