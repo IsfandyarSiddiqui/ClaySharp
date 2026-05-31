@@ -3129,6 +3129,25 @@ references:
   commentId: T:SharpClay.Interop.AspectRatioElementConfig
   fullName: SharpClay.Interop.AspectRatioElementConfig
   nameWithType: AspectRatioElementConfig
+- uid: SharpClay.Interop.AspectRatioElementConfig.#ctor(System.Single)
+  name: AspectRatioElementConfig(float)
+  href: api/SharpClay.Interop.AspectRatioElementConfig.html#SharpClay_Interop_AspectRatioElementConfig__ctor_System_Single_
+  commentId: M:SharpClay.Interop.AspectRatioElementConfig.#ctor(System.Single)
+  name.vb: New(Single)
+  fullName: SharpClay.Interop.AspectRatioElementConfig.AspectRatioElementConfig(float)
+  fullName.vb: SharpClay.Interop.AspectRatioElementConfig.New(Single)
+  nameWithType: AspectRatioElementConfig.AspectRatioElementConfig(float)
+  nameWithType.vb: AspectRatioElementConfig.New(Single)
+- uid: SharpClay.Interop.AspectRatioElementConfig.#ctor*
+  name: AspectRatioElementConfig
+  href: api/SharpClay.Interop.AspectRatioElementConfig.html#SharpClay_Interop_AspectRatioElementConfig__ctor_
+  commentId: Overload:SharpClay.Interop.AspectRatioElementConfig.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharpClay.Interop.AspectRatioElementConfig.AspectRatioElementConfig
+  fullName.vb: SharpClay.Interop.AspectRatioElementConfig.New
+  nameWithType: AspectRatioElementConfig.AspectRatioElementConfig
+  nameWithType.vb: AspectRatioElementConfig.New
 - uid: SharpClay.Interop.AspectRatioElementConfig.AspectRatio
   name: AspectRatio
   href: api/SharpClay.Interop.AspectRatioElementConfig.html#SharpClay_Interop_AspectRatioElementConfig_AspectRatio
@@ -3231,6 +3250,25 @@ references:
   commentId: T:SharpClay.Interop.BorderWidth
   fullName: SharpClay.Interop.BorderWidth
   nameWithType: BorderWidth
+- uid: SharpClay.Interop.BorderWidth.#ctor(System.UInt16,System.UInt16,System.UInt16,System.UInt16,System.UInt16)
+  name: BorderWidth(ushort, ushort, ushort, ushort, ushort)
+  href: api/SharpClay.Interop.BorderWidth.html#SharpClay_Interop_BorderWidth__ctor_System_UInt16_System_UInt16_System_UInt16_System_UInt16_System_UInt16_
+  commentId: M:SharpClay.Interop.BorderWidth.#ctor(System.UInt16,System.UInt16,System.UInt16,System.UInt16,System.UInt16)
+  name.vb: New(UShort, UShort, UShort, UShort, UShort)
+  fullName: SharpClay.Interop.BorderWidth.BorderWidth(ushort, ushort, ushort, ushort, ushort)
+  fullName.vb: SharpClay.Interop.BorderWidth.New(UShort, UShort, UShort, UShort, UShort)
+  nameWithType: BorderWidth.BorderWidth(ushort, ushort, ushort, ushort, ushort)
+  nameWithType.vb: BorderWidth.New(UShort, UShort, UShort, UShort, UShort)
+- uid: SharpClay.Interop.BorderWidth.#ctor*
+  name: BorderWidth
+  href: api/SharpClay.Interop.BorderWidth.html#SharpClay_Interop_BorderWidth__ctor_
+  commentId: Overload:SharpClay.Interop.BorderWidth.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharpClay.Interop.BorderWidth.BorderWidth
+  fullName.vb: SharpClay.Interop.BorderWidth.New
+  nameWithType: BorderWidth.BorderWidth
+  nameWithType.vb: BorderWidth.New
 - uid: SharpClay.Interop.BorderWidth.BetweenChildren
   name: BetweenChildren
   href: api/SharpClay.Interop.BorderWidth.html#SharpClay_Interop_BorderWidth_BetweenChildren
@@ -3267,6 +3305,25 @@ references:
   commentId: T:SharpClay.Interop.BoundingBox
   fullName: SharpClay.Interop.BoundingBox
   nameWithType: BoundingBox
+- uid: SharpClay.Interop.BoundingBox.#ctor(System.Single,System.Single,System.Single,System.Single)
+  name: BoundingBox(float, float, float, float)
+  href: api/SharpClay.Interop.BoundingBox.html#SharpClay_Interop_BoundingBox__ctor_System_Single_System_Single_System_Single_System_Single_
+  commentId: M:SharpClay.Interop.BoundingBox.#ctor(System.Single,System.Single,System.Single,System.Single)
+  name.vb: New(Single, Single, Single, Single)
+  fullName: SharpClay.Interop.BoundingBox.BoundingBox(float, float, float, float)
+  fullName.vb: SharpClay.Interop.BoundingBox.New(Single, Single, Single, Single)
+  nameWithType: BoundingBox.BoundingBox(float, float, float, float)
+  nameWithType.vb: BoundingBox.New(Single, Single, Single, Single)
+- uid: SharpClay.Interop.BoundingBox.#ctor*
+  name: BoundingBox
+  href: api/SharpClay.Interop.BoundingBox.html#SharpClay_Interop_BoundingBox__ctor_
+  commentId: Overload:SharpClay.Interop.BoundingBox.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharpClay.Interop.BoundingBox.BoundingBox
+  fullName.vb: SharpClay.Interop.BoundingBox.New
+  nameWithType: BoundingBox.BoundingBox
+  nameWithType.vb: BoundingBox.New
 - uid: SharpClay.Interop.BoundingBox.Height
   name: Height
   href: api/SharpClay.Interop.BoundingBox.html#SharpClay_Interop_BoundingBox_Height
@@ -3953,6 +4010,25 @@ references:
   commentId: T:SharpClay.Interop.Color
   fullName: SharpClay.Interop.Color
   nameWithType: Color
+- uid: SharpClay.Interop.Color.#ctor(System.Single,System.Single,System.Single,System.Single)
+  name: Color(float, float, float, float)
+  href: api/SharpClay.Interop.Color.html#SharpClay_Interop_Color__ctor_System_Single_System_Single_System_Single_System_Single_
+  commentId: M:SharpClay.Interop.Color.#ctor(System.Single,System.Single,System.Single,System.Single)
+  name.vb: New(Single, Single, Single, Single)
+  fullName: SharpClay.Interop.Color.Color(float, float, float, float)
+  fullName.vb: SharpClay.Interop.Color.New(Single, Single, Single, Single)
+  nameWithType: Color.Color(float, float, float, float)
+  nameWithType.vb: Color.New(Single, Single, Single, Single)
+- uid: SharpClay.Interop.Color.#ctor*
+  name: Color
+  href: api/SharpClay.Interop.Color.html#SharpClay_Interop_Color__ctor_
+  commentId: Overload:SharpClay.Interop.Color.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharpClay.Interop.Color.Color
+  fullName.vb: SharpClay.Interop.Color.New
+  nameWithType: Color.Color
+  nameWithType.vb: Color.New
 - uid: SharpClay.Interop.Color.A
   name: A
   href: api/SharpClay.Interop.Color.html#SharpClay_Interop_Color_A
@@ -3989,6 +4065,34 @@ references:
   commentId: T:SharpClay.Interop.CornerRadius
   fullName: SharpClay.Interop.CornerRadius
   nameWithType: CornerRadius
+- uid: SharpClay.Interop.CornerRadius.#ctor(System.Single)
+  name: CornerRadius(float)
+  href: api/SharpClay.Interop.CornerRadius.html#SharpClay_Interop_CornerRadius__ctor_System_Single_
+  commentId: M:SharpClay.Interop.CornerRadius.#ctor(System.Single)
+  name.vb: New(Single)
+  fullName: SharpClay.Interop.CornerRadius.CornerRadius(float)
+  fullName.vb: SharpClay.Interop.CornerRadius.New(Single)
+  nameWithType: CornerRadius.CornerRadius(float)
+  nameWithType.vb: CornerRadius.New(Single)
+- uid: SharpClay.Interop.CornerRadius.#ctor(System.Single,System.Single,System.Single,System.Single)
+  name: CornerRadius(float, float, float, float)
+  href: api/SharpClay.Interop.CornerRadius.html#SharpClay_Interop_CornerRadius__ctor_System_Single_System_Single_System_Single_System_Single_
+  commentId: M:SharpClay.Interop.CornerRadius.#ctor(System.Single,System.Single,System.Single,System.Single)
+  name.vb: New(Single, Single, Single, Single)
+  fullName: SharpClay.Interop.CornerRadius.CornerRadius(float, float, float, float)
+  fullName.vb: SharpClay.Interop.CornerRadius.New(Single, Single, Single, Single)
+  nameWithType: CornerRadius.CornerRadius(float, float, float, float)
+  nameWithType.vb: CornerRadius.New(Single, Single, Single, Single)
+- uid: SharpClay.Interop.CornerRadius.#ctor*
+  name: CornerRadius
+  href: api/SharpClay.Interop.CornerRadius.html#SharpClay_Interop_CornerRadius__ctor_
+  commentId: Overload:SharpClay.Interop.CornerRadius.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharpClay.Interop.CornerRadius.CornerRadius
+  fullName.vb: SharpClay.Interop.CornerRadius.New
+  nameWithType: CornerRadius.CornerRadius
+  nameWithType.vb: CornerRadius.New
 - uid: SharpClay.Interop.CornerRadius.BottomLeft
   name: BottomLeft
   href: api/SharpClay.Interop.CornerRadius.html#SharpClay_Interop_CornerRadius_BottomLeft
@@ -4097,6 +4201,25 @@ references:
   commentId: T:SharpClay.Interop.Dimensions
   fullName: SharpClay.Interop.Dimensions
   nameWithType: Dimensions
+- uid: SharpClay.Interop.Dimensions.#ctor(System.Single,System.Single)
+  name: Dimensions(float, float)
+  href: api/SharpClay.Interop.Dimensions.html#SharpClay_Interop_Dimensions__ctor_System_Single_System_Single_
+  commentId: M:SharpClay.Interop.Dimensions.#ctor(System.Single,System.Single)
+  name.vb: New(Single, Single)
+  fullName: SharpClay.Interop.Dimensions.Dimensions(float, float)
+  fullName.vb: SharpClay.Interop.Dimensions.New(Single, Single)
+  nameWithType: Dimensions.Dimensions(float, float)
+  nameWithType.vb: Dimensions.New(Single, Single)
+- uid: SharpClay.Interop.Dimensions.#ctor*
+  name: Dimensions
+  href: api/SharpClay.Interop.Dimensions.html#SharpClay_Interop_Dimensions__ctor_
+  commentId: Overload:SharpClay.Interop.Dimensions.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharpClay.Interop.Dimensions.Dimensions
+  fullName.vb: SharpClay.Interop.Dimensions.New
+  nameWithType: Dimensions.Dimensions
+  nameWithType.vb: Dimensions.New
 - uid: SharpClay.Interop.Dimensions.Height
   name: Height
   href: api/SharpClay.Interop.Dimensions.html#SharpClay_Interop_Dimensions_Height
@@ -4211,6 +4334,88 @@ references:
   commentId: T:SharpClay.Interop.ElementConfigUnion
   fullName: SharpClay.Interop.ElementConfigUnion
   nameWithType: ElementConfigUnion
+- uid: SharpClay.Interop.ElementConfigUnion.#ctor(SharpClay.Interop.AspectRatioElementConfig*)
+  name: ElementConfigUnion(AspectRatioElementConfig*)
+  href: api/SharpClay.Interop.ElementConfigUnion.html#SharpClay_Interop_ElementConfigUnion__ctor_SharpClay_Interop_AspectRatioElementConfig__
+  commentId: M:SharpClay.Interop.ElementConfigUnion.#ctor(SharpClay.Interop.AspectRatioElementConfig*)
+  name.vb: New(AspectRatioElementConfig*)
+  fullName: SharpClay.Interop.ElementConfigUnion.ElementConfigUnion(SharpClay.Interop.AspectRatioElementConfig*)
+  fullName.vb: SharpClay.Interop.ElementConfigUnion.New(SharpClay.Interop.AspectRatioElementConfig*)
+  nameWithType: ElementConfigUnion.ElementConfigUnion(AspectRatioElementConfig*)
+  nameWithType.vb: ElementConfigUnion.New(AspectRatioElementConfig*)
+- uid: SharpClay.Interop.ElementConfigUnion.#ctor(SharpClay.Interop.BorderElementConfig*)
+  name: ElementConfigUnion(BorderElementConfig*)
+  href: api/SharpClay.Interop.ElementConfigUnion.html#SharpClay_Interop_ElementConfigUnion__ctor_SharpClay_Interop_BorderElementConfig__
+  commentId: M:SharpClay.Interop.ElementConfigUnion.#ctor(SharpClay.Interop.BorderElementConfig*)
+  name.vb: New(BorderElementConfig*)
+  fullName: SharpClay.Interop.ElementConfigUnion.ElementConfigUnion(SharpClay.Interop.BorderElementConfig*)
+  fullName.vb: SharpClay.Interop.ElementConfigUnion.New(SharpClay.Interop.BorderElementConfig*)
+  nameWithType: ElementConfigUnion.ElementConfigUnion(BorderElementConfig*)
+  nameWithType.vb: ElementConfigUnion.New(BorderElementConfig*)
+- uid: SharpClay.Interop.ElementConfigUnion.#ctor(SharpClay.Interop.ClipElementConfig*)
+  name: ElementConfigUnion(ClipElementConfig*)
+  href: api/SharpClay.Interop.ElementConfigUnion.html#SharpClay_Interop_ElementConfigUnion__ctor_SharpClay_Interop_ClipElementConfig__
+  commentId: M:SharpClay.Interop.ElementConfigUnion.#ctor(SharpClay.Interop.ClipElementConfig*)
+  name.vb: New(ClipElementConfig*)
+  fullName: SharpClay.Interop.ElementConfigUnion.ElementConfigUnion(SharpClay.Interop.ClipElementConfig*)
+  fullName.vb: SharpClay.Interop.ElementConfigUnion.New(SharpClay.Interop.ClipElementConfig*)
+  nameWithType: ElementConfigUnion.ElementConfigUnion(ClipElementConfig*)
+  nameWithType.vb: ElementConfigUnion.New(ClipElementConfig*)
+- uid: SharpClay.Interop.ElementConfigUnion.#ctor(SharpClay.Interop.CustomElementConfig*)
+  name: ElementConfigUnion(CustomElementConfig*)
+  href: api/SharpClay.Interop.ElementConfigUnion.html#SharpClay_Interop_ElementConfigUnion__ctor_SharpClay_Interop_CustomElementConfig__
+  commentId: M:SharpClay.Interop.ElementConfigUnion.#ctor(SharpClay.Interop.CustomElementConfig*)
+  name.vb: New(CustomElementConfig*)
+  fullName: SharpClay.Interop.ElementConfigUnion.ElementConfigUnion(SharpClay.Interop.CustomElementConfig*)
+  fullName.vb: SharpClay.Interop.ElementConfigUnion.New(SharpClay.Interop.CustomElementConfig*)
+  nameWithType: ElementConfigUnion.ElementConfigUnion(CustomElementConfig*)
+  nameWithType.vb: ElementConfigUnion.New(CustomElementConfig*)
+- uid: SharpClay.Interop.ElementConfigUnion.#ctor(SharpClay.Interop.FloatingElementConfig*)
+  name: ElementConfigUnion(FloatingElementConfig*)
+  href: api/SharpClay.Interop.ElementConfigUnion.html#SharpClay_Interop_ElementConfigUnion__ctor_SharpClay_Interop_FloatingElementConfig__
+  commentId: M:SharpClay.Interop.ElementConfigUnion.#ctor(SharpClay.Interop.FloatingElementConfig*)
+  name.vb: New(FloatingElementConfig*)
+  fullName: SharpClay.Interop.ElementConfigUnion.ElementConfigUnion(SharpClay.Interop.FloatingElementConfig*)
+  fullName.vb: SharpClay.Interop.ElementConfigUnion.New(SharpClay.Interop.FloatingElementConfig*)
+  nameWithType: ElementConfigUnion.ElementConfigUnion(FloatingElementConfig*)
+  nameWithType.vb: ElementConfigUnion.New(FloatingElementConfig*)
+- uid: SharpClay.Interop.ElementConfigUnion.#ctor(SharpClay.Interop.ImageElementConfig*)
+  name: ElementConfigUnion(ImageElementConfig*)
+  href: api/SharpClay.Interop.ElementConfigUnion.html#SharpClay_Interop_ElementConfigUnion__ctor_SharpClay_Interop_ImageElementConfig__
+  commentId: M:SharpClay.Interop.ElementConfigUnion.#ctor(SharpClay.Interop.ImageElementConfig*)
+  name.vb: New(ImageElementConfig*)
+  fullName: SharpClay.Interop.ElementConfigUnion.ElementConfigUnion(SharpClay.Interop.ImageElementConfig*)
+  fullName.vb: SharpClay.Interop.ElementConfigUnion.New(SharpClay.Interop.ImageElementConfig*)
+  nameWithType: ElementConfigUnion.ElementConfigUnion(ImageElementConfig*)
+  nameWithType.vb: ElementConfigUnion.New(ImageElementConfig*)
+- uid: SharpClay.Interop.ElementConfigUnion.#ctor(SharpClay.Interop.SharedElementConfig*)
+  name: ElementConfigUnion(SharedElementConfig*)
+  href: api/SharpClay.Interop.ElementConfigUnion.html#SharpClay_Interop_ElementConfigUnion__ctor_SharpClay_Interop_SharedElementConfig__
+  commentId: M:SharpClay.Interop.ElementConfigUnion.#ctor(SharpClay.Interop.SharedElementConfig*)
+  name.vb: New(SharedElementConfig*)
+  fullName: SharpClay.Interop.ElementConfigUnion.ElementConfigUnion(SharpClay.Interop.SharedElementConfig*)
+  fullName.vb: SharpClay.Interop.ElementConfigUnion.New(SharpClay.Interop.SharedElementConfig*)
+  nameWithType: ElementConfigUnion.ElementConfigUnion(SharedElementConfig*)
+  nameWithType.vb: ElementConfigUnion.New(SharedElementConfig*)
+- uid: SharpClay.Interop.ElementConfigUnion.#ctor(SharpClay.Interop.TextElementConfig*)
+  name: ElementConfigUnion(TextElementConfig*)
+  href: api/SharpClay.Interop.ElementConfigUnion.html#SharpClay_Interop_ElementConfigUnion__ctor_SharpClay_Interop_TextElementConfig__
+  commentId: M:SharpClay.Interop.ElementConfigUnion.#ctor(SharpClay.Interop.TextElementConfig*)
+  name.vb: New(TextElementConfig*)
+  fullName: SharpClay.Interop.ElementConfigUnion.ElementConfigUnion(SharpClay.Interop.TextElementConfig*)
+  fullName.vb: SharpClay.Interop.ElementConfigUnion.New(SharpClay.Interop.TextElementConfig*)
+  nameWithType: ElementConfigUnion.ElementConfigUnion(TextElementConfig*)
+  nameWithType.vb: ElementConfigUnion.New(TextElementConfig*)
+- uid: SharpClay.Interop.ElementConfigUnion.#ctor*
+  name: ElementConfigUnion
+  href: api/SharpClay.Interop.ElementConfigUnion.html#SharpClay_Interop_ElementConfigUnion__ctor_
+  commentId: Overload:SharpClay.Interop.ElementConfigUnion.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharpClay.Interop.ElementConfigUnion.ElementConfigUnion
+  fullName.vb: SharpClay.Interop.ElementConfigUnion.New
+  nameWithType: ElementConfigUnion.ElementConfigUnion
+  nameWithType.vb: ElementConfigUnion.New
 - uid: SharpClay.Interop.ElementConfigUnion.AspectRatioElementConfig
   name: AspectRatioElementConfig
   href: api/SharpClay.Interop.ElementConfigUnion.html#SharpClay_Interop_ElementConfigUnion_AspectRatioElementConfig
@@ -4937,6 +5142,34 @@ references:
   commentId: T:SharpClay.Interop.LayoutElementChildren
   fullName: SharpClay.Interop.LayoutElementChildren
   nameWithType: LayoutElementChildren
+- uid: SharpClay.Interop.LayoutElementChildren.#ctor(SharpClay.Interop.LayoutElementChildrenData)
+  name: LayoutElementChildren(LayoutElementChildrenData)
+  href: api/SharpClay.Interop.LayoutElementChildren.html#SharpClay_Interop_LayoutElementChildren__ctor_SharpClay_Interop_LayoutElementChildrenData_
+  commentId: M:SharpClay.Interop.LayoutElementChildren.#ctor(SharpClay.Interop.LayoutElementChildrenData)
+  name.vb: New(LayoutElementChildrenData)
+  fullName: SharpClay.Interop.LayoutElementChildren.LayoutElementChildren(SharpClay.Interop.LayoutElementChildrenData)
+  fullName.vb: SharpClay.Interop.LayoutElementChildren.New(SharpClay.Interop.LayoutElementChildrenData)
+  nameWithType: LayoutElementChildren.LayoutElementChildren(LayoutElementChildrenData)
+  nameWithType.vb: LayoutElementChildren.New(LayoutElementChildrenData)
+- uid: SharpClay.Interop.LayoutElementChildren.#ctor(SharpClay.Interop.TextElementData*)
+  name: LayoutElementChildren(TextElementData*)
+  href: api/SharpClay.Interop.LayoutElementChildren.html#SharpClay_Interop_LayoutElementChildren__ctor_SharpClay_Interop_TextElementData__
+  commentId: M:SharpClay.Interop.LayoutElementChildren.#ctor(SharpClay.Interop.TextElementData*)
+  name.vb: New(TextElementData*)
+  fullName: SharpClay.Interop.LayoutElementChildren.LayoutElementChildren(SharpClay.Interop.TextElementData*)
+  fullName.vb: SharpClay.Interop.LayoutElementChildren.New(SharpClay.Interop.TextElementData*)
+  nameWithType: LayoutElementChildren.LayoutElementChildren(TextElementData*)
+  nameWithType.vb: LayoutElementChildren.New(TextElementData*)
+- uid: SharpClay.Interop.LayoutElementChildren.#ctor*
+  name: LayoutElementChildren
+  href: api/SharpClay.Interop.LayoutElementChildren.html#SharpClay_Interop_LayoutElementChildren__ctor_
+  commentId: Overload:SharpClay.Interop.LayoutElementChildren.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharpClay.Interop.LayoutElementChildren.LayoutElementChildren
+  fullName.vb: SharpClay.Interop.LayoutElementChildren.New
+  nameWithType: LayoutElementChildren.LayoutElementChildren
+  nameWithType.vb: LayoutElementChildren.New
 - uid: SharpClay.Interop.LayoutElementChildren.Children
   name: Children
   href: api/SharpClay.Interop.LayoutElementChildren.html#SharpClay_Interop_LayoutElementChildren_Children
@@ -5171,6 +5404,25 @@ references:
   commentId: T:SharpClay.Interop.Padding
   fullName: SharpClay.Interop.Padding
   nameWithType: Padding
+- uid: SharpClay.Interop.Padding.#ctor(System.UInt16,System.UInt16,System.UInt16,System.UInt16)
+  name: Padding(ushort, ushort, ushort, ushort)
+  href: api/SharpClay.Interop.Padding.html#SharpClay_Interop_Padding__ctor_System_UInt16_System_UInt16_System_UInt16_System_UInt16_
+  commentId: M:SharpClay.Interop.Padding.#ctor(System.UInt16,System.UInt16,System.UInt16,System.UInt16)
+  name.vb: New(UShort, UShort, UShort, UShort)
+  fullName: SharpClay.Interop.Padding.Padding(ushort, ushort, ushort, ushort)
+  fullName.vb: SharpClay.Interop.Padding.New(UShort, UShort, UShort, UShort)
+  nameWithType: Padding.Padding(ushort, ushort, ushort, ushort)
+  nameWithType.vb: Padding.New(UShort, UShort, UShort, UShort)
+- uid: SharpClay.Interop.Padding.#ctor*
+  name: Padding
+  href: api/SharpClay.Interop.Padding.html#SharpClay_Interop_Padding__ctor_
+  commentId: Overload:SharpClay.Interop.Padding.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharpClay.Interop.Padding.Padding
+  fullName.vb: SharpClay.Interop.Padding.New
+  nameWithType: Padding.Padding
+  nameWithType.vb: Padding.New
 - uid: SharpClay.Interop.Padding.Bottom
   name: Bottom
   href: api/SharpClay.Interop.Padding.html#SharpClay_Interop_Padding_Bottom
@@ -5399,6 +5651,70 @@ references:
   commentId: T:SharpClay.Interop.RenderData
   fullName: SharpClay.Interop.RenderData
   nameWithType: RenderData
+- uid: SharpClay.Interop.RenderData.#ctor(SharpClay.Interop.BorderRenderData)
+  name: RenderData(BorderRenderData)
+  href: api/SharpClay.Interop.RenderData.html#SharpClay_Interop_RenderData__ctor_SharpClay_Interop_BorderRenderData_
+  commentId: M:SharpClay.Interop.RenderData.#ctor(SharpClay.Interop.BorderRenderData)
+  name.vb: New(BorderRenderData)
+  fullName: SharpClay.Interop.RenderData.RenderData(SharpClay.Interop.BorderRenderData)
+  fullName.vb: SharpClay.Interop.RenderData.New(SharpClay.Interop.BorderRenderData)
+  nameWithType: RenderData.RenderData(BorderRenderData)
+  nameWithType.vb: RenderData.New(BorderRenderData)
+- uid: SharpClay.Interop.RenderData.#ctor(SharpClay.Interop.ClipRenderData)
+  name: RenderData(ClipRenderData)
+  href: api/SharpClay.Interop.RenderData.html#SharpClay_Interop_RenderData__ctor_SharpClay_Interop_ClipRenderData_
+  commentId: M:SharpClay.Interop.RenderData.#ctor(SharpClay.Interop.ClipRenderData)
+  name.vb: New(ClipRenderData)
+  fullName: SharpClay.Interop.RenderData.RenderData(SharpClay.Interop.ClipRenderData)
+  fullName.vb: SharpClay.Interop.RenderData.New(SharpClay.Interop.ClipRenderData)
+  nameWithType: RenderData.RenderData(ClipRenderData)
+  nameWithType.vb: RenderData.New(ClipRenderData)
+- uid: SharpClay.Interop.RenderData.#ctor(SharpClay.Interop.CustomRenderData)
+  name: RenderData(CustomRenderData)
+  href: api/SharpClay.Interop.RenderData.html#SharpClay_Interop_RenderData__ctor_SharpClay_Interop_CustomRenderData_
+  commentId: M:SharpClay.Interop.RenderData.#ctor(SharpClay.Interop.CustomRenderData)
+  name.vb: New(CustomRenderData)
+  fullName: SharpClay.Interop.RenderData.RenderData(SharpClay.Interop.CustomRenderData)
+  fullName.vb: SharpClay.Interop.RenderData.New(SharpClay.Interop.CustomRenderData)
+  nameWithType: RenderData.RenderData(CustomRenderData)
+  nameWithType.vb: RenderData.New(CustomRenderData)
+- uid: SharpClay.Interop.RenderData.#ctor(SharpClay.Interop.ImageRenderData)
+  name: RenderData(ImageRenderData)
+  href: api/SharpClay.Interop.RenderData.html#SharpClay_Interop_RenderData__ctor_SharpClay_Interop_ImageRenderData_
+  commentId: M:SharpClay.Interop.RenderData.#ctor(SharpClay.Interop.ImageRenderData)
+  name.vb: New(ImageRenderData)
+  fullName: SharpClay.Interop.RenderData.RenderData(SharpClay.Interop.ImageRenderData)
+  fullName.vb: SharpClay.Interop.RenderData.New(SharpClay.Interop.ImageRenderData)
+  nameWithType: RenderData.RenderData(ImageRenderData)
+  nameWithType.vb: RenderData.New(ImageRenderData)
+- uid: SharpClay.Interop.RenderData.#ctor(SharpClay.Interop.RectangleRenderData)
+  name: RenderData(RectangleRenderData)
+  href: api/SharpClay.Interop.RenderData.html#SharpClay_Interop_RenderData__ctor_SharpClay_Interop_RectangleRenderData_
+  commentId: M:SharpClay.Interop.RenderData.#ctor(SharpClay.Interop.RectangleRenderData)
+  name.vb: New(RectangleRenderData)
+  fullName: SharpClay.Interop.RenderData.RenderData(SharpClay.Interop.RectangleRenderData)
+  fullName.vb: SharpClay.Interop.RenderData.New(SharpClay.Interop.RectangleRenderData)
+  nameWithType: RenderData.RenderData(RectangleRenderData)
+  nameWithType.vb: RenderData.New(RectangleRenderData)
+- uid: SharpClay.Interop.RenderData.#ctor(SharpClay.Interop.TextRenderData)
+  name: RenderData(TextRenderData)
+  href: api/SharpClay.Interop.RenderData.html#SharpClay_Interop_RenderData__ctor_SharpClay_Interop_TextRenderData_
+  commentId: M:SharpClay.Interop.RenderData.#ctor(SharpClay.Interop.TextRenderData)
+  name.vb: New(TextRenderData)
+  fullName: SharpClay.Interop.RenderData.RenderData(SharpClay.Interop.TextRenderData)
+  fullName.vb: SharpClay.Interop.RenderData.New(SharpClay.Interop.TextRenderData)
+  nameWithType: RenderData.RenderData(TextRenderData)
+  nameWithType.vb: RenderData.New(TextRenderData)
+- uid: SharpClay.Interop.RenderData.#ctor*
+  name: RenderData
+  href: api/SharpClay.Interop.RenderData.html#SharpClay_Interop_RenderData__ctor_
+  commentId: Overload:SharpClay.Interop.RenderData.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharpClay.Interop.RenderData.RenderData
+  fullName.vb: SharpClay.Interop.RenderData.New
+  nameWithType: RenderData.RenderData
+  nameWithType.vb: RenderData.New
 - uid: SharpClay.Interop.RenderData.Border
   name: Border
   href: api/SharpClay.Interop.RenderData.html#SharpClay_Interop_RenderData_Border
@@ -5621,6 +5937,25 @@ references:
   commentId: T:SharpClay.Interop.SizingAxis
   fullName: SharpClay.Interop.SizingAxis
   nameWithType: SizingAxis
+- uid: SharpClay.Interop.SizingAxis.#ctor(SharpClay.Interop.SizingType,SharpClay.Interop.SizingAxisValue)
+  name: SizingAxis(SizingType, SizingAxisValue)
+  href: api/SharpClay.Interop.SizingAxis.html#SharpClay_Interop_SizingAxis__ctor_SharpClay_Interop_SizingType_SharpClay_Interop_SizingAxisValue_
+  commentId: M:SharpClay.Interop.SizingAxis.#ctor(SharpClay.Interop.SizingType,SharpClay.Interop.SizingAxisValue)
+  name.vb: New(SizingType, SizingAxisValue)
+  fullName: SharpClay.Interop.SizingAxis.SizingAxis(SharpClay.Interop.SizingType, SharpClay.Interop.SizingAxisValue)
+  fullName.vb: SharpClay.Interop.SizingAxis.New(SharpClay.Interop.SizingType, SharpClay.Interop.SizingAxisValue)
+  nameWithType: SizingAxis.SizingAxis(SizingType, SizingAxisValue)
+  nameWithType.vb: SizingAxis.New(SizingType, SizingAxisValue)
+- uid: SharpClay.Interop.SizingAxis.#ctor*
+  name: SizingAxis
+  href: api/SharpClay.Interop.SizingAxis.html#SharpClay_Interop_SizingAxis__ctor_
+  commentId: Overload:SharpClay.Interop.SizingAxis.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharpClay.Interop.SizingAxis.SizingAxis
+  fullName.vb: SharpClay.Interop.SizingAxis.New
+  nameWithType: SizingAxis.SizingAxis
+  nameWithType.vb: SizingAxis.New
 - uid: SharpClay.Interop.SizingAxis.Size
   name: Size
   href: api/SharpClay.Interop.SizingAxis.html#SharpClay_Interop_SizingAxis_Size
@@ -5639,6 +5974,34 @@ references:
   commentId: T:SharpClay.Interop.SizingAxisValue
   fullName: SharpClay.Interop.SizingAxisValue
   nameWithType: SizingAxisValue
+- uid: SharpClay.Interop.SizingAxisValue.#ctor(SharpClay.Interop.SizingMinMax)
+  name: SizingAxisValue(SizingMinMax)
+  href: api/SharpClay.Interop.SizingAxisValue.html#SharpClay_Interop_SizingAxisValue__ctor_SharpClay_Interop_SizingMinMax_
+  commentId: M:SharpClay.Interop.SizingAxisValue.#ctor(SharpClay.Interop.SizingMinMax)
+  name.vb: New(SizingMinMax)
+  fullName: SharpClay.Interop.SizingAxisValue.SizingAxisValue(SharpClay.Interop.SizingMinMax)
+  fullName.vb: SharpClay.Interop.SizingAxisValue.New(SharpClay.Interop.SizingMinMax)
+  nameWithType: SizingAxisValue.SizingAxisValue(SizingMinMax)
+  nameWithType.vb: SizingAxisValue.New(SizingMinMax)
+- uid: SharpClay.Interop.SizingAxisValue.#ctor(System.Single)
+  name: SizingAxisValue(float)
+  href: api/SharpClay.Interop.SizingAxisValue.html#SharpClay_Interop_SizingAxisValue__ctor_System_Single_
+  commentId: M:SharpClay.Interop.SizingAxisValue.#ctor(System.Single)
+  name.vb: New(Single)
+  fullName: SharpClay.Interop.SizingAxisValue.SizingAxisValue(float)
+  fullName.vb: SharpClay.Interop.SizingAxisValue.New(Single)
+  nameWithType: SizingAxisValue.SizingAxisValue(float)
+  nameWithType.vb: SizingAxisValue.New(Single)
+- uid: SharpClay.Interop.SizingAxisValue.#ctor*
+  name: SizingAxisValue
+  href: api/SharpClay.Interop.SizingAxisValue.html#SharpClay_Interop_SizingAxisValue__ctor_
+  commentId: Overload:SharpClay.Interop.SizingAxisValue.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharpClay.Interop.SizingAxisValue.SizingAxisValue
+  fullName.vb: SharpClay.Interop.SizingAxisValue.New
+  nameWithType: SizingAxisValue.SizingAxisValue
+  nameWithType.vb: SizingAxisValue.New
 - uid: SharpClay.Interop.SizingAxisValue.MinMax
   name: MinMax
   href: api/SharpClay.Interop.SizingAxisValue.html#SharpClay_Interop_SizingAxisValue_MinMax
@@ -5657,6 +6020,25 @@ references:
   commentId: T:SharpClay.Interop.SizingMinMax
   fullName: SharpClay.Interop.SizingMinMax
   nameWithType: SizingMinMax
+- uid: SharpClay.Interop.SizingMinMax.#ctor(System.Single,System.Single)
+  name: SizingMinMax(float, float)
+  href: api/SharpClay.Interop.SizingMinMax.html#SharpClay_Interop_SizingMinMax__ctor_System_Single_System_Single_
+  commentId: M:SharpClay.Interop.SizingMinMax.#ctor(System.Single,System.Single)
+  name.vb: New(Single, Single)
+  fullName: SharpClay.Interop.SizingMinMax.SizingMinMax(float, float)
+  fullName.vb: SharpClay.Interop.SizingMinMax.New(Single, Single)
+  nameWithType: SizingMinMax.SizingMinMax(float, float)
+  nameWithType.vb: SizingMinMax.New(Single, Single)
+- uid: SharpClay.Interop.SizingMinMax.#ctor*
+  name: SizingMinMax
+  href: api/SharpClay.Interop.SizingMinMax.html#SharpClay_Interop_SizingMinMax__ctor_
+  commentId: Overload:SharpClay.Interop.SizingMinMax.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharpClay.Interop.SizingMinMax.SizingMinMax
+  fullName.vb: SharpClay.Interop.SizingMinMax.New
+  nameWithType: SizingMinMax.SizingMinMax
+  nameWithType.vb: SizingMinMax.New
 - uid: SharpClay.Interop.SizingMinMax.Max
   name: Max
   href: api/SharpClay.Interop.SizingMinMax.html#SharpClay_Interop_SizingMinMax_Max
@@ -5927,6 +6309,25 @@ references:
   commentId: T:SharpClay.Interop.Vector2
   fullName: SharpClay.Interop.Vector2
   nameWithType: Vector2
+- uid: SharpClay.Interop.Vector2.#ctor(System.Single,System.Single)
+  name: Vector2(float, float)
+  href: api/SharpClay.Interop.Vector2.html#SharpClay_Interop_Vector2__ctor_System_Single_System_Single_
+  commentId: M:SharpClay.Interop.Vector2.#ctor(System.Single,System.Single)
+  name.vb: New(Single, Single)
+  fullName: SharpClay.Interop.Vector2.Vector2(float, float)
+  fullName.vb: SharpClay.Interop.Vector2.New(Single, Single)
+  nameWithType: Vector2.Vector2(float, float)
+  nameWithType.vb: Vector2.New(Single, Single)
+- uid: SharpClay.Interop.Vector2.#ctor*
+  name: Vector2
+  href: api/SharpClay.Interop.Vector2.html#SharpClay_Interop_Vector2__ctor_
+  commentId: Overload:SharpClay.Interop.Vector2.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharpClay.Interop.Vector2.Vector2
+  fullName.vb: SharpClay.Interop.Vector2.New
+  nameWithType: Vector2.Vector2
+  nameWithType.vb: Vector2.New
 - uid: SharpClay.Interop.Vector2.X
   name: X
   href: api/SharpClay.Interop.Vector2.html#SharpClay_Interop_Vector2_X
@@ -6169,19 +6570,3 @@ references:
   isSpec: "True"
   fullName: SharpClay.Layout.ClayUI.Container
   nameWithType: ClayUI.Container
-- uid: SharpClay.Layout.ClayUI.Panel(SharpClay.Interop.ElementDeclaration@)
-  name: Panel(in ElementDeclaration)
-  href: api/SharpClay.Layout.ClayUI.html#SharpClay_Layout_ClayUI_Panel_SharpClay_Interop_ElementDeclaration__
-  commentId: M:SharpClay.Layout.ClayUI.Panel(SharpClay.Interop.ElementDeclaration@)
-  name.vb: Panel(ElementDeclaration)
-  fullName: SharpClay.Layout.ClayUI.Panel(in SharpClay.Interop.ElementDeclaration)
-  fullName.vb: SharpClay.Layout.ClayUI.Panel(SharpClay.Interop.ElementDeclaration)
-  nameWithType: ClayUI.Panel(in ElementDeclaration)
-  nameWithType.vb: ClayUI.Panel(ElementDeclaration)
-- uid: SharpClay.Layout.ClayUI.Panel*
-  name: Panel
-  href: api/SharpClay.Layout.ClayUI.html#SharpClay_Layout_ClayUI_Panel_
-  commentId: Overload:SharpClay.Layout.ClayUI.Panel
-  isSpec: "True"
-  fullName: SharpClay.Layout.ClayUI.Panel
-  nameWithType: ClayUI.Panel

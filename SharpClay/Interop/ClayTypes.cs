@@ -115,6 +115,20 @@ public partial struct Dimensions
     /// The height component in pixels.
     /// </summary>
     public float Height;
+
+    /// <summary>
+    /// Initializes a new instance of the <see cref="Dimensions"/> struct with validation.
+    /// </summary>
+    /// <param name="width">The width in pixels. Must be greater than or equal to zero.</param>
+    /// <param name="height">The height in pixels. Must be greater than or equal to zero.</param>
+    /// <exception cref="ArgumentOutOfRangeException">Thrown if width or height is negative.</exception>
+    public Dimensions(float width, float height)
+    {
+        ArgumentOutOfRangeException.ThrowIfLessThan(width, 0f);
+        ArgumentOutOfRangeException.ThrowIfLessThan(height, 0f);
+        Width = width;
+        Height = height;
+    }
 }
 
 /// <summary>
@@ -132,6 +146,17 @@ public partial struct Vector2
     /// The vertical Y-axis component.
     /// </summary>
     public float Y;
+
+    /// <summary>
+    /// Initializes a new instance of the <see cref="Vector2"/> struct.
+    /// </summary>
+    /// <param name="x">The horizontal coordinate.</param>
+    /// <param name="y">The vertical coordinate.</param>
+    public Vector2(float x, float y)
+    {
+        X = x;
+        Y = y;
+    }
 }
 
 /// <summary>
@@ -151,6 +176,30 @@ public partial struct Color
     public float B;
     /// <summary>Alpha transparency channel.</summary>
     public float A;
+
+    /// <summary>
+    /// Initializes a new instance of the <see cref="Color"/> struct with validation.
+    /// </summary>
+    /// <param name="r">Red intensity (0 to 255).</param>
+    /// <param name="g">Green intensity (0 to 255).</param>
+    /// <param name="b">Blue intensity (0 to 255).</param>
+    /// <param name="a">Alpha opacity (0 to 255).</param>
+    /// <exception cref="ArgumentOutOfRangeException">Thrown if any component is outside the 0 to 255 range.</exception>
+    public Color(float r, float g, float b, float a)
+    {
+        ArgumentOutOfRangeException.ThrowIfLessThan(r, 0f);
+        ArgumentOutOfRangeException.ThrowIfGreaterThan(r, 255f);
+        ArgumentOutOfRangeException.ThrowIfLessThan(g, 0f);
+        ArgumentOutOfRangeException.ThrowIfGreaterThan(g, 255f);
+        ArgumentOutOfRangeException.ThrowIfLessThan(b, 0f);
+        ArgumentOutOfRangeException.ThrowIfGreaterThan(b, 255f);
+        ArgumentOutOfRangeException.ThrowIfLessThan(a, 0f);
+        ArgumentOutOfRangeException.ThrowIfGreaterThan(a, 255f);
+        R = r;
+        G = g;
+        B = b;
+        A = a;
+    }
 }
 
 /// <summary>
@@ -167,6 +216,24 @@ public partial struct BoundingBox
     public float Width;
     /// <summary>The calculated layout height.</summary>
     public float Height;
+
+    /// <summary>
+    /// Initializes a new instance of the <see cref="BoundingBox"/> struct with validation.
+    /// </summary>
+    /// <param name="x">Horizontal screen position.</param>
+    /// <param name="y">Vertical screen position.</param>
+    /// <param name="width">Width in pixels. Must be greater than or equal to zero.</param>
+    /// <param name="height">Height in pixels. Must be greater than or equal to zero.</param>
+    /// <exception cref="ArgumentOutOfRangeException">Thrown if width or height is negative.</exception>
+    public BoundingBox(float x, float y, float width, float height)
+    {
+        ArgumentOutOfRangeException.ThrowIfLessThan(width, 0f);
+        ArgumentOutOfRangeException.ThrowIfLessThan(height, 0f);
+        X = x;
+        Y = y;
+        Width = width;
+        Height = height;
+    }
 }
 
 /// <summary>
@@ -192,6 +259,20 @@ public partial struct SizingMinMax
 
     /// <summary>The maximum allowed size in pixels.</summary>
     public float Max;
+
+    /// <summary>
+    /// Initializes a new instance of the <see cref="SizingMinMax"/> struct with validation.
+    /// </summary>
+    /// <param name="min">Minimum pixel size constraint. Must be non-negative.</param>
+    /// <param name="max">Maximum pixel size constraint. Must be greater than or equal to min.</param>
+    /// <exception cref="ArgumentOutOfRangeException">Thrown if min is negative or max is less than min.</exception>
+    public SizingMinMax(float min, float max)
+    {
+        ArgumentOutOfRangeException.ThrowIfLessThan(min, 0f);
+        ArgumentOutOfRangeException.ThrowIfLessThan(max, min);
+        Min = min;
+        Max = max;
+    }
 }
 
 /// <summary>
@@ -210,6 +291,29 @@ public partial struct SizingAxisValue
     /// Percentage scale factor. Represented in range [0.0 - 1.0]. Valid if sizing type is set to percentage.
     /// </summary>
     [FieldOffset(0)] public float Percent;
+
+    /// <summary>
+    /// Initializes a new instance of the <see cref="SizingAxisValue"/> union as a percentage constraint with validation.
+    /// </summary>
+    /// <param name="percent">Percentage factor in the range [0.0 - 1.0].</param>
+    /// <exception cref="ArgumentOutOfRangeException">Thrown if percentage is outside [0.0, 1.0].</exception>
+    public SizingAxisValue(float percent)
+    {
+        ArgumentOutOfRangeException.ThrowIfLessThan(percent, 0f);
+        ArgumentOutOfRangeException.ThrowIfGreaterThan(percent, 1f);
+        MinMax = default; // Zero the union memory space
+        Percent = percent;
+    }
+
+    /// <summary>
+    /// Initializes a new instance of the <see cref="SizingAxisValue"/> union as a min/max pixel constraint with validation.
+    /// </summary>
+    /// <param name="minMax">The min/max pixel constraint boundaries.</param>
+    public SizingAxisValue(SizingMinMax minMax)
+    {
+        Percent = 0f; // Zero the union memory space
+        MinMax = minMax;
+    }
 }
 
 /// <summary>
@@ -223,6 +327,23 @@ public partial struct SizingAxis
 
     /// <summary>The sizing mode type (Fit, Grow, Percent, Fixed).</summary>
     public SizingType Type;
+
+    /// <summary>
+    /// Initializes a new instance of the <see cref="SizingAxis"/> struct with validation.
+    /// </summary>
+    /// <param name="type">The sizing mode type.</param>
+    /// <param name="size">The corresponding sizing constraint value.</param>
+    /// <exception cref="ArgumentOutOfRangeException">Thrown if sizing type is percentage but the value is outside the [0.0, 1.0] range.</exception>
+    public SizingAxis(SizingType type, SizingAxisValue size)
+    {
+        if (type == SizingType.Percent)
+        {
+            ArgumentOutOfRangeException.ThrowIfLessThan(size.Percent, 0f);
+            ArgumentOutOfRangeException.ThrowIfGreaterThan(size.Percent, 1f);
+        }
+        Type = type;
+        Size = size;
+    }
 }
 
 /// <summary>
@@ -252,6 +373,21 @@ public partial struct Padding
     public ushort Top;
     /// <summary>Bottom side padding thickness in pixels.</summary>
     public ushort Bottom;
+
+    /// <summary>
+    /// Initializes a new instance of the <see cref="Padding"/> struct.
+    /// </summary>
+    /// <param name="left">Left side padding thickness in pixels.</param>
+    /// <param name="right">Right side padding thickness in pixels.</param>
+    /// <param name="top">Top side padding thickness in pixels.</param>
+    /// <param name="bottom">Bottom side padding thickness in pixels.</param>
+    public Padding(ushort left, ushort right, ushort top, ushort bottom)
+    {
+        Left = left;
+        Right = right;
+        Top = top;
+        Bottom = bottom;
+    }
 }
 
 /// <summary>
@@ -290,6 +426,32 @@ public partial struct CornerRadius
     public float BottomLeft;
     /// <summary>Rounding radius for the bottom-right corner.</summary>
     public float BottomRight;
+
+    /// <summary>
+    /// Initializes a new instance of the <see cref="CornerRadius"/> struct with validation.
+    /// </summary>
+    /// <param name="topLeft">Rounding radius for the top-left corner. Must be non-negative.</param>
+    /// <param name="topRight">Rounding radius for the top-right corner. Must be non-negative.</param>
+    /// <param name="bottomLeft">Rounding radius for the bottom-left corner. Must be non-negative.</param>
+    /// <param name="bottomRight">Rounding radius for the bottom-right corner. Must be non-negative.</param>
+    /// <exception cref="ArgumentOutOfRangeException">Thrown if any corner radius is negative.</exception>
+    public CornerRadius(float topLeft, float topRight, float bottomLeft, float bottomRight)
+    {
+        ArgumentOutOfRangeException.ThrowIfLessThan(topLeft, 0f);
+        ArgumentOutOfRangeException.ThrowIfLessThan(topRight, 0f);
+        ArgumentOutOfRangeException.ThrowIfLessThan(bottomLeft, 0f);
+        ArgumentOutOfRangeException.ThrowIfLessThan(bottomRight, 0f);
+        TopLeft = topLeft;
+        TopRight = topRight;
+        BottomLeft = bottomLeft;
+        BottomRight = bottomRight;
+    }
+
+    /// <summary>
+    /// Initializes a new instance of the <see cref="CornerRadius"/> struct with uniform rounding on all corners.
+    /// </summary>
+    /// <param name="radius">The rounding radius for all corners. Must be non-negative.</param>
+    public CornerRadius(float radius) : this(radius, radius, radius, radius) { }
 }
 
 /// <summary>
@@ -333,6 +495,17 @@ public partial struct AspectRatioElementConfig
     /// Target aspect ratio (Width divided by Height, e.g. 1.777f for 16:9).
     /// </summary>
     public float AspectRatio;
+
+    /// <summary>
+    /// Initializes a new instance of the <see cref="AspectRatioElementConfig"/> struct with validation.
+    /// </summary>
+    /// <param name="aspectRatio">Target aspect ratio. Must be strictly greater than zero.</param>
+    /// <exception cref="ArgumentOutOfRangeException">Thrown if aspect ratio is less than or equal to zero.</exception>
+    public AspectRatioElementConfig(float aspectRatio)
+    {
+        ArgumentOutOfRangeException.ThrowIfLessThanOrEqual(aspectRatio, 0f);
+        AspectRatio = aspectRatio;
+    }
 }
 
 /// <summary>
@@ -435,6 +608,23 @@ public partial struct BorderWidth
     public ushort Bottom;
     /// <summary>Stroke thickness for divider lines between siblings within a container.</summary>
     public ushort BetweenChildren;
+
+    /// <summary>
+    /// Initializes a new instance of the <see cref="BorderWidth"/> struct.
+    /// </summary>
+    /// <param name="left">Stroke thickness for the left border.</param>
+    /// <param name="right">Stroke thickness for the right border.</param>
+    /// <param name="top">Stroke thickness for the top border.</param>
+    /// <param name="bottom">Stroke thickness for the bottom border.</param>
+    /// <param name="betweenChildren">Stroke thickness for divider lines between siblings within a container.</param>
+    public BorderWidth(ushort left, ushort right, ushort top, ushort bottom, ushort betweenChildren = 0)
+    {
+        Left = left;
+        Right = right;
+        Top = top;
+        Bottom = bottom;
+        BetweenChildren = betweenChildren;
+    }
 }
 
 /// <summary>
@@ -630,6 +820,66 @@ public partial struct RenderData
 
     /// <summary>Payload for clip boundaries. Valid if command type is ScissorStart.</summary>
     [FieldOffset(0)] public ClipRenderData Clip;
+
+    /// <summary>
+    /// Initializes a new instance of the <see cref="RenderData"/> union with a rectangle payload.
+    /// </summary>
+    /// <param name="rectangle">The rectangle render configuration payload.</param>
+    public RenderData(RectangleRenderData rectangle)
+    {
+        Text = default; // Zero the union memory space
+        Rectangle = rectangle;
+    }
+
+    /// <summary>
+    /// Initializes a new instance of the <see cref="RenderData"/> union with a text payload.
+    /// </summary>
+    /// <param name="text">The text render configuration payload.</param>
+    public RenderData(TextRenderData text)
+    {
+        Rectangle = default; // Zero the union memory space
+        Text = text;
+    }
+
+    /// <summary>
+    /// Initializes a new instance of the <see cref="RenderData"/> union with an image payload.
+    /// </summary>
+    /// <param name="image">The image render configuration payload.</param>
+    public RenderData(ImageRenderData image)
+    {
+        Rectangle = default; // Zero the union memory space
+        Image = image;
+    }
+
+    /// <summary>
+    /// Initializes a new instance of the <see cref="RenderData"/> union with a custom payload.
+    /// </summary>
+    /// <param name="custom">The custom render configuration payload.</param>
+    public RenderData(CustomRenderData custom)
+    {
+        Rectangle = default; // Zero the union memory space
+        Custom = custom;
+    }
+
+    /// <summary>
+    /// Initializes a new instance of the <see cref="RenderData"/> union with a border payload.
+    /// </summary>
+    /// <param name="border">The border render configuration payload.</param>
+    public RenderData(BorderRenderData border)
+    {
+        Rectangle = default; // Zero the union memory space
+        Border = border;
+    }
+
+    /// <summary>
+    /// Initializes a new instance of the <see cref="RenderData"/> union with a clip payload.
+    /// </summary>
+    /// <param name="clip">The clip render configuration payload.</param>
+    public RenderData(ClipRenderData clip)
+    {
+        Rectangle = default; // Zero the union memory space
+        Clip = clip;
+    }
 }
 
 /// <summary>
@@ -1245,6 +1495,26 @@ public unsafe partial struct LayoutElementChildren
 
     /// <summary>A raw pointer to the text styling metadata. Valid if node is a text element.</summary>
     [FieldOffset(0)] public TextElementData* TextElementData;
+
+    /// <summary>
+    /// Initializes a new instance of the <see cref="LayoutElementChildren"/> union with children data payload.
+    /// </summary>
+    /// <param name="children">The child elements metadata.</param>
+    public LayoutElementChildren(LayoutElementChildrenData children)
+    {
+        TextElementData = null; // Zero the union memory space
+        Children = children;
+    }
+
+    /// <summary>
+    /// Initializes a new instance of the <see cref="LayoutElementChildren"/> union with text element data pointer payload.
+    /// </summary>
+    /// <param name="textElementData">The raw text element data pointer.</param>
+    public LayoutElementChildren(TextElementData* textElementData)
+    {
+        Children = default; // Zero the union memory space
+        TextElementData = textElementData;
+    }
 }
 
 /// <summary>
@@ -1290,4 +1560,84 @@ public unsafe partial struct ElementConfigUnion
 
     /// <summary>Shared config style pointer. Valid if type is Shared.</summary>
     [FieldOffset(0)] public SharedElementConfig* SharedElementConfig;
+
+    /// <summary>
+    /// Initializes a new instance of the <see cref="ElementConfigUnion"/> union with a text config pointer.
+    /// </summary>
+    /// <param name="textElementConfig">The text configuration pointer.</param>
+    public ElementConfigUnion(TextElementConfig* textElementConfig)
+    {
+        SharedElementConfig = null; // Zero the union memory space
+        TextElementConfig = textElementConfig;
+    }
+
+    /// <summary>
+    /// Initializes a new instance of the <see cref="ElementConfigUnion"/> union with an aspect ratio config pointer.
+    /// </summary>
+    /// <param name="aspectRatioElementConfig">The aspect ratio configuration pointer.</param>
+    public ElementConfigUnion(AspectRatioElementConfig* aspectRatioElementConfig)
+    {
+        SharedElementConfig = null; // Zero the union memory space
+        AspectRatioElementConfig = aspectRatioElementConfig;
+    }
+
+    /// <summary>
+    /// Initializes a new instance of the <see cref="ElementConfigUnion"/> union with an image config pointer.
+    /// </summary>
+    /// <param name="imageElementConfig">The image configuration pointer.</param>
+    public ElementConfigUnion(ImageElementConfig* imageElementConfig)
+    {
+        SharedElementConfig = null; // Zero the union memory space
+        ImageElementConfig = imageElementConfig;
+    }
+
+    /// <summary>
+    /// Initializes a new instance of the <see cref="ElementConfigUnion"/> union with a floating config pointer.
+    /// </summary>
+    /// <param name="floatingElementConfig">The floating element configuration pointer.</param>
+    public ElementConfigUnion(FloatingElementConfig* floatingElementConfig)
+    {
+        SharedElementConfig = null; // Zero the union memory space
+        FloatingElementConfig = floatingElementConfig;
+    }
+
+    /// <summary>
+    /// Initializes a new instance of the <see cref="ElementConfigUnion"/> union with a custom config pointer.
+    /// </summary>
+    /// <param name="customElementConfig">The custom configuration pointer.</param>
+    public ElementConfigUnion(CustomElementConfig* customElementConfig)
+    {
+        SharedElementConfig = null; // Zero the union memory space
+        CustomElementConfig = customElementConfig;
+    }
+
+    /// <summary>
+    /// Initializes a new instance of the <see cref="ElementConfigUnion"/> union with a clip config pointer.
+    /// </summary>
+    /// <param name="clipElementConfig">The clip configuration pointer.</param>
+    public ElementConfigUnion(ClipElementConfig* clipElementConfig)
+    {
+        SharedElementConfig = null; // Zero the union memory space
+        ClipElementConfig = clipElementConfig;
+    }
+
+    /// <summary>
+    /// Initializes a new instance of the <see cref="ElementConfigUnion"/> union with a border config pointer.
+    /// </summary>
+    /// <param name="borderElementConfig">The border configuration pointer.</param>
+    public ElementConfigUnion(BorderElementConfig* borderElementConfig)
+    {
+        SharedElementConfig = null; // Zero the union memory space
+        BorderElementConfig = borderElementConfig;
+    }
+
+    /// <summary>
+    /// Initializes a new instance of the <see cref="ElementConfigUnion"/> union with a shared config style pointer.
+    /// </summary>
+    /// <param name="sharedElementConfig">The shared element configuration pointer.</param>
+    public ElementConfigUnion(SharedElementConfig* sharedElementConfig)
+    {
+        TextElementConfig = null; // Zero the union memory space
+        SharedElementConfig = sharedElementConfig;
+    }
 }
